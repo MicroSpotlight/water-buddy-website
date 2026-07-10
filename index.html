@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-Hans" data-theme="pond">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="水滴伙伴是一款轻量、卡通、专注今天补水节奏的 iOS App。记录喝水、设置温柔提醒，并把进度放到桌面和锁屏。">
+  <meta name="theme-color" content="#FFF8E8">
+  <meta property="og:title" content="水滴伙伴 · 轻松记录每天喝水节奏">
+  <meta property="og:description" content="不用账号，不制造压力。让可爱的水滴伙伴陪你照顾今天的补水节奏。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/water-buddy-icon.png">
+  <title>水滴伙伴 · 轻松记录每天喝水节奏</title>
+  <link rel="icon" href="/assets/water-buddy-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+  <!--
+    Design system: 48–96px rounded display type, 18–22px lead copy, warm paper and water-soft backgrounds,
+    8px rhythm, ink-outline cards, and offset tactile shadows. Three palette variations mirror in-app themes.
+  -->
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="主导航">
+      <a class="brand" href="/" aria-label="水滴伙伴首页">
+        <img src="/assets/water-buddy-icon.png" width="44" height="44" alt="">
+        <span>水滴伙伴 <span>/ Water Buddy</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">功能</a>
+        <a href="#privacy">隐私</a>
+        <a href="/support">支持</a>
+        <a href="/privacy-policy">隐私政策</a>
+        <div class="theme-picker">
+          <button class="theme-trigger" type="button" data-theme-trigger aria-expanded="false" aria-controls="theme-menu">
+            <span>换个主题</span>
+          </button>
+          <div class="theme-menu" id="theme-menu" data-theme-menu hidden>
+            <button class="theme-option" type="button" data-theme-option="pond" aria-pressed="true">池塘蓝</button>
+            <button class="theme-option" type="button" data-theme-option="matcha" aria-pressed="false">抹茶绿</button>
+            <button class="theme-option" type="button" data-theme-option="lagoon" aria-pressed="false">深海青</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="wrap hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow">为 iPhone 设计</div>
+        <h1 id="hero-title">先喝一杯，<span>今天会轻一点。</span></h1>
+        <p>水滴伙伴帮你快速记录喝水、安排温柔提醒，并把今天的水位同步到主屏、锁屏与 Live Activity。</p>
+        <div class="actions">
+          <a class="button primary" href="#features">认识水滴伙伴</a>
+          <a class="button" href="/support">获取支持</a>
+        </div>
+        <div class="microcopy">App Store 即将上线 · 支持中文、English、한국어、日本語</div>
+      </div>
+
+      <div class="product-stage" aria-label="水滴伙伴 App 界面预览">
+        <div class="stage-sun" aria-hidden="true"></div>
+        <div class="phone">
+          <img src="/assets/water-buddy-onboarding.png" width="1260" height="2736" alt="水滴伙伴引导页，展示卡通水滴角色和今日起点设置">
+        </div>
+        <div class="note-card">不用先填一堆设置，第一杯就是起点。</div>
+      </div>
+    </section>
+
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="kicker">简单，但刚刚好</p>
+          <h2 id="features-title">把补水变成今天的一件小事</h2>
+          <p>不做复杂报表，也不催你焦虑。只保留真正能帮你坚持的节奏。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-number">01</div>
+            <h3>一按就记下</h3>
+            <p>“喝一杯”或“小口补水”，两种入口快速更新今天的水位。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-number">02</div>
+            <h3>温柔地提醒</h3>
+            <p>按你的节奏设置本地通知。完成目标后，让提醒也休息一下。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-number">03</div>
+            <h3>抬眼就看见</h3>
+            <p>主屏小组件、锁屏小组件与 Live Activity，随时看到今日进度。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="privacy" aria-labelledby="privacy-title">
+      <div class="wrap privacy-panel">
+        <div>
+          <div class="badge">隐私说明</div>
+          <h2 id="privacy-title">你的喝水记录，留在你的设备。</h2>
+          <p>不需要账号。今日饮水量、目标、提醒和主题保存在本机，并通过本机 App Group 与小组件共享。</p>
+          <div class="actions">
+            <a class="button" href="/privacy-policy">查看完整隐私政策</a>
+          </div>
+        </div>
+        <ul class="promise-list">
+          <li><strong>不上传</strong>你的饮水记录或每日目标</li>
+          <li><strong>不出售</strong>个人数据，也不用于广告追踪</li>
+          <li><strong>会收集</strong>有限的 App 使用事件与崩溃诊断，用于改进体验</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="cta-title">
+      <div class="wrap cta-card">
+        <div>
+          <h2 id="cta-title">今天，再喝一口。</h2>
+          <p>水滴伙伴正在准备上架 App Store。</p>
+        </div>
+        <a class="button" href="mailto:eeachen4@gmail.com?subject=Water%20Buddy%20更新通知">告诉我上线消息</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-shell">
+      <p>© <span data-year>2026</span> Water Buddy. 为轻松一点的今天设计。</p>
+      <div class="footer-links">
+        <a href="/support">支持</a>
+        <a href="/privacy-policy">隐私政策</a>
+        <a href="mailto:eeachen4@gmail.com">联系我们</a>
+      </div>
+    </div>
+  </footer>
+  <script src="/site.js" defer></script>
+</body>
+</html>
