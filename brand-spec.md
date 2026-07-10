@@ -14,8 +14,12 @@
 ### UI screenshot
 - Onboarding: `assets/water-buddy-onboarding.png` (1260 × 2736)
 - Source: `designs/water-buddy-onboarding-ios-pages.png`
-- Use: hero product preview inside an iPhone frame
-- The screenshot is a repository-owned export and contains no user data.
+- Current home: `assets/water-buddy-home.png` (829 × 1800)
+- Home widgets: `assets/water-buddy-widgets-home.png` (926 × 307)
+- Lock Screen and Live Activity: `assets/water-buddy-widgets-lock.png` (1280 × 720)
+- Source: current iOS Simulator build and `designs/water-buddy-widget-redesign-v2.html`
+- Use: hero product preview and widget feature section
+- These are repository-owned captures and contain no user data.
 
 ## Visual system
 
@@ -44,4 +48,4 @@
 
 ## Completeness notes
 - No public App Store URL was found in the project, so the launch CTA is intentionally marked “即将上线”.
-- The repository includes one polished, high-resolution iOS UI export suitable for marketing. No invented product screens are used.
+- The marketing site now uses a current Simulator capture for the hero and current Web Widget Studio captures for widget coverage. No invented product screens are used.
