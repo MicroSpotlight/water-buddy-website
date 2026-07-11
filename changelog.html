@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="水滴伙伴 TestFlight 更新日志：查看每个构建版本的核心功能变化与体验改进。">
+  <meta name="description" content="水滴伙伴更新日志：查看 App Store 首发版本与 TestFlight 构建的核心功能变化。">
   <meta name="theme-color" content="#FFF8E8">
   <meta property="og:title" content="更新日志 · 水滴伙伴">
-  <meta property="og:description" content="从第一杯记录到 Apple Watch、组件与专注后补水，看看水滴伙伴每一版的核心变化。">
+  <meta property="og:description" content="水滴伙伴 0.1.0 即将登陆 App Store：从快速记录到 Apple Watch、组件与专注后补水。">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/assets/water-buddy-icon.png">
   <title>更新日志 · 水滴伙伴</title>
@@ -48,29 +48,53 @@
       <div class="changelog-hero-copy">
         <div class="badge">Changelog</div>
         <h1>每一版，都让补水更顺一点。</h1>
-        <p>这里记录水滴伙伴公开 TestFlight 构建的核心变化。没有补丁流水账，只留下真正影响日常使用的功能与体验升级。</p>
+        <p>水滴伙伴 0.1.0 已进入 App Store 首发准备。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。</p>
         <div class="actions">
-          <a class="button primary" href="https://testflight.apple.com/join/rqmHh69r" target="_blank" rel="noopener noreferrer">体验当前测试版</a>
-          <a class="button" href="#build-7">查看最新变化</a>
+          <a class="button primary" href="https://testflight.apple.com/join/rqmHh69r" target="_blank" rel="noopener noreferrer">抢先体验首发版</a>
+          <a class="button" href="#build-33">查看首发变化</a>
         </div>
       </div>
-      <div class="current-build" aria-label="当前公开测试版本">
-        <span>当前 TestFlight</span>
+      <div class="current-build" aria-label="App Store 首发候选版本">
+        <span>App Store 首发候选版</span>
         <strong>0.1.0</strong>
-        <b>Build 7</b>
-        <small>2026 年 7 月 11 日</small>
+        <b>Build 33</b>
+        <small>2026 年 7 月 12 日</small>
         <img src="/assets/water-buddy-widgets-home.png" width="926" height="307" alt="水滴伙伴当前主屏小组件，展示饮水进度和快捷记录">
       </div>
     </header>
 
     <section class="release-ledger" aria-labelledby="release-title">
       <div class="release-heading">
-        <p class="kicker">TestFlight 构建记录</p>
-        <h2 id="release-title">从第一杯，到随处可见的水位</h2>
-        <p>Build 号代表测试里程碑；当前尚未在 App Store 正式发布。</p>
+        <p class="kicker">版本与构建记录</p>
+        <h2 id="release-title">从第一杯，到准备正式见面</h2>
+        <p>0.1.0（Build 33）是当前 App Store 首发候选版；审核通过前仍可通过 TestFlight 抢先体验。</p>
       </div>
 
-      <article class="release-row is-current" id="build-7">
+      <article class="release-row is-current" id="build-33">
+        <div class="release-stamp">
+          <span>0.1.0</span>
+          <strong>BUILD 33</strong>
+          <time datetime="2026-07-12">07.12</time>
+        </div>
+        <div class="release-card">
+          <header class="release-card-heading">
+            <div>
+              <span class="release-state">App Store 首发候选版</span>
+              <h3>水滴伙伴，准备和更多人正式见面</h3>
+            </div>
+            <span class="release-channel">iPhone · Widgets · Watch</span>
+          </header>
+          <p class="release-lead">首发版把快速记录、温柔提醒和系统组件整理成一套完整体验，并完成发布前的稳定性、隐私与多语言收尾。</p>
+          <ul class="release-changes">
+            <li><strong>轻松记下一杯</strong><span>快速记录“喝一杯”或“小口补水”，设置每日目标，并在需要时撤回上一笔。</span></li>
+            <li><strong>提醒有节奏，也会休息</strong><span>支持本地提醒、专注结束后的可选补水提醒；达到目标后当天不再打扰。</span></li>
+            <li><strong>水位来到更多地方</strong><span>主屏与锁屏小组件、Live Activity 和 Apple Watch 都能查看进度或快速补记。</span></li>
+            <li><strong>为正式发布做稳</strong><span>完善数据迁移、跨日期状态、导航手势和多语言显示；饮水记录与偏好仍保存在本机。</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="release-row" id="build-7">
         <div class="release-stamp">
           <span>0.1.0</span>
           <strong>BUILD 7</strong>
@@ -79,7 +103,7 @@
         <div class="release-card">
           <header class="release-card-heading">
             <div>
-              <span class="release-state">当前公开测试版</span>
+              <span class="release-state">发布收尾测试</span>
               <h3>把发布前的控制权交还给你</h3>
             </div>
             <span class="release-channel">iPhone · Widgets · Live Activity</span>
@@ -169,24 +193,24 @@
 
     <aside class="release-note" aria-label="版本说明">
       <strong>关于这些版本号</strong>
-      <p>页面按仓库中的 TestFlight Build 里程碑整理核心变化。日期来自版本配置与 Git 历史；小修复会合并到最接近的 Build，不单独制造版本条目。</p>
+      <p>0.1.0 是面向用户的版本号，Build 代表发布准备过程中的构建里程碑。日期来自版本配置与 Git 历史；小修复会合并到最接近的 Build，不单独制造版本条目。</p>
     </aside>
 
     <section class="changelog-cta" aria-labelledby="changelog-cta-title">
       <div>
-        <p class="kicker">下一版，也想听见你的声音</p>
-        <h2 id="changelog-cta-title">用几天，再告诉我们哪里还不够顺。</h2>
+        <p class="kicker">正式见面前，也想听见你的声音</p>
+        <h2 id="changelog-cta-title">抢先用几天，帮首发版再稳一点。</h2>
       </div>
       <div class="actions">
         <a class="button primary" href="https://testflight.apple.com/join/rqmHh69r" target="_blank" rel="noopener noreferrer">加入 TestFlight</a>
-        <a class="button" href="mailto:support@microspotlight.team?subject=Water%20Buddy%20内测反馈">发送反馈</a>
+        <a class="button" href="mailto:support@microspotlight.team?subject=Water%20Buddy%20首发版反馈">发送反馈</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap footer-shell">
-      <p>© <span data-year>2026</span> Water Buddy. 当前为 TestFlight 测试版本。</p>
+      <p>© <span data-year>2026</span> Water Buddy. App Store 首发准备中。</p>
       <div class="footer-links">
         <a href="/">官网</a>
         <a href="/support">支持</a>
