@@ -7,6 +7,7 @@
 ```text
 website/
 ├── index.html                 # 产品首页：/
+├── changelog.html             # TestFlight 更新日志：/changelog
 ├── support.html               # 支持页面：/support
 ├── privacy-policy.html        # 隐私政策：/privacy-policy
 ├── styles.css                 # 全站样式
@@ -54,7 +55,7 @@ Vercel 项目配置保存在本机忽略的 `.vercel/` 中，仓库只跟踪可�
 
 ## 验证清单
 
-1. 首页、支持页和隐私政策页均返回成功状态。
+1. 首页、更新日志、支持页和隐私政策页均返回成功状态。
 2. 所有站内链接、图片、CSS 和 JS 可以加载。
 3. 浏览器控制台没有 CSP、资源路径或 JavaScript 错误。
 4. 桌面与移动视口没有横向溢出、遮挡和文字截断。

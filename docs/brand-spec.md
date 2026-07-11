@@ -18,7 +18,7 @@
 - Home widgets: `../assets/water-buddy-widgets-home.png` (926 × 307)
 - Lock Screen and Live Activity: `../assets/water-buddy-widgets-lock.png` (1280 × 720)
 - Source: current iOS Simulator build and `../../designs/widgets/current.html`
-- Use: hero product preview and widget feature section
+- Use: hero product preview, widget feature section, and current-build preview on the changelog
 - These are repository-owned captures and contain no user data.
 
 ## Visual system
@@ -43,6 +43,7 @@
 ### Layout and voice
 - Rhythm: 4 / 8 / 12 / 16 / 24 / 32 / 48 / 72
 - Thick ink outlines, hard offset shadows, compact cards, soft paper backgrounds
+- Changelog pattern: a single-column release ledger with separate Build stamps and full-width change cards
 - Voice: light, kind, direct, and pressure-free
 - Avoid invented social proof, health promises, and aggressive urgency.
 
