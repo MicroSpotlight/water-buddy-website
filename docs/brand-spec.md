@@ -6,18 +6,18 @@
 ## Core assets
 
 ### Logo
-- Primary: `assets/water-buddy-icon.png` (1024 × 1024)
-- Source: `water-buddy-app-icon.svg.png`
+- Primary: `../assets/water-buddy-icon.png` (1024 × 1024)
+- Source: `../../water-buddy-app-icon.svg.png`
 - Use: navigation lockup, favicon, and product signature
 - Preserve the square crop, ink outline, and original colors.
 
 ### UI screenshot
-- Onboarding: `assets/water-buddy-onboarding.png` (1260 × 2736)
-- Source: `designs/onboarding/assets/ios-pages.png`
-- Current home: `assets/water-buddy-home.png` (829 × 1800)
-- Home widgets: `assets/water-buddy-widgets-home.png` (926 × 307)
-- Lock Screen and Live Activity: `assets/water-buddy-widgets-lock.png` (1280 × 720)
-- Source: current iOS Simulator build and `designs/widgets/current.html`
+- Onboarding: `../assets/water-buddy-onboarding.png` (1260 × 2736)
+- Source: `../../designs/onboarding/assets/ios-pages.png`
+- Current home: `../assets/water-buddy-home.png` (829 × 1800)
+- Home widgets: `../assets/water-buddy-widgets-home.png` (926 × 307)
+- Lock Screen and Live Activity: `../assets/water-buddy-widgets-lock.png` (1280 × 720)
+- Source: current iOS Simulator build and `../../designs/widgets/current.html`
 - Use: hero product preview and widget feature section
 - These are repository-owned captures and contain no user data.
 
