@@ -1,10 +1,12 @@
 # Water Buddy · Product Facts
 
-> Verified from the local repository on 2026-07-10.
+> Verified from the local repository and the official Apple TestFlight invitation page on 2026-07-11.
 
 - Product: 水滴伙伴 / Water Buddy
 - Platform: iOS
 - Version in App Store metadata: 1.0.0
+- Public beta: `https://testflight.apple.com/join/rqmHh69r`
+- The official invitation page identifies the beta as “Water Buddy - 水滴伙伴” and lists it as available on iOS.
 - Languages: Simplified Chinese, English, Korean, Japanese
 - Core features: daily hydration logging, daily goals, local reminders, Home Screen and Lock Screen widgets, Live Activity, and appearance themes
 - Account: not required

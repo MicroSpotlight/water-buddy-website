@@ -1,7 +1,7 @@
 # Water Buddy · Brand Spec
 > Captured: 2026-07-10
 > Source: repository app icon, SwiftUI palette, App Store copy, and exported onboarding UI
-> Completeness: strong local source; App Store product URL is not available yet
+> Completeness: strong local source; official TestFlight public beta URL is available
 
 ## Core assets
 
@@ -47,5 +47,6 @@
 - Avoid invented social proof, health promises, and aggressive urgency.
 
 ## Completeness notes
-- No public App Store URL was found in the project, so the launch CTA is intentionally marked “即将上线”.
+- The official public beta URL is `https://testflight.apple.com/join/rqmHh69r`; the primary website CTA now sends visitors to TestFlight.
+- No public App Store product URL is available yet.
 - The marketing site now uses a current Simulator capture for the hero and current Web Widget Studio captures for widget coverage. No invented product screens are used.
