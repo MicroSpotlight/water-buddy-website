@@ -4,7 +4,7 @@
 
 - Product: 水滴伙伴 / Water Buddy
 - Platform: iOS
-- Version in the current Xcode configuration: 0.1.0 (build 6)
+- Version in the current Xcode configuration: 1.0.0 (build 7)
 - Public beta: `https://testflight.apple.com/join/rqmHh69r`
 - The official invitation page identifies the beta as “Water Buddy - 水滴伙伴” and lists it as available on iOS.
 - Languages: Simplified Chinese, English, Korean, Japanese
