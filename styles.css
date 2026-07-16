@@ -18,8 +18,8 @@
   --radius-lg: 30px;
   --radius-md: 22px;
   --max: 1160px;
-  --font-rounded: ui-rounded, "SF Pro Rounded", "PingFang SC", "Avenir Next Rounded", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  --font-rounded: ui-rounded, "SF Pro Rounded", "PingFang SC", "Hiragino Kaku Gothic ProN", "Apple SD Gothic Neo", "Avenir Next Rounded", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Apple SD Gothic Neo", sans-serif;
 }
 
 [data-theme="matcha"] {
@@ -221,6 +221,47 @@ button { color: inherit; font: inherit; }
 
 .theme-option:hover,
 .theme-option[aria-pressed="true"] { border-color: var(--line); background: var(--water-soft); }
+
+.language-picker {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 2px;
+  padding: 5px 9px;
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+}
+
+.language-picker-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-grid;
+  place-items: center;
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  background: var(--water-soft);
+  font-family: var(--font-rounded);
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.language-picker select {
+  max-width: 84px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font: 800 13px/1.2 var(--font-body);
+  cursor: pointer;
+}
+
+.language-picker:focus-within {
+  outline: 4px solid color-mix(in srgb, var(--water-dark) 55%, transparent);
+  outline-offset: 4px;
+}
 
 .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
 
@@ -707,7 +748,8 @@ h3 {
 .faq-grid .legal-section { height: 100%; }
 
 @media (max-width: 1050px) {
-  .brand span span { display: none; }
+  .brand [data-brand-english] { display: none; }
+  .nav-section-group { display: none; }
   .nav-links { gap: 3px; }
   .nav-links a { padding-inline: 10px; }
   .nav-resource-group { margin-left: 2px; padding-left: 11px; }
@@ -736,6 +778,8 @@ h3 {
   .nav-links > a,
   .nav-links > .nav-group { display: none; }
   .theme-trigger span { display: none; }
+  .language-picker { padding-inline: 7px; }
+  .language-picker select { width: 24px; }
   .hero { padding-top: 48px; }
   .hero h1 { font-size: clamp(48px, 16vw, 72px); }
   .cta-card { grid-template-columns: 1fr; }

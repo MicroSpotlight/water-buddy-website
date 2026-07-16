@@ -15,9 +15,20 @@
     <nav class="nav-shell" aria-label="主导航">
       <a class="brand" href="/">
         <img src="/assets/water-buddy-icon.png" width="44" height="44" alt="">
-        <span>水滴伙伴 <span>/ Water Buddy</span></span>
+        <span><span data-brand-name>水滴伙伴</span> <span data-brand-english>/ Water Buddy</span></span>
       </a>
-      <div class="nav-links"><a href="/">返回官网</a><a href="/changelog">更新日志</a><a href="/privacy-policy">隐私政策</a></div>
+      <div class="nav-links">
+        <a href="/">返回官网</a><a href="/changelog">更新日志</a><a href="/privacy-policy">隐私政策</a>
+        <label class="language-picker">
+          <span class="language-picker-icon" aria-hidden="true">文</span>
+          <select data-language-select aria-label="选择网站语言">
+            <option value="zh-Hans">中文</option>
+            <option value="en">English</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+          </select>
+        </label>
+      </div>
     </nav>
   </header>
 
@@ -51,6 +62,7 @@
       <div class="footer-links"><a href="/">官网</a><a href="/changelog">更新日志</a><a href="/privacy-policy">隐私政策</a><a href="mailto:support@microspotlight.team">联系我们</a></div>
     </div>
   </footer>
+  <script src="/locales.js" defer></script>
   <script src="/site.js" defer></script>
 </body>
 </html>
