@@ -1,7 +1,7 @@
 # Water Buddy · Brand Spec
 > Captured: 2026-07-10
 > Source: repository app icon, SwiftUI palette, App Store copy, and exported onboarding UI
-> Completeness: strong local source; official TestFlight public beta URL is available
+> Completeness: strong local source; official App Store and TestFlight URLs are available
 
 ## Core assets
 
@@ -48,6 +48,6 @@
 - Avoid invented social proof, health promises, and aggressive urgency.
 
 ## Completeness notes
-- The official public beta URL is `https://testflight.apple.com/join/rqmHh69r`; the primary website CTA now sends visitors to TestFlight.
-- No public App Store product URL is available yet.
+- The official App Store URL is `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`; the primary website CTA sends visitors to the App Store.
+- The public beta URL remains `https://testflight.apple.com/join/rqmHh69r` for previewing later updates.
 - The marketing site now uses a current Simulator capture for the hero and current Web Widget Studio captures for widget coverage. No invented product screens are used.
