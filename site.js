@@ -18,6 +18,7 @@ function applyTheme(theme) {
 if (trigger && menu) {
   trigger.addEventListener("click", () => {
     const willOpen = menu.hidden;
+    if (willOpen) closeLanguageMenu();
     menu.hidden = !willOpen;
     trigger.setAttribute("aria-expanded", String(willOpen));
   });
@@ -39,7 +40,7 @@ if (trigger && menu) {
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
+    if (event.key === "Escape" && !menu.hidden) {
       menu.hidden = true;
       trigger.setAttribute("aria-expanded", "false");
       trigger.focus();
@@ -541,10 +542,19 @@ const siteTranslations = {
   ko: window.WATER_BUDDY_TRANSLATIONS?.ko || {}
 };
 
-const languageSelects = [...document.querySelectorAll("[data-language-select]")];
+const languageTrigger = document.querySelector("[data-language-trigger]");
+const languageMenu = document.querySelector("[data-language-menu]");
+const languageOptions = [...document.querySelectorAll("[data-language-option]")];
+const currentLanguageLabel = document.querySelector("[data-language-current]");
 const textSourceKeys = new WeakMap();
 const attributeSourceKeys = new WeakMap();
 const supportedLanguages = new Set(["zh-Hans", "en", "ja", "ko"]);
+const languageLabels = {
+  "zh-Hans": "中文",
+  en: "English",
+  ja: "日本語",
+  ko: "한국어"
+};
 
 function normalizedLanguage(value) {
   if (!value) return null;
@@ -605,7 +615,10 @@ function applyLanguage(language, persist = false) {
   document.querySelectorAll("[data-brand-english]").forEach((node) => {
     node.hidden = value !== "zh-Hans";
   });
-  languageSelects.forEach((select) => { select.value = value; });
+  if (currentLanguageLabel) currentLanguageLabel.textContent = languageLabels[value];
+  languageOptions.forEach((option) => {
+    option.setAttribute("aria-pressed", String(option.dataset.languageOption === value));
+  });
 
   if (persist) {
     try {
@@ -628,7 +641,38 @@ if (!initialLanguage) {
   initialLanguage = (navigator.languages || [navigator.language]).map(normalizedLanguage).find(Boolean) || "en";
 }
 
-languageSelects.forEach((select) => {
-  select.addEventListener("change", (event) => applyLanguage(event.target.value, true));
-});
+function closeLanguageMenu(restoreFocus = false) {
+  if (!languageTrigger || !languageMenu || languageMenu.hidden) return;
+  languageMenu.hidden = true;
+  languageTrigger.setAttribute("aria-expanded", "false");
+  if (restoreFocus) languageTrigger.focus();
+}
+
+if (languageTrigger && languageMenu) {
+  languageTrigger.addEventListener("click", () => {
+    const willOpen = languageMenu.hidden;
+    if (willOpen && menu && trigger) {
+      menu.hidden = true;
+      trigger.setAttribute("aria-expanded", "false");
+    }
+    languageMenu.hidden = !willOpen;
+    languageTrigger.setAttribute("aria-expanded", String(willOpen));
+  });
+
+  languageOptions.forEach((option) => {
+    option.addEventListener("click", () => {
+      applyLanguage(option.dataset.languageOption, true);
+      closeLanguageMenu(true);
+    });
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".language-picker")) closeLanguageMenu();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !languageMenu.hidden) closeLanguageMenu(true);
+  });
+}
+
 applyLanguage(initialLanguage, Boolean(requestedLanguage));
