@@ -1,6 +1,6 @@
 # Water Buddy · Brand Spec
-> Captured: 2026-07-10
-> Source: repository app icon, SwiftUI palette, App Store copy, and exported onboarding UI
+> Captured: 2026-07-19
+> Source: repository app icon, SwiftUI palette, App Store copy, and 0.2.0 source screenshots
 > Completeness: strong local source; official App Store and TestFlight URLs are available
 
 ## Core assets
@@ -12,13 +12,15 @@
 - Preserve the square crop, ink outline, and original colors.
 
 ### UI screenshot
-- Onboarding: `../assets/water-buddy-onboarding.png` (1260 × 2736)
+- Onboarding: `../assets/water-buddy-onboarding.png` (829 × 1800)
 - Source: `../../designs/onboarding/assets/ios-pages.png`
-- Current home: `../assets/water-buddy-home.png` (829 × 1800)
-- Home widgets: `../assets/water-buddy-widgets-home.png` (926 × 307)
-- Lock Screen and Live Activity: `../assets/water-buddy-widgets-lock.png` (1280 × 720)
-- Source: current iOS Simulator build and `../../designs/widgets/current.html`
-- Use: hero product preview, widget feature section, and current-build preview on the changelog
+- 0.2.0 home: `../assets/water-buddy-home.png` (829 × 1800)
+- 0.2.0 timeline: `../assets/water-buddy-records.png` (829 × 1800)
+- 0.2.0 cups: `../assets/water-buddy-cups.png` (829 × 1800)
+- 0.2.0 widgets: `../assets/water-buddy-widgets-home.png` (829 × 1800)
+- 0.2.0 Live Activity / Lock Screen: `../assets/water-buddy-widgets-lock.png` (829 × 1800)
+- Source: `../../app-store/0.2.0/source-screenshots/iphone/zh-Hans/`
+- Use: hero product preview, 0.2.0 records/cups feature screenshots, widget section, and changelog current-version preview
 - These are repository-owned captures and contain no user data.
 
 ## Visual system

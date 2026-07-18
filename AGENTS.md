@@ -32,6 +32,17 @@
 - 替换长期缓存的同名资源时确认部署平台会刷新内容；必要时使用版本化文件名。
 - 图片应提供明确的 `width`、`height` 和描述性 `alt`，并控制文件体积。
 
+## Vercel Deployment
+
+- 官网只部署 `website/` 目录；不要从仓库根目录部署 iOS、App Store 素材或其他非官网内容。
+- Vercel 项目：`water-buddy`。
+- Project ID：`prj_hg5GdSiXI2PfrjtXCVtz1MPP3qTM`。
+- Team ID：`team_NPYXmRPk1BeF7amkFAcA0RKI`。
+- 生产域名：`https://water-buddy.kitdesk.site`。
+- 备用 Vercel 域名：`https://water-buddy-three.vercel.app`。
+- 0.2.0 官网部署记录：`dpl_C1gj6ZwzDkQgVNDTt1WdAeM6JnFz`，生产 URL `https://water-buddy-riu544bdz-jmvssssvs-projects.vercel.app`，对应官网提交 `bc9a9cd080e33f9c454bc6345951ead74538ffc7`。
+- 使用 Vercel API 或 CLI 部署时必须确认工作目录/上传根为 `website/`，并复用 `website/.vercel/project.json` 中的项目链接。
+
 ## Validation
 
 - 通过本地 HTTP server 验证，不以 `file://` 结果作为部署依据。
