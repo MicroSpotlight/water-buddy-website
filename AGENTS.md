@@ -4,7 +4,7 @@
 
 ## Runtime Structure
 
-- 保持 `index.html`、`support.html`、`privacy-policy.html`、`styles.css`、`site.js` 和 `vercel.json` 位于网站根目录。
+- 保持 `index.html`、`changelog.html`、`support.html`、`privacy-policy.html`、`styles.css`、`locales.js`、`site.js` 和 `vercel.json` 位于网站根目录。
 - 运行时图片统一放在 `assets/`；当前数量较少，不继续按页面拆分。
 - 内部品牌说明和产品事实放在 `docs/`，并通过 `.vercelignore` 排除部署。
 - 不引入前端构建系统，除非现有静态结构已经无法满足明确需求。
@@ -12,7 +12,9 @@
 ## Content Accuracy
 
 - 产品能力、版本、平台、隐私和 TestFlight 信息必须来自当前仓库或官方公开页面。
+- 官网事实优先同步 `docs/product-facts.md`；品牌、截图来源和视觉约束同步 `docs/brand-spec.md`。
 - 饮水数据保存在本机/App Group；Firebase Analytics 与 Crashlytics 的披露必须与当前代码一致。
+- StoreKit 支持作者只能描述为 Apple 处理付款的自愿消耗型支持，不承诺功能权益、订阅或恢复权益。
 - 不添加未经证实的健康效果、用户评价、下载量、订阅价格或 App Store 上线状态。
 - 官网隐私政策是公开事实来源；修改后同步检查 `app-store/metadata/submission.md`。
 
@@ -33,6 +35,6 @@
 ## Validation
 
 - 通过本地 HTTP server 验证，不以 `file://` 结果作为部署依据。
-- 检查 `/`、`/support`、`/privacy-policy` 和所有 `/assets/*` 请求。
+- 检查 `/`、`/changelog`、`/support`、`/privacy-policy` 和所有 `/assets/*` 请求。
 - 检查桌面/移动布局、控制台错误、安全响应头和外部链接。
 - 提交前运行本地链接检查与 `git diff --check`，不要提交 `.vercel/` 或 `.DS_Store`。

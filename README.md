@@ -38,6 +38,7 @@ npx vercel dev website
 - App 能力、版本和隐私事实：`docs/product-facts.md`
 - 官网视觉规范与图片来源：`docs/brand-spec.md`
 - App Store 提交文案：`../app-store/metadata/submission.md`
+- 0.2.0 提审状态与素材：`../app-store/0.2.0/README.md`
 - 正式隐私与支持入口：`privacy-policy.html`、`support.html`
 - 设计原型：`../designs/`
 
@@ -57,6 +58,8 @@ Vercel 项目配置保存在本机忽略的 `.vercel/` 中，仓库只跟踪可�
 ## 多语言
 
 官网首页、更新日志、支持中心与隐私政策支持简体中文、英文、日文和韩文。首次访问会匹配浏览器语言；用户也可以通过顶部语言选择器切换，选择结果保存在浏览器本机，并可通过 `?lang=zh-Hans|en|ja|ko` 分享指定语言页面。
+
+新增或修改产品事实时，先更新 `docs/product-facts.md`，再同步页面文案和 `site.js`/`locales.js` 的四语资源。StoreKit 支持作者只能描述为 Apple 处理付款的自愿消耗型支持，不写成功能解锁、订阅或可恢复权益。
 
 ## 验证清单
 
