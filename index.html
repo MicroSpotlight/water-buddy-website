@@ -23,7 +23,7 @@
     <nav class="nav-shell" aria-label="主导航">
       <a class="brand" href="/" aria-label="水滴伙伴首页">
         <img src="/assets/water-buddy-icon.png" width="44" height="44" alt="">
-        <span>水滴伙伴 <span>/ Water Buddy</span></span>
+        <span><span data-brand-name>水滴伙伴</span> <span data-brand-english>/ Water Buddy</span></span>
       </a>
       <div class="nav-links">
         <div class="nav-group nav-section-group" aria-label="页面章节">
@@ -46,6 +46,18 @@
             <button class="theme-option" type="button" data-theme-option="lagoon" aria-pressed="false">深海青</button>
           </div>
         </div>
+        <div class="language-picker">
+          <button class="language-trigger" type="button" data-language-trigger aria-label="选择网站语言" aria-expanded="false" aria-controls="language-menu">
+            <span class="language-picker-icon" aria-hidden="true">文</span>
+            <span data-language-current>中文</span>
+          </button>
+          <div class="language-menu" id="language-menu" data-language-menu hidden>
+            <button class="language-option" type="button" data-language-option="zh-Hans" aria-pressed="true">中文</button>
+            <button class="language-option" type="button" data-language-option="en" aria-pressed="false">English</button>
+            <button class="language-option" type="button" data-language-option="ja" aria-pressed="false">日本語</button>
+            <button class="language-option" type="button" data-language-option="ko" aria-pressed="false">한국어</button>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
@@ -57,10 +69,10 @@
         <h1 id="hero-title">先喝一杯，<span>今天会轻一点。</span></h1>
         <p>水滴伙伴帮你快速记录喝水、安排温柔提醒，并把今天的水位同步到主屏、锁屏与 Live Activity。</p>
         <div class="actions">
-          <a class="button primary" href="https://testflight.apple.com/join/rqmHh69r" target="_blank" rel="noopener noreferrer">加入 TestFlight 测试</a>
+          <a class="button primary" href="https://apps.apple.com/us/app/water-buddy-hydration/id6789022089" target="_blank" rel="noopener noreferrer">在 App Store 下载</a>
           <a class="button" href="#features">认识水滴伙伴</a>
         </div>
-        <div class="microcopy">TestFlight 公测开放 · 支持中文、English、한국어、日本語</div>
+        <div class="microcopy">App Store 已上线 · 免费下载 · 支持中文、English、한국어、日本語</div>
       </div>
 
       <div class="product-stage" aria-label="水滴伙伴 App 界面预览">
@@ -155,9 +167,12 @@
       <div class="wrap cta-card">
         <div>
           <h2 id="cta-title">今天，再喝一口。</h2>
-          <p>通过 TestFlight 抢先体验水滴伙伴，也欢迎把使用感受告诉我们。</p>
+          <p>水滴伙伴现已在 App Store 上线，也欢迎通过 TestFlight 抢先体验后续更新。</p>
         </div>
-        <a class="button" href="https://testflight.apple.com/join/rqmHh69r" target="_blank" rel="noopener noreferrer">立即加入 TestFlight</a>
+        <div class="actions">
+          <a class="button primary" href="https://apps.apple.com/us/app/water-buddy-hydration/id6789022089" target="_blank" rel="noopener noreferrer">前往 App Store</a>
+          <a class="button" href="https://testflight.apple.com/join/rqmHh69r" target="_blank" rel="noopener noreferrer">加入 TestFlight</a>
+        </div>
       </div>
     </section>
   </main>
@@ -173,6 +188,7 @@
       </div>
     </div>
   </footer>
+  <script src="/locales.js" defer></script>
   <script src="/site.js" defer></script>
 </body>
 </html>

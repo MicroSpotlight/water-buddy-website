@@ -18,8 +18,8 @@
   --radius-lg: 30px;
   --radius-md: 22px;
   --max: 1160px;
-  --font-rounded: ui-rounded, "SF Pro Rounded", "PingFang SC", "Avenir Next Rounded", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  --font-rounded: ui-rounded, "SF Pro Rounded", "PingFang SC", "Hiragino Kaku Gothic ProN", "Apple SD Gothic Neo", "Avenir Next Rounded", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Apple SD Gothic Neo", sans-serif;
 }
 
 [data-theme="matcha"] {
@@ -156,7 +156,8 @@ button { color: inherit; font: inherit; }
 .nav-resource-group a { padding-inline: 10px; font-weight: 700; }
 
 .nav-links a,
-.theme-trigger {
+.theme-trigger,
+.language-trigger {
   min-height: 44px;
   display: inline-flex;
   align-items: center;
@@ -171,7 +172,8 @@ button { color: inherit; font: inherit; }
 
 .nav-links a:hover { border-color: var(--line); background: var(--surface); }
 
-.theme-picker {
+.theme-picker,
+.language-picker {
   position: relative;
   margin-left: 2px;
 }
@@ -192,8 +194,10 @@ button { color: inherit; font: inherit; }
   content: "";
 }
 
-.theme-menu {
+.theme-menu,
+.language-menu {
   position: absolute;
+  z-index: 20;
   top: calc(100% + 10px);
   right: 0;
   min-width: 164px;
@@ -206,9 +210,11 @@ button { color: inherit; font: inherit; }
   box-shadow: 5px 6px 0 var(--line);
 }
 
-.theme-menu[hidden] { display: none; }
+.theme-menu[hidden],
+.language-menu[hidden] { display: none; }
 
-.theme-option {
+.theme-option,
+.language-option {
   min-height: 44px;
   padding: 9px 12px;
   border: 2px solid transparent;
@@ -220,7 +226,30 @@ button { color: inherit; font: inherit; }
 }
 
 .theme-option:hover,
-.theme-option[aria-pressed="true"] { border-color: var(--line); background: var(--water-soft); }
+.theme-option[aria-pressed="true"],
+.language-option:hover,
+.language-option[aria-pressed="true"] { border-color: var(--line); background: var(--water-soft); }
+
+.language-trigger {
+  gap: 8px;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.language-picker-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-grid;
+  place-items: center;
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  background: var(--water-soft);
+  font-family: var(--font-rounded);
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 1;
+}
 
 .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
 
@@ -707,7 +736,8 @@ h3 {
 .faq-grid .legal-section { height: 100%; }
 
 @media (max-width: 1050px) {
-  .brand span span { display: none; }
+  .brand [data-brand-english] { display: none; }
+  .nav-section-group { display: none; }
   .nav-links { gap: 3px; }
   .nav-links a { padding-inline: 10px; }
   .nav-resource-group { margin-left: 2px; padding-left: 11px; }
@@ -736,6 +766,8 @@ h3 {
   .nav-links > a,
   .nav-links > .nav-group { display: none; }
   .theme-trigger span { display: none; }
+  .language-trigger { padding-inline: 9px; }
+  .language-trigger [data-language-current] { display: none; }
   .hero { padding-top: 48px; }
   .hero h1 { font-size: clamp(48px, 16vw, 72px); }
   .cta-card { grid-template-columns: 1fr; }

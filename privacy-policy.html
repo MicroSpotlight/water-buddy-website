@@ -15,12 +15,24 @@
     <nav class="nav-shell" aria-label="主导航">
       <a class="brand" href="/">
         <img src="/assets/water-buddy-icon.png" width="44" height="44" alt="">
-        <span>水滴伙伴 <span>/ Water Buddy</span></span>
+        <span><span data-brand-name>水滴伙伴</span> <span data-brand-english>/ Water Buddy</span></span>
       </a>
       <div class="nav-links">
         <a href="/">返回官网</a>
         <a href="/support">支持</a>
         <a href="/changelog">更新日志</a>
+        <div class="language-picker">
+          <button class="language-trigger" type="button" data-language-trigger aria-label="选择网站语言" aria-expanded="false" aria-controls="language-menu">
+            <span class="language-picker-icon" aria-hidden="true">文</span>
+            <span data-language-current>中文</span>
+          </button>
+          <div class="language-menu" id="language-menu" data-language-menu hidden>
+            <button class="language-option" type="button" data-language-option="zh-Hans" aria-pressed="true">中文</button>
+            <button class="language-option" type="button" data-language-option="en" aria-pressed="false">English</button>
+            <button class="language-option" type="button" data-language-option="ja" aria-pressed="false">日本語</button>
+            <button class="language-option" type="button" data-language-option="ko" aria-pressed="false">한국어</button>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
@@ -54,7 +66,7 @@
         <section class="legal-section highlight" id="summary">
           <h2>先说重点</h2>
           <ul>
-            <li>逐杯饮水记录、目标、提醒、水杯、奖励印章、主题与语言保存在你的设备上，不会上传给我们或 Firebase。</li>
+            <li>逐杯饮水记录、水杯、目标、提醒、奖励印章、主题与语言保存在你的 iPhone、Apple Watch 及本机 App Group 中，不会上传给我们或 Firebase。</li>
             <li>App 不需要注册或登录，不展示第三方广告，也不将数据用于跨 App 或跨网站追踪。</li>
             <li>Firebase Analytics 会处理 App 使用事件；Firebase Crashlytics 会在崩溃时处理诊断数据。</li>
             <li>可选的“支持作者”App 内购买由 Apple 通过 StoreKit 处理，我们不会收到你的 Apple ID、付款卡号或账单信息。</li>
@@ -63,15 +75,16 @@
 
         <section class="legal-section" id="local">
           <h2>保存在设备上的数据</h2>
-          <p>为提供核心功能，水滴伙伴会在设备本机及本机 App Group 容器中保存：</p>
+          <p>为提供核心功能，水滴伙伴会在你的 iPhone、Apple Watch 及本机 App Group 容器中保存：</p>
           <ul>
             <li>逐杯饮水记录，包括容量、饮用时间、记录来源、可选水杯 ID、编辑或删除状态，以及本地诊断状态；</li>
-            <li>每日目标、提醒间隔、每日提醒时段、通知状态和专注模式结束后的提醒偏好；</li>
+            <li>每日目标、提醒间隔、每日提醒时段、下一次提醒时间、通知声音、通知状态和专注模式结束后的提醒偏好；</li>
             <li>自定义水杯、已归档水杯、当前选择的水杯和最近使用的水杯；</li>
             <li>奖励印章与印章册状态；</li>
-            <li>主题、首页布局、通知声音、Live Activity 偏好和 App 内语言选择。</li>
+            <li>主题、首页布局、外观模式、Live Activity 偏好、新手引导状态和 App 内语言选择；</li>
+            <li>Apple Watch 上的饮水快照、语言、待同步记录和用于避免重复记录的随机请求标识符。</li>
           </ul>
-          <p>这些数据仅用于 App、小组件、Live Activity、通知操作和 Apple Watch 相关同步的展示、记录与本地提醒。卸载 App 通常会删除 App 自身保存的数据；系统对小组件容器和备份的处理可能受 iOS 设置影响。</p>
+          <p>这些数据仅用于 App、小组件、Live Activity、通知操作、Apple Watch 展示与本地提醒。饮水数据会通过 Apple 提供的 WatchConnectivity 在你配对的 iPhone 与 Apple Watch 之间同步，但不会发送给我们或 Firebase。卸载 App 通常会删除 App 自身保存的数据；系统对小组件容器和备份的处理可能受 iOS 设置影响。</p>
         </section>
 
         <section class="legal-section" id="remote">
@@ -88,12 +101,12 @@
             <tbody>
               <tr>
                 <td>Firebase Analytics</td>
-                <td>App 实例标识符、App 启动和生命周期等产品交互、设备与 App 基本信息，以及由掩码 IP 推导的大致区域</td>
+                <td>App 实例标识符、自动记录的会话、界面、App 启动和生命周期等产品交互、设备与 App 基本信息，以及由掩码 IP 推导的大致区域</td>
                 <td>衡量基本使用情况，了解版本和设备分布，改进产品体验</td>
               </tr>
               <tr>
                 <td>Firebase Crashlytics</td>
-                <td>安装标识符、崩溃堆栈、崩溃时的相关 App 状态、设备型号与操作系统信息，以及开发者记录的诊断日志</td>
+                <td>安装标识符、崩溃堆栈、崩溃时的相关 App 状态、设备型号与操作系统信息、诊断日志，以及启用 Analytics 时可能附带的崩溃前操作线索</td>
                 <td>定位崩溃、评估影响范围并提高稳定性</td>
               </tr>
             </tbody>
@@ -120,7 +133,8 @@
 
         <section class="legal-section" id="sharing">
           <h2>第三方处理、保留与跨境</h2>
-          <p>Google 作为 Firebase 服务提供商处理上述分析和诊断数据。Firebase 服务可能在 Google 或其服务商运营设施的国家或地区处理数据。数据保留时间取决于 Firebase 服务及项目配置；例如，Google 说明 Crashlytics 的崩溃堆栈和相关标识符通常保留 90 天后开始从在线及备份系统移除。</p>
+          <p>Google 作为 Firebase 服务提供商处理上述分析和诊断数据。我们要求服务提供商仅为约定目的处理数据，并采取与本政策及适用法律相符的保护措施。Firebase 服务可能在 Google 或其服务商运营设施的国家或地区处理数据。</p>
+          <p>数据保留时间取决于 Firebase 服务及项目配置。Firebase Analytics 数据按项目中配置的保留期处理；Google 说明 Crashlytics 的崩溃堆栈和相关标识符通常保留 90 天后开始从在线及备份系统移除。</p>
           <p>你可以查看 <a href="https://firebase.google.com/support/privacy" rel="noreferrer">Firebase 隐私与安全说明</a>、<a href="https://firebase.google.com/docs/ios/app-store-data-collection" rel="noreferrer">Firebase 的 Apple 平台数据披露说明</a>及 <a href="https://policies.google.com/privacy" rel="noreferrer">Google 隐私权政策</a>。</p>
           <p>除服务提供商、法律要求、保护权利与安全，或业务转让所必需的情形外，我们不会向其他方披露数据。</p>
         </section>
@@ -130,6 +144,7 @@
           <ul>
             <li>你可以在 iOS 系统设置中关闭通知权限；核心记录功能仍可使用。</li>
             <li>你可以在 App 内编辑或删除具体饮水记录，或卸载 App 删除其本地数据。</li>
+            <li>卸载 iPhone App 通常会删除它保存的本地数据；Apple Watch 缓存可能需要卸载 Watch App 才能清除。系统备份和 App Group 容器的处理受你的 Apple 设备设置影响。</li>
             <li>如需咨询、请求访问或删除我们能够控制的数据，可通过下方邮箱联系我们。由于 App 不要求账号，我们可能无法把 Firebase 中去标识化或按安装标识符组织的数据与你的身份对应。</li>
           </ul>
         </section>
@@ -137,6 +152,7 @@
         <section class="legal-section" id="website">
           <h2>官网数据</h2>
           <p>本官网不设置分析工具、广告脚本或营销 Cookie。网站由 Vercel 托管；为传输页面、防止滥用和保障安全，托管服务可能处理 IP 地址、User-Agent 和请求日志等必要网络信息。详情请查看 <a href="https://vercel.com/legal/privacy-policy" rel="noreferrer">Vercel 隐私政策</a>。</p>
+          <p>网站会在你的浏览器本机保存语言与主题选择，仅用于在下次访问时恢复偏好，不会由网站脚本发送到服务器。</p>
         </section>
 
         <section class="legal-section" id="children">
@@ -152,6 +168,7 @@
         <section class="legal-section" id="contact">
           <h2>联系我们</h2>
           <p>如果你对本政策或数据处理方式有疑问，请发送邮件至 <a href="mailto:support@microspotlight.team">support@microspotlight.team</a>，或访问<a href="/support">支持页面</a>。</p>
+          <p>当你主动联系我们时，我们会处理你提供的电子邮箱地址、邮件内容及附件，仅用于回复请求、提供支持和维护必要的沟通记录，并在不再需要或法律不再要求时删除。</p>
         </section>
       </div>
     </div>
@@ -163,6 +180,7 @@
       <div class="footer-links"><a href="/">官网</a><a href="/support">支持</a><a href="/changelog">更新日志</a></div>
     </div>
   </footer>
+  <script src="/locales.js" defer></script>
   <script src="/site.js" defer></script>
 </body>
 </html>

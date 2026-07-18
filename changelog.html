@@ -6,7 +6,7 @@
   <meta name="description" content="水滴伙伴更新日志：查看 App Store 首发版本与 TestFlight 构建的核心功能变化。">
   <meta name="theme-color" content="#FFF8E8">
   <meta property="og:title" content="更新日志 · 水滴伙伴">
-  <meta property="og:description" content="水滴伙伴 0.1.0 即将登陆 App Store：从快速记录到 Apple Watch、组件与专注后补水。">
+  <meta property="og:description" content="水滴伙伴 0.1.1 更新记录：让 App、通知、组件、Live Activity 与 Watch 使用一致语言，并持续刷新下一杯倒计时。">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/assets/water-buddy-icon.png">
   <title>更新日志 · 水滴伙伴</title>
@@ -23,7 +23,7 @@
     <nav class="nav-shell" aria-label="主导航">
       <a class="brand" href="/" aria-label="水滴伙伴首页">
         <img src="/assets/water-buddy-icon.png" width="44" height="44" alt="">
-        <span>水滴伙伴 <span>/ Water Buddy</span></span>
+        <span><span data-brand-name>水滴伙伴</span> <span data-brand-english>/ Water Buddy</span></span>
       </a>
       <div class="nav-links">
         <a href="/">官网</a>
@@ -39,6 +39,18 @@
             <button class="theme-option" type="button" data-theme-option="lagoon" aria-pressed="false">深海青</button>
           </div>
         </div>
+        <div class="language-picker">
+          <button class="language-trigger" type="button" data-language-trigger aria-label="选择网站语言" aria-expanded="false" aria-controls="language-menu">
+            <span class="language-picker-icon" aria-hidden="true">文</span>
+            <span data-language-current>中文</span>
+          </button>
+          <div class="language-menu" id="language-menu" data-language-menu hidden>
+            <button class="language-option" type="button" data-language-option="zh-Hans" aria-pressed="true">中文</button>
+            <button class="language-option" type="button" data-language-option="en" aria-pressed="false">English</button>
+            <button class="language-option" type="button" data-language-option="ja" aria-pressed="false">日本語</button>
+            <button class="language-option" type="button" data-language-option="ko" aria-pressed="false">한국어</button>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
@@ -48,17 +60,17 @@
       <div class="changelog-hero-copy">
         <div class="badge">Changelog</div>
         <h1>每一版，都让补水更顺一点。</h1>
-        <p>水滴伙伴 0.1.0 已进入 App Store 首发准备。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。</p>
+        <p>水滴伙伴 0.1.1 已在 App Store 上线。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。</p>
         <div class="actions">
-          <a class="button primary" href="https://testflight.apple.com/join/rqmHh69r" target="_blank" rel="noopener noreferrer">抢先体验首发版</a>
-          <a class="button" href="#build-33">查看首发变化</a>
+          <a class="button primary" href="https://apps.apple.com/us/app/water-buddy-hydration/id6789022089" target="_blank" rel="noopener noreferrer">在 App Store 下载</a>
+          <a class="button" href="#version-0-1-1">查看 0.1.1 变化</a>
         </div>
       </div>
-      <div class="current-build" aria-label="App Store 首发候选版本">
-        <span>App Store 首发候选版</span>
-        <strong>0.1.0</strong>
+      <div class="current-build" aria-label="App Store 当前版本">
+        <span>App Store 当前版本</span>
+        <strong>0.1.1</strong>
         <b>Build 33</b>
-        <small>2026 年 7 月 12 日</small>
+        <small>2026 年 7 月 13 日</small>
         <img src="/assets/water-buddy-widgets-home.png" width="926" height="307" alt="水滴伙伴当前主屏小组件，展示饮水进度和快捷记录">
       </div>
     </header>
@@ -66,11 +78,35 @@
     <section class="release-ledger" aria-labelledby="release-title">
       <div class="release-heading">
         <p class="kicker">版本与构建记录</p>
-        <h2 id="release-title">从第一杯，到准备正式见面</h2>
-        <p>0.1.0（Build 33）是当前 App Store 首发候选版；审核通过前仍可通过 TestFlight 抢先体验。</p>
+        <h2 id="release-title">从第一杯，到每个系统表面都保持一致</h2>
+        <p>0.1.1（Build 33）是 App Store 当前版本；也可通过 TestFlight 抢先体验后续更新。</p>
       </div>
 
-      <article class="release-row is-current" id="build-33">
+      <article class="release-row is-current" id="version-0-1-1">
+        <div class="release-stamp">
+          <span>0.1.1</span>
+          <strong>BUILD 33</strong>
+          <time datetime="2026-07-13">07.13</time>
+        </div>
+        <div class="release-card">
+          <header class="release-card-heading">
+            <div>
+              <span class="release-state">App Store 当前版本</span>
+              <h3>让每一种语言和每一秒倒计时都跟得上</h3>
+            </div>
+            <span class="release-channel">iPhone · Widgets · Live Activity</span>
+          </header>
+          <p class="release-lead">0.1.1 聚焦系统表面的语言一致性与实时状态更新，让 App 内的选择可靠地延伸到提醒、组件、实时活动和手表。</p>
+          <ul class="release-changes">
+            <li><strong>语言选择贯通所有表面</strong><span>App、通知、主屏与锁屏组件、Live Activity 和 Watch 同步使用 App 内选择的简中、英文、日文或韩文。</span></li>
+            <li><strong>最新状态不被旧任务覆盖</strong><span>按顺序刷新通知与实时活动，避免较早的本地化任务覆盖刚刚更新的饮水量或提醒状态。</span></li>
+            <li><strong>下一杯倒计时持续前进</strong><span>Live Activity 与组件使用系统时间推进，分钟内也能保持及时、易读的下一杯状态。</span></li>
+            <li><strong>组件配置打开更稳定</strong><span>修复本地化环境下打开 Widget 配置时可能发生的崩溃，并补齐对应回归检查。</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="release-row" id="build-33">
         <div class="release-stamp">
           <span>0.1.0</span>
           <strong>BUILD 33</strong>
@@ -79,8 +115,8 @@
         <div class="release-card">
           <header class="release-card-heading">
             <div>
-              <span class="release-state">App Store 首发候选版</span>
-              <h3>水滴伙伴，准备和更多人正式见面</h3>
+              <span class="release-state">App Store 首发版本</span>
+              <h3>水滴伙伴，正式和更多人见面</h3>
             </div>
             <span class="release-channel">iPhone · Widgets · Watch</span>
           </header>
@@ -193,24 +229,24 @@
 
     <aside class="release-note" aria-label="版本说明">
       <strong>关于这些版本号</strong>
-      <p>0.1.0 是面向用户的版本号，Build 代表发布准备过程中的构建里程碑。日期来自版本配置与 Git 历史；小修复会合并到最接近的 Build，不单独制造版本条目。</p>
+      <p>0.1.0 建立首个完整体验，0.1.1 集中完善本地化与系统组件稳定性。Build 代表构建里程碑，同一 Build 可在发布准备期间对应新的用户版本；日期来自版本配置与 Git 历史。</p>
     </aside>
 
     <section class="changelog-cta" aria-labelledby="changelog-cta-title">
       <div>
-        <p class="kicker">正式见面前，也想听见你的声音</p>
-        <h2 id="changelog-cta-title">抢先用几天，帮首发版再稳一点。</h2>
+        <p class="kicker">已经见面，也想继续听见你的声音</p>
+        <h2 id="changelog-cta-title">下载 0.1.1，把你的补水节奏带回家。</h2>
       </div>
       <div class="actions">
-        <a class="button primary" href="https://testflight.apple.com/join/rqmHh69r" target="_blank" rel="noopener noreferrer">加入 TestFlight</a>
-        <a class="button" href="mailto:support@microspotlight.team?subject=Water%20Buddy%20首发版反馈">发送反馈</a>
+        <a class="button primary" href="https://apps.apple.com/us/app/water-buddy-hydration/id6789022089" target="_blank" rel="noopener noreferrer">前往 App Store</a>
+        <a class="button" href="mailto:support@microspotlight.team?subject=Water%20Buddy%200.1.1%20反馈">发送反馈</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap footer-shell">
-      <p>© <span data-year>2026</span> Water Buddy. App Store 首发准备中。</p>
+      <p>© <span data-year>2026</span> Water Buddy. 已在 App Store 上线。</p>
       <div class="footer-links">
         <a href="/">官网</a>
         <a href="/support">支持</a>
@@ -218,6 +254,7 @@
       </div>
     </div>
   </footer>
+  <script src="/locales.js" defer></script>
   <script src="/site.js" defer></script>
 </body>
 </html>

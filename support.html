@@ -15,9 +15,23 @@
     <nav class="nav-shell" aria-label="主导航">
       <a class="brand" href="/">
         <img src="/assets/water-buddy-icon.png" width="44" height="44" alt="">
-        <span>水滴伙伴 <span>/ Water Buddy</span></span>
+        <span><span data-brand-name>水滴伙伴</span> <span data-brand-english>/ Water Buddy</span></span>
       </a>
-      <div class="nav-links"><a href="/">返回官网</a><a href="/changelog">更新日志</a><a href="/privacy-policy">隐私政策</a></div>
+      <div class="nav-links">
+        <a href="/">返回官网</a><a href="/changelog">更新日志</a><a href="/privacy-policy">隐私政策</a>
+        <div class="language-picker">
+          <button class="language-trigger" type="button" data-language-trigger aria-label="选择网站语言" aria-expanded="false" aria-controls="language-menu">
+            <span class="language-picker-icon" aria-hidden="true">文</span>
+            <span data-language-current>中文</span>
+          </button>
+          <div class="language-menu" id="language-menu" data-language-menu hidden>
+            <button class="language-option" type="button" data-language-option="zh-Hans" aria-pressed="true">中文</button>
+            <button class="language-option" type="button" data-language-option="en" aria-pressed="false">English</button>
+            <button class="language-option" type="button" data-language-option="ja" aria-pressed="false">日本語</button>
+            <button class="language-option" type="button" data-language-option="ko" aria-pressed="false">한국어</button>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
 
@@ -47,10 +61,11 @@
 
   <footer class="site-footer">
     <div class="wrap footer-shell">
-      <p>版本 0.1.0 · Bundle ID: team.MicroSpotlight.WaterBuddy</p>
+      <p>版本 0.1.1 · Bundle ID: team.MicroSpotlight.WaterBuddy</p>
       <div class="footer-links"><a href="/">官网</a><a href="/changelog">更新日志</a><a href="/privacy-policy">隐私政策</a><a href="mailto:support@microspotlight.team">联系我们</a></div>
     </div>
   </footer>
+  <script src="/locales.js" defer></script>
   <script src="/site.js" defer></script>
 </body>
 </html>
