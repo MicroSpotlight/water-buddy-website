@@ -31,8 +31,8 @@
       <h1>隐私政策</h1>
       <p>水滴伙伴不需要账号，也不会把你的饮水记录上传到服务器。为了解 App 的基本使用情况并修复崩溃，我们会通过 Firebase 处理有限的使用数据与诊断数据。</p>
       <div class="legal-meta">
-        <span>生效日期：2026 年 7 月 10 日</span>
-        <span>适用版本：0.1.0 及后续版本</span>
+        <span>生效日期：2026 年 7 月 18 日</span>
+        <span>适用版本：0.2.0 及后续版本</span>
       </div>
     </header>
 
@@ -41,6 +41,7 @@
         <a href="#summary">摘要</a>
         <a href="#local">本机数据</a>
         <a href="#remote">远程数据</a>
+        <a href="#purchases">App 内购买</a>
         <a href="#use">使用方式</a>
         <a href="#sharing">共享与保留</a>
         <a href="#choices">你的选择</a>
@@ -53,9 +54,10 @@
         <section class="legal-section highlight" id="summary">
           <h2>先说重点</h2>
           <ul>
-            <li>饮水量、目标、提醒设置、主题与语言保存在你的设备上，不会上传给我们或 Firebase。</li>
+            <li>逐杯饮水记录、目标、提醒、水杯、奖励印章、主题与语言保存在你的设备上，不会上传给我们或 Firebase。</li>
             <li>App 不需要注册或登录，不展示第三方广告，也不将数据用于跨 App 或跨网站追踪。</li>
             <li>Firebase Analytics 会处理 App 使用事件；Firebase Crashlytics 会在崩溃时处理诊断数据。</li>
+            <li>可选的“支持作者”App 内购买由 Apple 通过 StoreKit 处理，我们不会收到你的 Apple ID、付款卡号或账单信息。</li>
           </ul>
         </section>
 
@@ -63,11 +65,13 @@
           <h2>保存在设备上的数据</h2>
           <p>为提供核心功能，水滴伙伴会在设备本机及本机 App Group 容器中保存：</p>
           <ul>
-            <li>今日饮水量、每日目标和最近一次记录时间；</li>
-            <li>提醒间隔、通知开关状态；</li>
-            <li>当前主题和 App 内语言选择。</li>
+            <li>逐杯饮水记录，包括容量、饮用时间、记录来源、可选水杯 ID、编辑或删除状态，以及本地诊断状态；</li>
+            <li>每日目标、提醒间隔、每日提醒时段、通知状态和专注模式结束后的提醒偏好；</li>
+            <li>自定义水杯、已归档水杯、当前选择的水杯和最近使用的水杯；</li>
+            <li>奖励印章与印章册状态；</li>
+            <li>主题、首页布局、通知声音、Live Activity 偏好和 App 内语言选择。</li>
           </ul>
-          <p>这些数据仅用于 App、小组件和 Live Activity 的展示与本地提醒。卸载 App 通常会删除 App 自身保存的数据；系统对小组件容器和备份的处理可能受 iOS 设置影响。</p>
+          <p>这些数据仅用于 App、小组件、Live Activity、通知操作和 Apple Watch 相关同步的展示、记录与本地提醒。卸载 App 通常会删除 App 自身保存的数据；系统对小组件容器和备份的处理可能受 iOS 设置影响。</p>
         </section>
 
         <section class="legal-section" id="remote">
@@ -94,7 +98,13 @@
               </tr>
             </tbody>
           </table>
-          <p>我们不会向 Firebase 发送你的饮水量、每日目标、姓名、电子邮箱或账号信息。App 当前没有账号系统，也不会主动设置可识别自然人的 Firebase User ID。</p>
+          <p>我们不会有意向 Firebase 发送你的逐杯饮水记录、水杯、奖励印章、每日目标、姓名、电子邮箱或账号信息。App 当前没有账号系统，也不会主动设置可识别自然人的 Firebase User ID。</p>
+        </section>
+
+        <section class="legal-section" id="purchases">
+          <h2>App 内购买</h2>
+          <p>水滴伙伴包含可选的消耗型 App 内购买，用于自愿支持 App 的持续更新。购买由 Apple 通过 StoreKit 处理；我们不会收到或保存你的 Apple ID 凭据、付款卡号或账单信息。</p>
+          <p>这些购买不会解锁功能、内容、小组件、Apple Watch 支持、提醒、奖励或历史统计，也不会用于建立与你饮水行为相关的个人画像。</p>
         </section>
 
         <section class="legal-section" id="use">
@@ -119,7 +129,7 @@
           <h2>你的选择与权利</h2>
           <ul>
             <li>你可以在 iOS 系统设置中关闭通知权限；核心记录功能仍可使用。</li>
-            <li>你可以在 App 内重置今天的饮水数据，或卸载 App 删除其本地数据。</li>
+            <li>你可以在 App 内编辑或删除具体饮水记录，或卸载 App 删除其本地数据。</li>
             <li>如需咨询、请求访问或删除我们能够控制的数据，可通过下方邮箱联系我们。由于 App 不要求账号，我们可能无法把 Firebase 中去标识化或按安装标识符组织的数据与你的身份对应。</li>
           </ul>
         </section>
