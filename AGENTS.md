@@ -41,6 +41,7 @@
 - 生产域名：`https://water-buddy.kitdesk.site`。
 - 备用 Vercel 域名：`https://water-buddy-three.vercel.app`。
 - 0.2.0 官网部署记录：`dpl_C1gj6ZwzDkQgVNDTt1WdAeM6JnFz`，生产 URL `https://water-buddy-riu544bdz-jmvssssvs-projects.vercel.app`，对应官网提交 `bc9a9cd080e33f9c454bc6345951ead74538ffc7`。
+- 部署优先使用 Vercel API；只有 API 凭据不可用、API 上传/创建部署失败，或用户明确要求 CLI 时，才使用 Vercel CLI 兜底。
 - 使用 Vercel API 或 CLI 部署时必须确认工作目录/上传根为 `website/`，并复用 `website/.vercel/project.json` 中的项目链接。
 
 ## Validation
