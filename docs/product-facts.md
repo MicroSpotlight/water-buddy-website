@@ -1,7 +1,7 @@
 # Water Buddy · Product Facts
 
 > Verified: 2026-07-20
-> Sources: local repository release notes and App Store submission material; `docs/releases/0.2.0.md`; `app-store/metadata/submission.md`; `app-store/0.2.0/metadata/version-update.md`; `app-store/0.2.0/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`; `https://testflight.apple.com/join/rqmHh69r`
+> Sources: local repository release notes and App Store submission material; `docs/releases/0.2.0.md`; `app-store/metadata/submission.md`; `app-store/metadata/version-update.md`; `app-store/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`; `https://testflight.apple.com/join/rqmHh69r`
 
 - Product: 水滴伙伴 / Water Buddy
 - Platform: iOS
