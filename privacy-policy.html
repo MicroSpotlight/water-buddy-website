@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="水滴伙伴隐私政策：了解本机饮水数据、Firebase Analytics 与 Crashlytics 的数据处理方式。">
+  <meta name="description" content="水滴伙伴隐私政策：了解本机饮水数据、可选 iCloud 私有同步、Firebase Analytics 与 Crashlytics 的数据处理方式。">
   <meta name="theme-color" content="#FFF8E8">
   <title>隐私政策 · 水滴伙伴</title>
   <link rel="icon" href="/assets/water-buddy-icon.png">
@@ -41,10 +41,10 @@
     <header class="legal-hero">
       <div class="badge">Privacy Policy</div>
       <h1>隐私政策</h1>
-      <p>水滴伙伴不需要账号，也不会把你的饮水记录上传到服务器。为了解 App 的基本使用情况并修复崩溃，我们会通过 Firebase 处理有限的使用数据与诊断数据。</p>
+      <p>水滴伙伴不需要开发者账号。饮水数据默认保存在本机；只有你主动开启 iCloud 同步时，指定记录才会进入你自己的 Apple iCloud 私有数据库，不会发送给我们或 Firebase。</p>
       <div class="legal-meta">
-        <span>生效日期：2026 年 7 月 18 日</span>
-        <span>适用版本：0.2.0 及后续版本</span>
+        <span>生效日期：2026 年 7 月 24 日</span>
+        <span>适用版本：0.3.0 及后续版本</span>
       </div>
     </header>
 
@@ -52,7 +52,8 @@
       <nav class="legal-toc" aria-label="本页目录">
         <a href="#summary">摘要</a>
         <a href="#local">本机数据</a>
-        <a href="#remote">远程数据</a>
+        <a href="#icloud">iCloud 同步</a>
+        <a href="#remote">Firebase</a>
         <a href="#purchases">App 内购买</a>
         <a href="#use">使用方式</a>
         <a href="#sharing">共享与保留</a>
@@ -66,7 +67,8 @@
         <section class="legal-section highlight" id="summary">
           <h2>先说重点</h2>
           <ul>
-            <li>逐杯饮水记录、水杯、目标、提醒、奖励印章、主题与语言保存在你的 iPhone、Apple Watch 及本机 App Group 中，不会上传给我们或 Firebase。</li>
+            <li>逐杯饮水记录、水杯、目标、提醒、奖励、里程碑、主题与语言默认保存在你的 iPhone、Apple Watch 及本机 App Group 中，不会上传给我们或 Firebase。</li>
+            <li>可选 iCloud 同步仅在你主动开启后，把逐杯记录、水杯、每日印章和里程碑同步到你自己的 Apple iCloud 私有数据库。</li>
             <li>App 不需要注册或登录，不展示第三方广告，也不将数据用于跨 App 或跨网站追踪。</li>
             <li>Firebase Analytics 会处理 App 使用事件；Firebase Crashlytics 会在崩溃时处理诊断数据。</li>
             <li>可选的“支持作者”App 内购买由 Apple 通过 StoreKit 处理，我们不会收到你的 Apple ID、付款卡号或账单信息。</li>
@@ -80,11 +82,22 @@
             <li>逐杯饮水记录，包括容量、饮用时间、记录来源、可选水杯 ID、编辑或删除状态，以及本地诊断状态；</li>
             <li>每日目标、提醒间隔、每日提醒时段、下一次提醒时间、通知声音、通知状态和专注模式结束后的提醒偏好；</li>
             <li>自定义水杯、已归档水杯、当前选择的水杯和最近使用的水杯；</li>
-            <li>奖励印章与印章册状态；</li>
+            <li>奖励印章、印章册、累计里程碑与永久收藏状态；</li>
             <li>主题、首页布局、外观模式、Live Activity 偏好、新手引导状态和 App 内语言选择；</li>
             <li>Apple Watch 上的饮水快照、语言、待同步记录和用于避免重复记录的随机请求标识符。</li>
           </ul>
-          <p>这些数据仅用于 App、小组件、Live Activity、通知操作、Apple Watch 展示与本地提醒。饮水数据会通过 Apple 提供的 WatchConnectivity 在你配对的 iPhone 与 Apple Watch 之间同步，但不会发送给我们或 Firebase。卸载 App 通常会删除 App 自身保存的数据；系统对小组件容器和备份的处理可能受 iOS 设置影响。</p>
+          <p>这些数据用于 App、小组件、Live Activity、通知操作、Apple Watch 展示与本地提醒。饮水数据会通过 Apple 提供的 WatchConnectivity 在配对的 iPhone 与 Apple Watch 之间同步，但不会发送给我们或 Firebase。iCloud 同步关闭时，核心记录功能仍完整使用本机数据库。</p>
+        </section>
+
+        <section class="legal-section" id="icloud">
+          <h2>可选的 iCloud 私有同步</h2>
+          <p>当你在 App 内主动开启 iCloud 同步时，水滴伙伴会使用 Apple CloudKit Private Database，在使用同一 Apple ID 的设备之间同步以下事实：</p>
+          <ul>
+            <li>逐杯饮水记录及其编辑或软删除状态；</li>
+            <li>自定义水杯、归档状态和当前水杯选择；</li>
+            <li>每日最高奖励印章和永久里程碑收藏。</li>
+          </ul>
+          <p>App 不会把整个本机数据库上传到 iCloud，也不会同步提醒排程、通知权限、Live Activity、主题或语言。iCloud 数据由 Apple 按你的 Apple ID 和 iCloud 设置处理。根据 Apple 的 CloudKit 说明，生产环境私有数据库内容默认仅由当前用户访问，且不会显示在开发者门户中。关闭同步会保留本机数据，也不会由 App 自动删除既有 iCloud 记录。</p>
         </section>
 
         <section class="legal-section" id="remote">
@@ -111,7 +124,7 @@
               </tr>
             </tbody>
           </table>
-          <p>我们不会有意向 Firebase 发送你的逐杯饮水记录、水杯、奖励印章、每日目标、姓名、电子邮箱或账号信息。App 当前没有账号系统，也不会主动设置可识别自然人的 Firebase User ID。</p>
+          <p>我们不会有意向 Firebase 发送你的逐杯饮水记录、水杯、奖励印章、里程碑、每日目标、姓名、电子邮箱或账号信息。App 当前没有开发者账号系统，也不会主动设置可识别自然人的 Firebase User ID。</p>
         </section>
 
         <section class="legal-section" id="purchases">
@@ -134,6 +147,7 @@
         <section class="legal-section" id="sharing">
           <h2>第三方处理、保留与跨境</h2>
           <p>Google 作为 Firebase 服务提供商处理上述分析和诊断数据。我们要求服务提供商仅为约定目的处理数据，并采取与本政策及适用法律相符的保护措施。Firebase 服务可能在 Google 或其服务商运营设施的国家或地区处理数据。</p>
+          <p>Apple 仅在你启用 iCloud 同步或使用 StoreKit 购买时，按其服务条款与隐私政策处理相应的 CloudKit 私有数据库或交易数据。</p>
           <p>数据保留时间取决于 Firebase 服务及项目配置。Firebase Analytics 数据按项目中配置的保留期处理；Google 说明 Crashlytics 的崩溃堆栈和相关标识符通常保留 90 天后开始从在线及备份系统移除。</p>
           <p>你可以查看 <a href="https://firebase.google.com/support/privacy" rel="noreferrer">Firebase 隐私与安全说明</a>、<a href="https://firebase.google.com/docs/ios/app-store-data-collection" rel="noreferrer">Firebase 的 Apple 平台数据披露说明</a>及 <a href="https://policies.google.com/privacy" rel="noreferrer">Google 隐私权政策</a>。</p>
           <p>除服务提供商、法律要求、保护权利与安全，或业务转让所必需的情形外，我们不会向其他方披露数据。</p>
@@ -143,8 +157,9 @@
           <h2>你的选择与权利</h2>
           <ul>
             <li>你可以在 iOS 系统设置中关闭通知权限；核心记录功能仍可使用。</li>
+            <li>你可以随时在 App 内关闭 iCloud 同步；关闭后本机数据保留，既有 iCloud 私有数据库记录不会由 App 自动删除。</li>
             <li>你可以在 App 内编辑或删除具体饮水记录，或卸载 App 删除其本地数据。</li>
-            <li>卸载 iPhone App 通常会删除它保存的本地数据；Apple Watch 缓存可能需要卸载 Watch App 才能清除。系统备份和 App Group 容器的处理受你的 Apple 设备设置影响。</li>
+            <li>卸载 iPhone App 通常会删除它保存的本地数据，但不会自动删除已同步到 iCloud 私有数据库的记录；Apple Watch 缓存、系统备份、App Group 和 iCloud 数据的处理受你的 Apple 设备设置影响。</li>
             <li>如需咨询、请求访问或删除我们能够控制的数据，可通过下方邮箱联系我们。由于 App 不要求账号，我们可能无法把 Firebase 中去标识化或按安装标识符组织的数据与你的身份对应。</li>
           </ul>
         </section>
@@ -180,7 +195,7 @@
       <div class="footer-links"><a href="/">官网</a><a href="/support">支持</a><a href="/changelog">更新日志</a></div>
     </div>
   </footer>
-  <script src="/locales.js" defer></script>
-  <script src="/site.js" defer></script>
+  <script src="/locales.js?v=0.3.0" defer></script>
+  <script src="/site.js?v=0.3.0" defer></script>
 </body>
 </html>

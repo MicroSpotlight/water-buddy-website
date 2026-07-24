@@ -1,7 +1,7 @@
 # Water Buddy · Product Facts
 
-> Verified: 2026-07-20
-> Sources: local repository release notes and App Store submission material; `docs/releases/0.2.0.md`; `app-store/metadata/submission.md`; `app-store/0.2.0/metadata/version-update.md`; `app-store/0.2.0/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`; `https://testflight.apple.com/join/rqmHh69r`
+> Verified: 2026-07-24
+> Sources: local repository release notes and App Store submission material; `docs/releases/0.2.0.md`; `docs/releases/0.3.0.md`; `docs/releases/0.3.0-cloudkit-schema.md`; `app-store/metadata/submission.md`; `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`; `https://testflight.apple.com/join/rqmHh69r`
 
 - Product: 水滴伙伴 / Water Buddy
 - Platform: iOS
@@ -13,13 +13,14 @@
 - The official invitation page identifies the beta as “Water Buddy - 水滴伙伴” and lists it as available on iOS.
 - Apple documents public TestFlight links as a supported way to invite external beta testers.
 - Languages: Simplified Chinese, English, Korean, Japanese
-- Core features: daily hydration logging, daily goals, local reminders, optional after-Focus hydration reminders, Home Screen and Lock Screen widgets, Live Activity, Apple Watch logging/sync, seven appearance themes, and in-app language switching
+- Core features: daily hydration logging, daily goals, interval or fixed-time reminders with selected weekdays and quiet hours, optional after-Focus hydration reminders, Home Screen and Lock Screen widgets, Live Activity, Apple Watch logging/sync, cumulative milestones and local keepsake sharing, seven appearance themes, and in-app language switching
 - 0.2.0 feature focus: per-cup timeline, backfill/edit/delete for individual records, custom cups with 24 playful cup styles, week/month/year history, lightweight reward stamps and stamp album, reminder windows, unified record path for widgets/Watch/notification actions, and optional StoreKit consumable purchases for supporting development
 - Account: not required
-- Hydration data: stored locally on the device and in the local App Group container for app/widget sharing
+- Hydration data: local-first in the device/App Group database; optional user-enabled CloudKit Private Database sync covers per-cup records, cups, daily reward stamps, and permanent milestone unlocks
 - Remote SDKs present in the app: Firebase Analytics and Firebase Crashlytics
 - Current custom analytics event: `app_launch`
 - The app does not contain advertising UI or an account system in the inspected source.
+- 0.3.0 release candidate: build 60; final signed two-device CloudKit validation, localized metadata, screenshots and Release archive remain pending.
 
 ## Release milestones
 
