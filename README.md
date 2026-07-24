@@ -38,7 +38,7 @@ npx vercel dev website
 - App 能力、版本和隐私事实：`docs/product-facts.md`
 - 官网视觉规范与图片来源：`docs/brand-spec.md`
 - App Store 提交文案：`../app-store/metadata/submission.md`
-- 0.2.0 提审状态与素材：`../app-store/0.2.0/README.md`
+- App Store 提审状态：`../app-store/app-store-connect-upload-status.md`
 - 正式隐私与支持入口：`privacy-policy.html`、`support.html`
 - 设计原型：`../designs/`
 

@@ -17,9 +17,9 @@
 - 0.2.0 home: `../assets/water-buddy-home.png` (829 × 1800)
 - 0.2.0 timeline: `../assets/water-buddy-records.png` (829 × 1800)
 - 0.2.0 cups: `../assets/water-buddy-cups.png` (829 × 1800)
-- 0.2.0 widgets: `../assets/water-buddy-widgets-home.png` (829 × 1800)
-- 0.2.0 Live Activity / Lock Screen: `../assets/water-buddy-widgets-lock.png` (829 × 1800)
-- Source: `../../app-store/0.2.0/source-screenshots/iphone/zh-Hans/`
+- 0.2.0 widgets: `../assets/water-buddy-widgets-home-20260720.png` (829 × 1800)
+- 0.2.0 Live Activity / Lock Screen: `../assets/water-buddy-widgets-lock-20260720.png` (829 × 1800)
+- Source: `../../app-store/screenshots/source/iphone/zh-Hans/`
 - Use: hero product preview, 0.2.0 records/cups feature screenshots, widget section, and changelog current-version preview
 - These are repository-owned captures and contain no user data.
 
