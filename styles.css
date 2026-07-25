@@ -691,6 +691,7 @@ h3 {
 .release-stamp strong { margin-top: 4px; font-size: 18px; line-height: 1.05; }
 .release-stamp time { margin-top: 13px; padding-top: 10px; border-top: 2px solid color-mix(in srgb, var(--line) 35%, transparent); color: var(--muted); font-size: 12px; font-weight: 800; }
 .release-row.is-current .release-stamp { background: var(--water); transform: rotate(1deg); }
+.release-row.is-upcoming .release-stamp { background: var(--lemon); transform: rotate(-1deg); }
 
 .release-card {
   min-width: 0;
