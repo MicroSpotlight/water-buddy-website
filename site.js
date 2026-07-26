@@ -1114,6 +1114,90 @@ Object.assign(siteTranslations.ko, {
   "0.3.0 审核中 · 当前公开版本 0.2.1 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.3.0 심사 중 · 현재 공개 버전 0.2.1 · Bundle ID: team.MicroSpotlight.WaterBuddy"
 });
 
+Object.assign(siteTranslations.en, {
+  "水滴伙伴 0.3.0 已在 App Store 发布：新增可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享。": "Water Buddy 0.3.0 is now on the App Store, with optional private iCloud sync, flexible reminders, lasting milestones, and on-device keepsake sharing.",
+  "0.3.0 已在 App Store 发布。可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享，让记录自然延续。": "Version 0.3.0 is now on the App Store. Optional private iCloud sync, flexible reminders, lasting milestones, and on-device keepsake sharing help your records continue naturally.",
+  "0.3.0 已在 App Store 发布": "0.3.0 is now on the App Store",
+  "了解 0.3.0": "Explore 0.3.0",
+  "0.3.0 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.3.0 released · Free on the App Store · Available in Chinese, English, Japanese, and Korean",
+  "0.3.0 新能力": "New in 0.3.0",
+  "0.3.0 已在 App Store 发布。": "0.3.0 is now on the App Store.",
+  "现在可以在 App Store 免费下载 0.3.0，也欢迎通过 TestFlight 抢先体验后续更新。": "Download 0.3.0 free on the App Store, or join TestFlight for an early look at future updates.",
+  "水滴伙伴更新日志：0.3.0 已在 App Store 发布，带来可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享。": "Water Buddy changelog: 0.3.0 is now on the App Store with optional private iCloud sync, flexible reminders, lasting milestones, and on-device keepsake sharing.",
+  "水滴伙伴 0.3.0 已在 App Store 发布：可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享现已可用。": "Water Buddy 0.3.0 is now on the App Store, with optional private iCloud sync, flexible reminders, lasting milestones, and on-device keepsake sharing.",
+  "水滴伙伴 0.3.0 已在 App Store 发布。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。": "Water Buddy 0.3.0 is now on the App Store. This changelog highlights the updates that genuinely shape everyday use.",
+  "查看 0.3.0 变化": "See what’s new in 0.3.0",
+  "0.3.0 App Store 发布状态": "0.3.0 App Store release status",
+  "当前 App Store 版本": "Current App Store version",
+  "0.3.0 已在 App Store 发布，是当前 App Store 公开版本。": "Version 0.3.0 is now on the App Store and is the current public version.",
+  "App Store 当前公开版本 · Build 77": "Current App Store version · Build 77",
+  "上一版本": "Previous version",
+  "上一公开版本": "Previous public version",
+  "0.2.1 是上一公开版本的稳定性更新，延续 0.2.0 的逐杯记录、水杯、历史、奖励与支持作者能力，并继续修复问题和改善体验。": "Version 0.2.1 was the previous public stability update. It retained per-cup records, cups, history, rewards, and Support the Developer from 0.2.0 while continuing to fix issues and improve the experience.",
+  "0.3.0 已在 App Store 发布，是当前公开版本；0.2.1 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。0.1.0 建立首个完整体验，0.1.1 集中完善本地化与系统组件稳定性。": "Version 0.3.0 is now the current public App Store release. Version 0.2.1 was the previous public version, while 0.2.0 established core features such as per-cup records. Version 0.1.0 introduced the first complete experience, and 0.1.1 focused on localization and system-surface reliability.",
+  "已经见面，也想继续听见你的声音": "Now that it’s here, we’d still love to hear from you",
+  "水滴伙伴支持中心：0.3.0 下载、提醒、iCloud 同步、纪念卡、联系邮箱与隐私政策。": "Water Buddy support: 0.3.0 downloads, reminders, iCloud sync, keepsakes, contact email, and privacy policy.",
+  "0.3.0 已在 App Store 发布。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "Version 0.3.0 is now on the App Store. Find help, share a suggestion, or simply say hello here.",
+  "可以。0.3.0 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "Yes. Version 0.3.0 is now available as a free download from the App Store through the button on this site.",
+  "0.3.0 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.3.0 released · Current App Store version · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
+Object.assign(siteTranslations.ja, {
+  "水滴伙伴 0.3.0 已在 App Store 发布：新增可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享。": "Water Buddy 0.3.0をApp Storeで公開しました。任意のiCloudプライベート同期、柔軟なリマインダー、長期マイルストーン、端末内で作る記念カード共有を追加しています。",
+  "0.3.0 已在 App Store 发布。可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享，让记录自然延续。": "0.3.0をApp Storeで公開しました。任意のiCloudプライベート同期、柔軟なリマインダー、長期マイルストーン、端末内の記念カード共有で、記録を自然に続けられます。",
+  "0.3.0 已在 App Store 发布": "0.3.0をApp Storeで公開しました",
+  "了解 0.3.0": "0.3.0を見る",
+  "0.3.0 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.3.0 公開済み · App Storeで無料 · 中国語、英語、日本語、韓国語に対応",
+  "0.3.0 新能力": "0.3.0の新機能",
+  "0.3.0 已在 App Store 发布。": "0.3.0をApp Storeで公開しました。",
+  "现在可以在 App Store 免费下载 0.3.0，也欢迎通过 TestFlight 抢先体验后续更新。": "App Storeで0.3.0を無料ダウンロードできます。今後のアップデートはTestFlightで先行体験できます。",
+  "水滴伙伴更新日志：0.3.0 已在 App Store 发布，带来可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享。": "Water Buddy更新履歴：0.3.0をApp Storeで公開しました。任意のiCloudプライベート同期、柔軟なリマインダー、長期マイルストーン、端末内の記念カード共有を追加しています。",
+  "水滴伙伴 0.3.0 已在 App Store 发布：可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享现已可用。": "Water Buddy 0.3.0をApp Storeで公開しました。任意のiCloudプライベート同期、柔軟なリマインダー、長期マイルストーン、端末内の記念カード共有を利用できます。",
+  "水滴伙伴 0.3.0 已在 App Store 发布。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。": "Water Buddy 0.3.0をApp Storeで公開しました。日常の使い心地に本当に影響する機能と体験の更新だけを紹介します。",
+  "查看 0.3.0 变化": "0.3.0の変更を見る",
+  "0.3.0 App Store 发布状态": "0.3.0 App Store公開状況",
+  "当前 App Store 版本": "現在のApp Store版",
+  "0.3.0 已在 App Store 发布，是当前 App Store 公开版本。": "0.3.0はApp Storeで公開され、現在の公開版です。",
+  "App Store 当前公开版本 · Build 77": "現在のApp Store公開版 · Build 77",
+  "上一版本": "前のバージョン",
+  "上一公开版本": "前の公開版",
+  "0.2.1 是上一公开版本的稳定性更新，延续 0.2.0 的逐杯记录、水杯、历史、奖励与支持作者能力，并继续修复问题和改善体验。": "0.2.1は前の公開版となる安定性アップデートです。0.2.0の一杯ごとの記録、カップ、履歴、ごほうび、開発者サポートを維持しながら、問題修正と体験改善を続けました。",
+  "0.3.0 已在 App Store 发布，是当前公开版本；0.2.1 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。0.1.0 建立首个完整体验，0.1.1 集中完善本地化与系统组件稳定性。": "0.3.0は現在のApp Store公開版です。0.2.1は前の公開版で、0.2.0は一杯ごとの記録など主要機能の基盤です。0.1.0で最初の体験を完成させ、0.1.1ではローカライズとシステム機能の安定性を改善しました。",
+  "已经见面，也想继续听见你的声音": "公開後も、ぜひ声をお聞かせください",
+  "水滴伙伴支持中心：0.3.0 下载、提醒、iCloud 同步、纪念卡、联系邮箱与隐私政策。": "Water Buddyサポート：0.3.0のダウンロード、リマインダー、iCloud同期、記念カード、連絡先、プライバシーポリシー。",
+  "0.3.0 已在 App Store 发布。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "0.3.0をApp Storeで公開しました。問題や提案、Water Buddyへのご連絡はこちらからどうぞ。",
+  "可以。0.3.0 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "はい。0.3.0はApp Storeで公開されており、このサイトのボタンから無料でダウンロードできます。",
+  "0.3.0 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.3.0 公開済み · 現在のApp Store版 · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
+Object.assign(siteTranslations.ko, {
+  "水滴伙伴 0.3.0 已在 App Store 发布：新增可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享。": "Water Buddy 0.3.0이 App Store에 출시되었습니다. 선택형 iCloud 비공개 동기화, 유연한 알림, 장기 마일스톤, 기기에서 만드는 기념 카드 공유가 추가되었습니다.",
+  "0.3.0 已在 App Store 发布。可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享，让记录自然延续。": "0.3.0이 App Store에 출시되었습니다. 선택형 iCloud 비공개 동기화, 유연한 알림, 장기 마일스톤, 기기 내 기념 카드 공유로 기록을 자연스럽게 이어 갈 수 있습니다.",
+  "0.3.0 已在 App Store 发布": "0.3.0 App Store 출시",
+  "了解 0.3.0": "0.3.0 살펴보기",
+  "0.3.0 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.3.0 출시 · App Store에서 무료 · 중국어, 영어, 일본어, 한국어 지원",
+  "0.3.0 新能力": "0.3.0의 새로운 기능",
+  "0.3.0 已在 App Store 发布。": "0.3.0이 App Store에 출시되었습니다.",
+  "现在可以在 App Store 免费下载 0.3.0，也欢迎通过 TestFlight 抢先体验后续更新。": "App Store에서 0.3.0을 무료로 다운로드하거나 TestFlight에서 다음 업데이트를 먼저 만나 보세요.",
+  "水滴伙伴更新日志：0.3.0 已在 App Store 发布，带来可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享。": "Water Buddy 변경 기록: 0.3.0이 App Store에 출시되었습니다. 선택형 iCloud 비공개 동기화, 유연한 알림, 장기 마일스톤, 기기 내 기념 카드 공유를 제공합니다.",
+  "水滴伙伴 0.3.0 已在 App Store 发布：可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享现已可用。": "Water Buddy 0.3.0이 App Store에 출시되었습니다. 선택형 iCloud 비공개 동기화, 유연한 알림, 장기 마일스톤, 기기 내 기념 카드 공유를 사용할 수 있습니다.",
+  "水滴伙伴 0.3.0 已在 App Store 发布。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。": "Water Buddy 0.3.0이 App Store에 출시되었습니다. 일상 사용에 실제로 영향을 주는 기능과 경험 업데이트만 소개합니다.",
+  "查看 0.3.0 变化": "0.3.0 변경 사항 보기",
+  "0.3.0 App Store 发布状态": "0.3.0 App Store 출시 상태",
+  "当前 App Store 版本": "현재 App Store 버전",
+  "0.3.0 已在 App Store 发布，是当前 App Store 公开版本。": "0.3.0이 App Store에 출시되었으며 현재 공개 버전입니다.",
+  "App Store 当前公开版本 · Build 77": "현재 App Store 공개 버전 · Build 77",
+  "上一版本": "이전 버전",
+  "上一公开版本": "이전 공개 버전",
+  "0.2.1 是上一公开版本的稳定性更新，延续 0.2.0 的逐杯记录、水杯、历史、奖励与支持作者能力，并继续修复问题和改善体验。": "0.2.1은 이전 공개 버전의 안정성 업데이트입니다. 0.2.0의 한 잔 단위 기록, 컵, 기록 보기, 보상, 개발자 응원 기능을 유지하며 문제 수정과 경험 개선을 이어 갔습니다.",
+  "0.3.0 已在 App Store 发布，是当前公开版本；0.2.1 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。0.1.0 建立首个完整体验，0.1.1 集中完善本地化与系统组件稳定性。": "0.3.0은 현재 App Store 공개 버전입니다. 0.2.1은 이전 공개 버전이며, 0.2.0은 한 잔 단위 기록 등 핵심 기능의 기반입니다. 0.1.0은 첫 완전한 경험을 만들었고 0.1.1은 현지화와 시스템 기능 안정성을 개선했습니다.",
+  "已经见面，也想继续听见你的声音": "출시 후에도 여러분의 의견을 기다립니다",
+  "水滴伙伴支持中心：0.3.0 下载、提醒、iCloud 同步、纪念卡、联系邮箱与隐私政策。": "Water Buddy 지원: 0.3.0 다운로드, 알림, iCloud 동기화, 기념 카드, 문의 이메일, 개인정보 처리방침.",
+  "0.3.0 已在 App Store 发布。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "0.3.0이 App Store에 출시되었습니다. 문제나 제안이 있거나 Water Buddy에 인사를 전하고 싶다면 여기에서 연락할 수 있습니다.",
+  "可以。0.3.0 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "네. 0.3.0은 App Store에 출시되었으며 이 사이트의 버튼을 통해 무료로 다운로드할 수 있습니다.",
+  "0.3.0 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.3.0 출시 · 현재 App Store 버전 · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
 const languageTrigger = document.querySelector("[data-language-trigger]");
 const languageMenu = document.querySelector("[data-language-menu]");
 const languageOptions = [...document.querySelectorAll("[data-language-option]")];
