@@ -18,7 +18,7 @@
 - Core features: daily hydration logging, daily goals, interval or fixed-time reminders with selected weekdays and quiet hours, optional after-Focus hydration reminders, Home Screen and Lock Screen widgets, Live Activity, Apple Watch logging/sync, cumulative milestones and local keepsake sharing, seven appearance themes, and in-app language switching
 - 0.2.0 feature focus: per-cup timeline, backfill/edit/delete for individual records, custom cups with 24 playful cup styles, week/month/year history, lightweight reward stamps and stamp album, reminder windows, unified record path for widgets/Watch/notification actions, and optional StoreKit consumable purchases for supporting development
 - Account: not required
-- Hydration data: local-first in the device/App Group database; optional user-enabled CloudKit Private Database sync covers per-cup records, cups, the current daily goal, daily reward stamps, and permanent milestone unlocks
+- Hydration data: local-first in the device/App Group database; optional user-enabled CloudKit Private Database sync covers per-cup records, cups, daily reward stamps, and permanent milestone unlocks
 - Remote SDKs present in the app: Firebase Analytics and Firebase Crashlytics
 - Current custom analytics event: `app_launch`
 - The app does not contain advertising UI or an account system in the inspected source.
