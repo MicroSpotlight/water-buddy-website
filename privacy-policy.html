@@ -68,7 +68,7 @@
           <h2>先说重点</h2>
           <ul>
             <li>逐杯饮水记录、水杯、目标、提醒、奖励、里程碑、主题与语言默认保存在你的 iPhone、Apple Watch 及本机 App Group 中，不会上传给我们或 Firebase。</li>
-            <li>可选 iCloud 同步仅在你主动开启后，把逐杯记录、水杯、每日印章、里程碑和四类非健康偏好同步到你自己的 Apple iCloud 私有数据库。</li>
+            <li>可选 iCloud 同步仅在你主动开启后，把逐杯记录、水杯、当前每日目标、每日印章、里程碑和四类非健康偏好同步到你自己的 Apple iCloud 私有数据库。</li>
             <li>App 不需要注册或登录，不展示第三方广告，也不将数据用于跨 App 或跨网站追踪。</li>
             <li>Firebase Analytics 会处理 App 使用事件；Firebase Crashlytics 会在崩溃时处理诊断数据。</li>
             <li>可选的“支持作者”App 内购买由 Apple 通过 StoreKit 处理，我们不会收到你的 Apple ID、付款卡号或账单信息。</li>
@@ -96,10 +96,11 @@
           <ul>
             <li>逐杯饮水记录及其编辑或软删除状态；</li>
             <li>自定义水杯、归档状态和当前水杯选择；</li>
+            <li>当前每日目标；</li>
             <li>每日最高奖励印章和永久里程碑收藏；</li>
             <li>主题、App 内语言、外观模式和首页布局标识；这些偏好使用与饮水记录隔离的 allowlist Zone。</li>
           </ul>
-          <p>App 不会把整个本机数据库上传到 iCloud，也不会同步目标、提醒排程、通知权限、Live Activity 或其他未列出的偏好。饮水记录与四类偏好使用相互隔离的 Zone、游标和重试队列；删除饮水数据的 iCloud 副本不会删除偏好 Zone。iCloud 数据由 Apple 按你的 Apple ID 和 iCloud 设置处理。根据 Apple 的 CloudKit 说明，生产环境私有数据库内容默认仅由当前用户访问，且不会显示在开发者门户中。关闭同步会保留本机数据，也不会自动删除既有 iCloud 记录；你可以在“隐私与数据”中单独删除 Water Buddy 的饮水数据 iCloud 副本。</p>
+          <p>App 不会把整个本机数据库上传到 iCloud，也不会同步提醒排程、通知权限、Live Activity 或其他未列出的偏好。饮水记录与四类偏好使用相互隔离的 Zone、游标和重试队列；删除饮水数据的 iCloud 副本不会删除偏好 Zone。iCloud 数据由 Apple 按你的 Apple ID 和 iCloud 设置处理。根据 Apple 的 CloudKit 说明，生产环境私有数据库内容默认仅由当前用户访问，且不会显示在开发者门户中。关闭同步会保留本机数据，也不会自动删除既有 iCloud 记录；你可以在“隐私与数据”中单独删除 Water Buddy 的饮水数据 iCloud 副本。</p>
         </section>
 
         <section class="legal-section" id="remote">
