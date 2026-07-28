@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="水滴伙伴更新日志：0.3.0 已在 App Store 发布，带来可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享。">
+  <meta name="description" content="水滴伙伴更新日志：0.3.1 正在准备提交审核，重点优化首次设置、默认提醒、iCloud 恢复与数据管理。">
   <meta name="theme-color" content="#FFF8E8">
   <meta property="og:title" content="更新日志 · 水滴伙伴">
-  <meta property="og:description" content="水滴伙伴 0.3.0 已在 App Store 发布：可选 iCloud 私有同步、灵活提醒、长期里程碑和本机纪念卡分享现已可用。">
+  <meta property="og:description" content="水滴伙伴 0.3.1 已关联 Build 83，正在准备提交审核；当前 App Store 公开版本为 0.3.0。">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/assets/water-buddy-icon.png">
   <title>更新日志 · 水滴伙伴</title>
@@ -60,18 +60,18 @@
       <div class="changelog-hero-copy">
         <div class="badge">Changelog</div>
         <h1>每一版，都让补水更顺一点。</h1>
-        <p>水滴伙伴 0.3.0 已在 App Store 发布。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。</p>
+        <p>水滴伙伴 0.3.1 正在准备提交 App Store 审核，当前公开版本仍为 0.3.0。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。</p>
         <div class="actions">
           <a class="button primary" href="https://apps.apple.com/us/app/water-buddy-hydration/id6789022089" target="_blank" rel="noopener noreferrer">在 App Store 下载</a>
-          <a class="button" href="#version-0-3-0">查看 0.3.0 变化</a>
+          <a class="button" href="#version-0-3-1">预览 0.3.1 变化</a>
         </div>
       </div>
-      <div class="current-build" aria-label="0.3.0 App Store 发布状态">
-        <span>已发布</span>
-        <strong>0.3.0</strong>
-        <b>Build 77</b>
-        <small>当前 App Store 版本</small>
-        <img src="/assets/water-buddy-records.png" width="829" height="1800" alt="逐杯记录时间线是 0.3.0 跨设备同步的本机数据基础">
+      <div class="current-build" aria-label="0.3.1 App Store 准备状态">
+        <span>准备提交</span>
+        <strong>0.3.1</strong>
+        <b>Build 83</b>
+        <small>当前公开版本 0.3.0</small>
+        <img src="/assets/water-buddy-records.png" width="829" height="1800" alt="0.3.1 继续以逐杯记录时间线作为本机事实基础">
       </div>
     </header>
 
@@ -79,10 +79,35 @@
       <div class="release-heading">
         <p class="kicker">版本与构建记录</p>
         <h2 id="release-title">从每一杯可追溯，到积累跨设备延续</h2>
-        <p>0.3.0 已在 App Store 发布，是当前 App Store 公开版本。</p>
+        <p>0.3.1 正在准备提交审核，当前 App Store 公开版本是 0.3.0。</p>
       </div>
 
-      <article class="release-row is-current" id="version-0-3-0">
+      <article class="release-row is-current" id="version-0-3-1">
+        <div class="release-stamp">
+          <span>0.3.1</span>
+          <strong>准备提交</strong>
+          <time datetime="2026-07-28">07.28</time>
+        </div>
+        <div class="release-card">
+          <header class="release-card-heading">
+            <div>
+              <span class="release-state">App Store 已关联 Build 83 · 尚未提交审核</span>
+              <h3>让第一次打开更顺，也让同步更好理解</h3>
+            </div>
+            <span class="release-channel">Onboarding · Defaults · Export · iCloud</span>
+          </header>
+          <p class="release-lead">0.3.1 继续使用可选 CloudKit 私有同步，并把首次设置、默认值、数据导出与删除边界整理得更清楚。</p>
+          <ul class="release-changes">
+            <li><strong>Onboarding 提前恢复</strong><span>第一页面即可主动开启 iCloud，在完成引导前开始恢复逐杯记录、水杯、每日印章和里程碑。</span></li>
+            <li><strong>更合理的初始设置</strong><span>新用户获得 2,000 mL 目标、mL 单位和 200 mL 快捷杯；已有明确设置不会被覆盖。</span></li>
+            <li><strong>默认提醒模板</strong><span>提醒默认展示每天 09:00–21:00、每 30 分钟，只有用户主动开启并允许通知后才会建立排程。</span></li>
+            <li><strong>导出和数据控制</strong><span>支持本机 JSON/CSV 导出，并把清除本机饮水数据与删除 iCloud 副本拆成不同操作和确认。</span></li>
+            <li><strong>同步状态更易理解</strong><span>同步详情用用户可读的语言说明当前状态、待处理数量和重试信息，不展示记录内容或账号标识。</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="release-row" id="version-0-3-0">
         <div class="release-stamp">
           <span>0.3.0</span>
           <strong>已发布</strong>
@@ -301,17 +326,17 @@
 
     <aside class="release-note" aria-label="版本说明">
       <strong>关于这些版本号</strong>
-      <p>0.3.0 已在 App Store 发布，是当前公开版本；0.2.1 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。0.1.0 建立首个完整体验，0.1.1 集中完善本地化与系统组件稳定性。</p>
+      <p>0.3.1 正在准备提交审核，0.3.0 是当前公开版本；0.2.1 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。</p>
     </aside>
 
     <section class="changelog-cta" aria-labelledby="changelog-cta-title">
       <div>
-        <p class="kicker">已经见面，也想继续听见你的声音</p>
-        <h2 id="changelog-cta-title">0.3.0 已在 App Store 发布。</h2>
+        <p class="kicker">准备下一版，也想听见你的声音</p>
+        <h2 id="changelog-cta-title">0.3.1 正在准备提交审核。</h2>
       </div>
       <div class="actions">
         <a class="button primary" href="https://apps.apple.com/us/app/water-buddy-hydration/id6789022089" target="_blank" rel="noopener noreferrer">前往 App Store</a>
-        <a class="button" href="mailto:support@microspotlight.team?subject=Water%20Buddy%200.3.0%20反馈">发送反馈</a>
+        <a class="button" href="mailto:support@microspotlight.team?subject=Water%20Buddy%200.3.1%20反馈">发送反馈</a>
       </div>
     </section>
   </main>
@@ -326,7 +351,7 @@
       </div>
     </div>
   </footer>
-  <script src="/locales.js?v=0.3.0" defer></script>
-  <script src="/site.js?v=0.3.0" defer></script>
+  <script src="/locales.js?v=0.3.1" defer></script>
+  <script src="/site.js?v=0.3.1" defer></script>
 </body>
 </html>
