@@ -48,6 +48,10 @@ npx vercel dev website
 
 Vercel 项目配置保存在本机忽略的 `.vercel/` 中，仓库只跟踪可复用的 `vercel.json`。部署时以 `website/` 为项目根目录。
 
+0.3.1 发布状态官网于 2026-07-29 部署到 Production：
+`dpl_mYsgxpmHRT6kuYbYZyLu2kxDYj1P`，正式域名为
+`https://water-buddy.kitdesk.site`。
+
 `vercel.json` 当前负责：
 
 - 启用 clean URL 并关闭尾斜杠。
