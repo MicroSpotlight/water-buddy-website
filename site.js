@@ -1391,6 +1391,78 @@ Object.assign(siteTranslations.ko, {
   "0.3.1 准备提交 · 当前公开版本 0.3.0 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.3.1 제출 준비 중 · 현재 공개 버전 0.3.0 · Bundle ID: team.MicroSpotlight.WaterBuddy"
 });
 
+Object.assign(siteTranslations.en, {
+  "水滴伙伴 0.3.1 已在 App Store 发布：优化首次设置、默认提醒、iCloud 恢复和数据管理。": "Water Buddy 0.3.1 is now on the App Store, with smoother first-run setup, reminder defaults, iCloud restoration, and data controls.",
+  "0.3.1 已在 App Store 发布，让首次设置更顺，并完善 Onboarding iCloud 恢复、默认提醒、数据导出与删除边界。": "Version 0.3.1 is now on the App Store, with smoother first-run setup, onboarding iCloud restoration, reminder defaults, data export, and clear deletion boundaries.",
+  "0.3.1 已在 App Store 发布": "0.3.1 is now on the App Store",
+  "查看 0.3.1 新内容": "See what’s new in 0.3.1",
+  "0.3.1 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.3.1 released · Free on the App Store · Available in Chinese, English, Japanese, and Korean",
+  "0.3.1 已发布": "0.3.1 released",
+  "0.3.1 延续本机优先与可选同步，让新用户更快开始，也让已有用户更容易恢复和管理自己的数据。": "Version 0.3.1 keeps the local-first, optional-sync foundation so new users can start faster and existing users can restore and manage their data more easily.",
+  "0.3.1 已在 App Store 发布。": "0.3.1 is now on the App Store.",
+  "现在可以在 App Store 免费下载 0.3.1，也欢迎通过 TestFlight 抢先体验后续更新。": "Download 0.3.1 free from the App Store now, or join TestFlight to preview future updates.",
+  "水滴伙伴更新日志：0.3.1 已在 App Store 发布，重点优化首次设置、默认提醒、iCloud 恢复与数据管理。": "Water Buddy changelog: 0.3.1 is now on the App Store, with improved first-run setup, reminder defaults, iCloud restoration, and data controls.",
+  "水滴伙伴 0.3.1 已在 App Store 发布，Build 83 是当前公开版本。": "Water Buddy 0.3.1 is now on the App Store, with build 83 as the current public version.",
+  "水滴伙伴 0.3.1 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。": "Water Buddy 0.3.1 is now on the App Store and is the current public version. This changelog highlights updates that genuinely shape everyday use.",
+  "查看 0.3.1 变化": "See what changed in 0.3.1",
+  "0.3.1 App Store 发布状态": "0.3.1 App Store release status",
+  "0.3.1 已在 App Store 发布，是当前公开版本。": "Version 0.3.1 is now on the App Store and is the current public version.",
+  "App Store 当前公开版本 · Build 83": "Current public App Store version · Build 83",
+  "0.3.1 是当前 App Store 版本；0.3.0 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。": "Version 0.3.1 is the current App Store release, 0.3.0 was the previous public version, and 0.2.0 established core features such as per-cup records.",
+  "水滴伙伴支持中心：0.3.1 下载、默认提醒、iCloud 同步、数据导出、联系邮箱与隐私政策。": "Water Buddy support: 0.3.1 downloads, reminder defaults, iCloud sync, data export, contact email, and privacy policy.",
+  "0.3.1 已在 App Store 发布。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "Version 0.3.1 is now on the App Store. Find help, share a suggestion, or simply say hello here.",
+  "可以。0.3.1 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "Yes. Version 0.3.1 is now on the App Store and is available free through the website’s App Store button.",
+  "0.3.1 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.3.1 released · Current App Store version · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
+Object.assign(siteTranslations.ja, {
+  "水滴伙伴 0.3.1 已在 App Store 发布：优化首次设置、默认提醒、iCloud 恢复和数据管理。": "Water Buddy 0.3.1はApp Storeで配信中です。初期設定、リマインダーの初期値、iCloudからの復元、データ管理を改善しました。",
+  "0.3.1 已在 App Store 发布，让首次设置更顺，并完善 Onboarding iCloud 恢复、默认提醒、数据导出与删除边界。": "0.3.1はApp Storeで配信中です。初期設定、OnboardingでのiCloud復元、リマインダーの初期値、データ書き出し、削除範囲を改善しました。",
+  "0.3.1 已在 App Store 发布": "0.3.1 App Storeで配信中",
+  "查看 0.3.1 新内容": "0.3.1の新機能を見る",
+  "0.3.1 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.3.1 配信中 · App Storeから無料ダウンロード · 中国語、英語、日本語、韓国語に対応",
+  "0.3.1 已发布": "0.3.1 配信中",
+  "0.3.1 延续本机优先与可选同步，让新用户更快开始，也让已有用户更容易恢复和管理自己的数据。": "0.3.1は端末優先・任意同期の仕組みを引き継ぎ、新規ユーザーはすぐに始められ、既存ユーザーはデータを復元・管理しやすくなりました。",
+  "0.3.1 已在 App Store 发布。": "0.3.1はApp Storeで配信中です。",
+  "现在可以在 App Store 免费下载 0.3.1，也欢迎通过 TestFlight 抢先体验后续更新。": "App Storeから0.3.1を無料でダウンロードできます。TestFlightでは今後の更新も先行体験できます。",
+  "水滴伙伴更新日志：0.3.1 已在 App Store 发布，重点优化首次设置、默认提醒、iCloud 恢复与数据管理。": "Water Buddy更新履歴：0.3.1はApp Storeで配信中です。初期設定、リマインダーの初期値、iCloud復元、データ管理を改善しました。",
+  "水滴伙伴 0.3.1 已在 App Store 发布，Build 83 是当前公开版本。": "Water Buddy 0.3.1はApp Storeで配信中で、Build 83が現在の公開版です。",
+  "水滴伙伴 0.3.1 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。": "Water Buddy 0.3.1はApp Storeで配信中の現在の公開版です。日々の使い心地に本当に影響する更新だけを紹介します。",
+  "查看 0.3.1 变化": "0.3.1の変更を見る",
+  "0.3.1 App Store 发布状态": "0.3.1 App Store配信状況",
+  "0.3.1 已在 App Store 发布，是当前公开版本。": "0.3.1はApp Storeで配信中の現在の公開版です。",
+  "App Store 当前公开版本 · Build 83": "現在のApp Store公開版 · Build 83",
+  "0.3.1 是当前 App Store 版本；0.3.0 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。": "0.3.1が現在のApp Store版です。0.3.0は前の公開版で、0.2.0は一杯ごとの記録など主要機能の基盤です。",
+  "水滴伙伴支持中心：0.3.1 下载、默认提醒、iCloud 同步、数据导出、联系邮箱与隐私政策。": "Water Buddyサポート：0.3.1のダウンロード、リマインダーの初期値、iCloud同期、データ書き出し、連絡先、プライバシーポリシー。",
+  "0.3.1 已在 App Store 发布。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "0.3.1はApp Storeで配信中です。問題や提案、Water Buddyへのご連絡はこちらからどうぞ。",
+  "可以。0.3.1 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "はい。0.3.1はApp Storeで配信中で、サイトのボタンから無料でダウンロードできます。",
+  "0.3.1 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.3.1 配信中 · 現在のApp Store版 · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
+Object.assign(siteTranslations.ko, {
+  "水滴伙伴 0.3.1 已在 App Store 发布：优化首次设置、默认提醒、iCloud 恢复和数据管理。": "Water Buddy 0.3.1이 App Store에 출시되었습니다. 첫 설정, 기본 알림, iCloud 복원, 데이터 관리를 개선했습니다.",
+  "0.3.1 已在 App Store 发布，让首次设置更顺，并完善 Onboarding iCloud 恢复、默认提醒、数据导出与删除边界。": "0.3.1이 App Store에 출시되었습니다. 첫 설정, Onboarding iCloud 복원, 기본 알림, 데이터 내보내기와 삭제 범위를 개선했습니다.",
+  "0.3.1 已在 App Store 发布": "0.3.1 App Store 출시",
+  "查看 0.3.1 新内容": "0.3.1 새로운 기능 보기",
+  "0.3.1 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.3.1 출시 · App Store에서 무료 다운로드 · 중국어, 영어, 일본어, 한국어 지원",
+  "0.3.1 已发布": "0.3.1 출시",
+  "0.3.1 延续本机优先与可选同步，让新用户更快开始，也让已有用户更容易恢复和管理自己的数据。": "0.3.1은 기기 우선 및 선택형 동기화를 이어 가며 신규 사용자는 더 빠르게 시작하고 기존 사용자는 데이터를 더 쉽게 복원하고 관리할 수 있습니다.",
+  "0.3.1 已在 App Store 发布。": "0.3.1이 App Store에 출시되었습니다.",
+  "现在可以在 App Store 免费下载 0.3.1，也欢迎通过 TestFlight 抢先体验后续更新。": "이제 App Store에서 0.3.1을 무료로 다운로드할 수 있으며 TestFlight에서 향후 업데이트를 미리 체험할 수도 있습니다.",
+  "水滴伙伴更新日志：0.3.1 已在 App Store 发布，重点优化首次设置、默认提醒、iCloud 恢复与数据管理。": "Water Buddy 변경 기록: 0.3.1이 App Store에 출시되었으며 첫 설정, 기본 알림, iCloud 복원, 데이터 관리를 개선했습니다.",
+  "水滴伙伴 0.3.1 已在 App Store 发布，Build 83 是当前公开版本。": "Water Buddy 0.3.1이 App Store에 출시되었으며 Build 83이 현재 공개 버전입니다.",
+  "水滴伙伴 0.3.1 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的功能与体验升级。": "Water Buddy 0.3.1이 App Store에 출시되었으며 현재 공개 버전입니다. 일상 사용에 실제로 영향을 주는 기능과 경험 업데이트만 소개합니다.",
+  "查看 0.3.1 变化": "0.3.1 변경 사항 보기",
+  "0.3.1 App Store 发布状态": "0.3.1 App Store 출시 상태",
+  "0.3.1 已在 App Store 发布，是当前公开版本。": "0.3.1이 App Store에 출시되었으며 현재 공개 버전입니다.",
+  "App Store 当前公开版本 · Build 83": "현재 App Store 공개 버전 · Build 83",
+  "0.3.1 是当前 App Store 版本；0.3.0 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。": "0.3.1이 현재 App Store 버전입니다. 0.3.0은 이전 공개 버전이며 0.2.0은 한 잔 단위 기록 등 핵심 기능의 기반입니다.",
+  "水滴伙伴支持中心：0.3.1 下载、默认提醒、iCloud 同步、数据导出、联系邮箱与隐私政策。": "Water Buddy 지원: 0.3.1 다운로드, 기본 알림, iCloud 동기화, 데이터 내보내기, 문의 이메일, 개인정보 처리방침.",
+  "0.3.1 已在 App Store 发布。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "0.3.1이 App Store에 출시되었습니다. 문제나 제안이 있거나 Water Buddy에 인사를 전하고 싶다면 여기에서 연락해 주세요.",
+  "可以。0.3.1 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "네. 0.3.1이 App Store에 출시되었으며 웹사이트 버튼을 통해 무료로 다운로드할 수 있습니다.",
+  "0.3.1 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.3.1 출시 · 현재 App Store 버전 · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
 const languageTrigger = document.querySelector("[data-language-trigger]");
 const languageMenu = document.querySelector("[data-language-menu]");
 const languageOptions = [...document.querySelectorAll("[data-language-option]")];
