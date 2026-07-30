@@ -1,6 +1,6 @@
 # Water Buddy · Product Facts
 
-> Verified: 2026-07-29
+> Verified: 2026-07-30
 > Sources: local repository release notes and App Store submission material; `docs/releases/0.2.0.md`; `docs/releases/0.3.0.md`; `docs/releases/0.3.1.md`; `docs/releases/0.4.0.md`; `app-store/0.3.1/README.md`; `app-store/0.4.0/README.md`; `app-store/metadata/submission.md`; `app-store/metadata/version-update.md`; `app-store/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`; `https://testflight.apple.com/join/rqmHh69r`
 
 - Product: 水滴伙伴 / Water Buddy
@@ -14,8 +14,10 @@
   or publicly released / 已在 App Store Connect 准备，尚未提审或公开发布
 - App Store: `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`
 - Current public App Store version: 0.3.1, free to download
-- Next prepared version: 0.4.0, adding Siri/App Shortcuts and iOS 18 Controls;
-  public website release claims must wait until App Store distribution.
+- Next prepared version: 0.4.0, adding Siri/App Shortcuts, three iOS 18
+  Controls, configurable sips, retry/short undo feedback, recent results,
+  time-based recommendations, and automation guides; public website release
+  claims must wait until App Store distribution.
 - Public beta: `https://testflight.apple.com/join/rqmHh69r`
 - The official invitation page identifies the beta as “Water Buddy - 水滴伙伴” and lists it as available on iOS.
 - Apple documents public TestFlight links as a supported way to invite external beta testers.
@@ -33,9 +35,10 @@
 ## Release milestones
 
 - Version 0.4.0 · Prepared, not submitted or released: five Siri/App Shortcuts,
-  two iOS 18 Controls for Control Center and the Lock Screen, and supported
-  Action Button entry points. The public website must continue to present
-  0.3.1 as current until App Store distribution.
+  three iOS 18 Controls for Control Center and the Lock Screen, configurable
+  sips, quick-action recovery, recent results, time-based recommendations,
+  automation guides, and supported Action Button entry points. The public
+  website must continue to present 0.3.1 as current until App Store distribution.
 
 - Version 0.3.1 · Current App Store version / 当前 App Store 版本 · Build 83: onboarding iCloud entry for earlier restoration, sensible initial goal/unit/cup defaults, a 09:00–21:00 30-minute reminder template that activates only after user consent, local JSON/CSV export, separate local/iCloud deletion, and user-readable sync details.
 
