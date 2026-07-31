@@ -1,20 +1,22 @@
 # Water Buddy · Product Facts
 
-> Verified: 2026-07-30
+> Verified: 2026-07-31
 > Sources: local repository release notes and App Store submission material; `docs/releases/0.2.0.md`; `docs/releases/0.3.0.md`; `docs/releases/0.3.1.md`; `docs/releases/0.4.0.md`; `app-store/0.3.1/README.md`; `app-store/0.4.0/README.md`; `app-store/metadata/submission.md`; `app-store/metadata/version-update.md`; `app-store/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`; `https://testflight.apple.com/join/rqmHh69r`
 
 - Product: 水滴伙伴 / Water Buddy
 - Platform: iOS
-- Website release focus: 0.3.1, released on the App Store
+- Website release focus: 0.4.0 submission candidate, while 0.3.1 remains the
+  current public App Store version
 - 0.2.0 status for website copy: released on the App Store / 已在 App Store 发布
 - 0.2.1 status for website copy: previous public App Store version / 上一公开版本
 - 0.3.0 status for website copy: previous public App Store version / 上一公开版本
 - 0.3.1 status for website copy: current public App Store version / 当前公开版本
-- 0.4.0 status for website copy: prepared in App Store Connect, not submitted
-  or publicly released / 已在 App Store Connect 准备，尚未提审或公开发布
+- 0.4.0 status for website copy: build 91 is `VALID` and attached in App Store
+  Connect, but the version is not submitted or publicly released / Build 91
+  已绑定，尚未提审或公开发布
 - App Store: `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`
 - Current public App Store version: 0.3.1, free to download
-- Next prepared version: 0.4.0, adding Siri/App Shortcuts, three iOS 18
+- Next prepared version: 0.4.0, adding six Siri/App Shortcuts, three iOS 18
   Controls, configurable sips, retry/short undo feedback, recent results,
   time-based recommendations, and automation guides; public website release
   claims must wait until App Store distribution.
@@ -31,10 +33,13 @@
 - The app does not contain advertising UI or an account system in the inspected source.
 - 0.3.0 release build: build 77 (`5784fe71-1b85-45e9-8984-5093555f0764`), processed as `VALID`, attached to App Store version 0.3.0, and verified as `READY_FOR_SALE` on 2026-07-26.
 - 0.3.1 release build: build 83 (`4e3ea8ee-d6b2-44ce-b990-a2eac915e772`), processed as `VALID`, attached to App Store version 0.3.1 on 2026-07-28, and re-read as `READY_FOR_DISTRIBUTION` on 2026-07-29.
+- 0.4.0 candidate build: build 91 (`688a6216-74ce-4c0c-aeed-3d4fc489e21f`),
+  processed as `VALID`, exempt from non-exempt encryption, and attached to App
+  Store version 0.4.0 on 2026-07-31. No review submission has been created.
 
 ## Release milestones
 
-- Version 0.4.0 · Prepared, not submitted or released: five Siri/App Shortcuts,
+- Version 0.4.0 · Build 91 attached, not submitted or released: six Siri/App Shortcuts,
   three iOS 18 Controls for Control Center and the Lock Screen, configurable
   sips, quick-action recovery, recent results, time-based recommendations,
   automation guides, and supported Action Button entry points. The public
