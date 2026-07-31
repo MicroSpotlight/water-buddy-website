@@ -52,6 +52,10 @@ Vercel 项目配置保存在本机忽略的 `.vercel/` 中，仓库只跟踪可�
 `dpl_mYsgxpmHRT6kuYbYZyLu2kxDYj1P`，正式域名为
 `https://water-buddy.kitdesk.site`。
 
+0.4.0 候选 Build 91 状态官网于 2026-07-31 部署到 Production：
+`dpl_HZFumKQMf2siSW5zMb1CpGM5rAwh`，对应官网内容提交 `48f6cb3`。
+正式域名继续使用 `https://water-buddy.kitdesk.site`。
+
 `vercel.json` 当前负责：
 
 - 启用 clean URL 并关闭尾斜杠。
