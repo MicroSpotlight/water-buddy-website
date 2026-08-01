@@ -1607,6 +1607,84 @@ Object.assign(siteTranslations.ko, {
   "mailto:support@microspotlight.team?subject=Water%20Buddy%200.4.0%20反馈": "mailto:support@microspotlight.team?subject=Water%20Buddy%200.4.0%20피드백"
 });
 
+Object.assign(siteTranslations.en, {
+  "水滴伙伴 0.4.0 已在 App Store 发布：新增 Siri、快捷指令、系统控制与更可靠的快速记录反馈。": "Water Buddy 0.4.0 is now on the App Store, with Siri, Shortcuts, system controls, and more reliable quick-log feedback.",
+  "0.4.0 已在 App Store 发布，让记录一杯、重复上次容量、查看今日进度与下次提醒延伸到更多 Apple 系统入口。": "Version 0.4.0 is now on the App Store, bringing cup logging, Repeat Last Amount, today’s progress, and the next reminder to more Apple system entry points.",
+  "0.4.0 已在 App Store 发布": "0.4.0 is now on the App Store",
+  "查看 0.4.0 新功能": "See what’s new in 0.4.0",
+  "0.4.0 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.4.0 released · Free on the App Store · Chinese, English, Japanese, and Korean",
+  "0.4.0 正式发布": "0.4.0 is now available",
+  "0.4.0 已在 App Store 发布。": "0.4.0 is now on the App Store.",
+  "现在可在 App Store 免费下载 0.4.0，也可通过 TestFlight 关注后续测试版本。": "Version 0.4.0 is now free on the App Store, and TestFlight offers access to available future betas.",
+  "水滴伙伴更新日志：0.4.0 已在 App Store 发布，新增 Siri、快捷指令、系统控制与快速记录恢复。": "Water Buddy changelog: 0.4.0 is now on the App Store, adding Siri, Shortcuts, system controls, and quick-log recovery.",
+  "水滴伙伴 0.4.0 已在 App Store 发布，是当前公开版本。": "Water Buddy 0.4.0 is now on the App Store and is the current public version.",
+  "水滴伙伴 0.4.0 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的升级。": "Water Buddy 0.4.0 is now on the App Store and is the current public version. This changelog highlights upgrades that meaningfully affect everyday use.",
+  "查看 0.4.0 变化": "See what changed in 0.4.0",
+  "0.4.0 App Store 发布状态": "0.4.0 App Store release status",
+  "当前 App Store 版本": "Current App Store version",
+  "0.4.0 已在 App Store 发布，是当前公开版本。": "Version 0.4.0 is now on the App Store and is the current public version.",
+  "App Store 当前公开版本 · Build 92": "Current public App Store version · Build 92",
+  "上一公开版本 · Build 83": "Previous public version · Build 83",
+  "0.4.0 是当前 App Store 版本；0.3.1 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。": "Version 0.4.0 is current on the App Store. Version 0.3.1 is the previous public release, while 0.2.0 established core features such as per-cup records.",
+  "水滴伙伴支持中心：0.4.0 下载、快捷记录、默认提醒、iCloud 同步、数据导出、联系邮箱与隐私政策。": "Water Buddy support: 0.4.0 downloads, quick logging, reminder defaults, iCloud sync, data export, contact email, and privacy policy.",
+  "0.4.0 已在 App Store 发布。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "Version 0.4.0 is now on the App Store. Find help, share a suggestion, or simply say hello here.",
+  "0.4.0 现在可以下载吗？": "Can I download 0.4.0 now?",
+  "可以。0.4.0 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "Yes. Version 0.4.0 is now on the App Store and is available free through the website’s App Store button.",
+  "0.4.0 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.4.0 released · Current App Store version · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
+Object.assign(siteTranslations.ja, {
+  "水滴伙伴 0.4.0 已在 App Store 发布：新增 Siri、快捷指令、系统控制与更可靠的快速记录反馈。": "Water Buddy 0.4.0をApp Storeで公開しました。Siri、ショートカット、システムコントロール、より確実なクイック記録フィードバックを追加しています。",
+  "0.4.0 已在 App Store 发布，让记录一杯、重复上次容量、查看今日进度与下次提醒延伸到更多 Apple 系统入口。": "0.4.0をApp Storeで公開しました。一杯の記録、前回の量の再記録、今日の進捗、次のリマインダーを、より多くのAppleシステム入口から利用できます。",
+  "0.4.0 已在 App Store 发布": "0.4.0をApp Storeで公開",
+  "查看 0.4.0 新功能": "0.4.0の新機能を見る",
+  "0.4.0 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.4.0 公開済み · App Storeで無料 · 中国語、英語、日本語、韓国語に対応",
+  "0.4.0 正式发布": "0.4.0 正式公開",
+  "0.4.0 已在 App Store 发布。": "0.4.0をApp Storeで公開しました。",
+  "现在可在 App Store 免费下载 0.4.0，也可通过 TestFlight 关注后续测试版本。": "0.4.0はApp Storeから無料でダウンロードできます。今後のテスト版はTestFlightでも確認できます。",
+  "水滴伙伴更新日志：0.4.0 已在 App Store 发布，新增 Siri、快捷指令、系统控制与快速记录恢复。": "Water Buddy更新履歴：0.4.0をApp Storeで公開し、Siri、ショートカット、システムコントロール、クイック記録の復旧を追加しました。",
+  "水滴伙伴 0.4.0 已在 App Store 发布，是当前公开版本。": "Water Buddy 0.4.0をApp Storeで公開しました。現在の公開版です。",
+  "水滴伙伴 0.4.0 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的升级。": "Water Buddy 0.4.0をApp Storeで公開しました。現在の公開版です。日々の使い心地に本当に影響する更新だけを紹介します。",
+  "查看 0.4.0 变化": "0.4.0の変更を見る",
+  "0.4.0 App Store 发布状态": "0.4.0 App Store公開状況",
+  "当前 App Store 版本": "現在のApp Store版",
+  "0.4.0 已在 App Store 发布，是当前公开版本。": "0.4.0をApp Storeで公開しました。現在の公開版です。",
+  "App Store 当前公开版本 · Build 92": "現在のApp Store公開版 · Build 92",
+  "上一公开版本 · Build 83": "前の公開版 · Build 83",
+  "0.4.0 是当前 App Store 版本；0.3.1 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。": "0.4.0が現在のApp Store版です。0.3.1は前の公開版で、0.2.0は一杯ごとの記録など主要機能の基盤です。",
+  "水滴伙伴支持中心：0.4.0 下载、快捷记录、默认提醒、iCloud 同步、数据导出、联系邮箱与隐私政策。": "Water Buddyサポート：0.4.0のダウンロード、クイック記録、リマインダーの初期値、iCloud同期、データ書き出し、連絡先、プライバシーポリシー。",
+  "0.4.0 已在 App Store 发布。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "0.4.0はApp Storeで配信中です。問題や提案、Water Buddyへのご連絡はこちらからどうぞ。",
+  "0.4.0 现在可以下载吗？": "0.4.0は今ダウンロードできますか？",
+  "可以。0.4.0 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "はい。0.4.0はApp Storeで配信中で、サイトのボタンから無料でダウンロードできます。",
+  "0.4.0 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.4.0 配信中 · 現在のApp Store版 · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
+Object.assign(siteTranslations.ko, {
+  "水滴伙伴 0.4.0 已在 App Store 发布：新增 Siri、快捷指令、系统控制与更可靠的快速记录反馈。": "Water Buddy 0.4.0이 App Store에 출시되었습니다. Siri, 단축어, 시스템 제어와 더 안정적인 빠른 기록 피드백을 추가했습니다.",
+  "0.4.0 已在 App Store 发布，让记录一杯、重复上次容量、查看今日进度与下次提醒延伸到更多 Apple 系统入口。": "0.4.0이 App Store에 출시되어 한 잔 기록, 마지막 용량 반복, 오늘의 진행률과 다음 알림을 더 많은 Apple 시스템 진입점에서 사용할 수 있습니다.",
+  "0.4.0 已在 App Store 发布": "0.4.0 App Store 출시",
+  "查看 0.4.0 新功能": "0.4.0의 새로운 기능 보기",
+  "0.4.0 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.4.0 출시 · App Store에서 무료 · 중국어, 영어, 일본어, 한국어 지원",
+  "0.4.0 正式发布": "0.4.0 정식 출시",
+  "0.4.0 已在 App Store 发布。": "0.4.0이 App Store에 출시되었습니다.",
+  "现在可在 App Store 免费下载 0.4.0，也可通过 TestFlight 关注后续测试版本。": "이제 App Store에서 0.4.0을 무료로 받을 수 있으며 TestFlight에서 향후 제공되는 테스트 버전을 확인할 수 있습니다.",
+  "水滴伙伴更新日志：0.4.0 已在 App Store 发布，新增 Siri、快捷指令、系统控制与快速记录恢复。": "Water Buddy 변경 기록: 0.4.0이 App Store에 출시되었으며 Siri, 단축어, 시스템 제어와 빠른 기록 복구를 추가했습니다.",
+  "水滴伙伴 0.4.0 已在 App Store 发布，是当前公开版本。": "Water Buddy 0.4.0이 App Store에 출시되었으며 현재 공개 버전입니다.",
+  "水滴伙伴 0.4.0 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的升级。": "Water Buddy 0.4.0이 App Store에 출시되었으며 현재 공개 버전입니다. 일상 사용에 실제로 영향을 주는 업그레이드만 소개합니다.",
+  "查看 0.4.0 变化": "0.4.0 변경 사항 보기",
+  "0.4.0 App Store 发布状态": "0.4.0 App Store 출시 상태",
+  "当前 App Store 版本": "현재 App Store 버전",
+  "0.4.0 已在 App Store 发布，是当前公开版本。": "0.4.0이 App Store에 출시되었으며 현재 공개 버전입니다.",
+  "App Store 当前公开版本 · Build 92": "현재 App Store 공개 버전 · Build 92",
+  "上一公开版本 · Build 83": "이전 공개 버전 · Build 83",
+  "0.4.0 是当前 App Store 版本；0.3.1 是上一公开版本，0.2.0 是逐杯记录等核心能力的功能基础。": "0.4.0이 현재 App Store 버전입니다. 0.3.1은 이전 공개 버전이며 0.2.0은 한 잔 단위 기록 등 핵심 기능의 기반입니다.",
+  "水滴伙伴支持中心：0.4.0 下载、快捷记录、默认提醒、iCloud 同步、数据导出、联系邮箱与隐私政策。": "Water Buddy 지원: 0.4.0 다운로드, 빠른 기록, 기본 알림, iCloud 동기화, 데이터 내보내기, 문의 이메일, 개인정보 처리방침.",
+  "0.4.0 已在 App Store 发布。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "0.4.0이 App Store에 출시되었습니다. 문제나 제안이 있거나 Water Buddy에 인사를 전하고 싶다면 여기에서 연락해 주세요.",
+  "0.4.0 现在可以下载吗？": "지금 0.4.0을 다운로드할 수 있나요?",
+  "可以。0.4.0 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "네. 0.4.0이 App Store에 출시되었으며 웹사이트 버튼을 통해 무료로 다운로드할 수 있습니다.",
+  "0.4.0 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.4.0 출시 · 현재 App Store 버전 · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
 const languageTrigger = document.querySelector("[data-language-trigger]");
 const languageMenu = document.querySelector("[data-language-menu]");
 const languageOptions = [...document.querySelectorAll("[data-language-option]")];

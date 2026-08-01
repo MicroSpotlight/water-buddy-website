@@ -50,6 +50,6 @@
 - Avoid invented social proof, health promises, and aggressive urgency.
 
 ## Completeness notes
-- The official App Store URL is `https://apps.apple.com/us/app/water-buddy-hydration/id6789022089`; the primary website CTA sends visitors to the App Store.
+- The official App Store URL is `https://apps.apple.com/us/app/water-buddy-drink-reminder/id6789022089`; the primary website CTA sends visitors to the App Store.
 - The public beta URL remains `https://testflight.apple.com/join/rqmHh69r` for previewing later updates.
 - The marketing site now uses a current Simulator capture for the hero and current Web Widget Studio captures for widget coverage. No invented product screens are used.
