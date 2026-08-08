@@ -7,19 +7,19 @@
 
 ### Logo
 - Primary: `../assets/water-buddy-icon.png` (1024 × 1024)
-- Source: `../../water-buddy-app-icon.svg.png`
+- Source: [product repository app icon](https://github.com/MicroSpotlight/water-buddy/blob/main/water-buddy-app-icon.svg.png)
 - Use: navigation lockup, favicon, and product signature
 - Preserve the square crop, ink outline, and original colors.
 
 ### UI screenshot
 - Onboarding: `../assets/water-buddy-onboarding.png` (829 × 1800)
-- Source: `../../designs/onboarding/assets/ios-pages.png`
+- Source: [product repository onboarding design](https://github.com/MicroSpotlight/water-buddy/blob/main/designs/onboarding/assets/ios-pages.png)
 - 0.2.0 home: `../assets/water-buddy-home.png` (829 × 1800)
 - 0.2.0 timeline: `../assets/water-buddy-records.png` (829 × 1800)
 - 0.2.0 cups: `../assets/water-buddy-cups.png` (829 × 1800)
 - 0.2.0 widgets: `../assets/water-buddy-widgets-home-20260720.png` (829 × 1800)
 - 0.2.0 Live Activity / Lock Screen: `../assets/water-buddy-widgets-lock-20260720.png` (829 × 1800)
-- Source: `../../app-store/screenshots/source/iphone/zh-Hans/`
+- Source: [product repository App Store screenshots](https://github.com/MicroSpotlight/water-buddy/tree/main/app-store/screenshots/source/iphone/zh-Hans)
 - Use: hero product preview, 0.2.0 records/cups feature screenshots, widget section, and changelog current-version preview
 - These are repository-owned captures and contain no user data.
 

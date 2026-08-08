@@ -1,11 +1,11 @@
 # Water Buddy Website
 
-`website/` 是水滴伙伴的无构建依赖静态官网，由 Vercel 托管。运行时文件保持扁平，方便 clean URL、CSP 和静态资源路径保持简单稳定。
+本仓库是水滴伙伴的无构建依赖静态官网，通过 GitHub Pages 发布，并以 Git submodule 形式接入[产品主仓库](https://github.com/MicroSpotlight/water-buddy)。运行时文件保持扁平，方便 clean URL、CSP 和静态资源路径保持简单稳定。
 
 ## 目录结构
 
 ```text
-website/
+.
 ├── index.html                 # 产品首页：/
 ├── changelog.html             # TestFlight 更新日志：/changelog
 ├── support.html               # 支持页面：/support
@@ -18,6 +18,7 @@ website/
 │   ├── brand-spec.md
 │   └── product-facts.md
 ├── robots.txt
+├── CNAME                      # GitHub Pages 自定义域名
 ├── vercel.json                # Clean URL、安全响应头与缓存策略
 ├── .vercelignore
 └── AGENTS.md
@@ -28,7 +29,7 @@ website/
 要按 Vercel clean URL 和 `vercel.json` 响应头预览，在仓库根目录运行：
 
 ```sh
-npx vercel dev website
+npx vercel dev .
 ```
 
 首次运行可能需要登录并关联 Vercel 项目。使用普通 HTTP Server 只能检查静态文件，无法正确模拟 `/support`、`/privacy-policy` 等 clean URL；也不要使用 `file://` 验证，因为页面采用站点根路径。
@@ -37,16 +38,19 @@ npx vercel dev website
 
 - App 能力、版本和隐私事实：`docs/product-facts.md`
 - 官网视觉规范与图片来源：`docs/brand-spec.md`
-- App Store 提交文案：`../app-store/metadata/submission.md`
-- App Store 提审状态：`../app-store/app-store-connect-upload-status.md`
+- App Store 提交文案：[主仓库 submission.md](https://github.com/MicroSpotlight/water-buddy/blob/main/app-store/metadata/submission.md)
+- App Store 提审状态：[主仓库上传状态](https://github.com/MicroSpotlight/water-buddy/blob/main/app-store/app-store-connect-upload-status.md)
 - 正式隐私与支持入口：`privacy-policy.html`、`support.html`
-- 设计原型：`../designs/`
+- 设计原型：[主仓库 designs](https://github.com/MicroSpotlight/water-buddy/tree/main/designs)
 
-`app-store/legal/` 中的 HTML 是本地跳转存档，正式公开内容以本目录页面为准。
+产品主仓库 `app-store/legal/` 中的 HTML 是本地跳转存档，正式公开内容以本仓库页面为准。
 
 ## 部署
 
-Vercel 项目配置保存在本机忽略的 `.vercel/` 中，仓库只跟踪可复用的 `vercel.json`。部署时以 `website/` 为项目根目录。
+GitHub Pages 从 `main` 分支仓库根目录发布，正式域名为
+`https://water-buddy.microspotlight.team`。`CNAME` 必须与仓库 Pages 设置保持一致。
+
+Vercel 项目继续作为兼容部署保留。项目配置保存在本机忽略的 `.vercel/` 中，仓库只跟踪可复用的 `vercel.json`；部署时以本仓库根目录为项目根目录。
 
 0.3.1 发布状态官网于 2026-07-29 部署到 Production：
 `dpl_mYsgxpmHRT6kuYbYZyLu2kxDYj1P`，正式域名为
