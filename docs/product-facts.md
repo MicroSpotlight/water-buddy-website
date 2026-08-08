@@ -1,7 +1,7 @@
 # Water Buddy · Product Facts
 
-> Verified: 2026-08-01
-> Sources: local repository release notes and App Store submission material; `docs/releases/0.2.0.md`; `docs/releases/0.3.0.md`; `docs/releases/0.3.1.md`; `docs/releases/0.4.0.md`; `app-store/0.3.1/README.md`; `app-store/0.4.0/README.md`; `app-store/metadata/submission.md`; `app-store/metadata/version-update.md`; `app-store/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-drink-reminder/id6789022089`; `https://itunes.apple.com/lookup?id=6789022089&country=us`; `https://testflight.apple.com/join/rqmHh69r`
+> Verified: 2026-08-08
+> Sources: local repository release notes, App Store submission material and an App Store Connect read-only status check via `asc` on 2026-08-08; `docs/releases/0.2.0.md`; `docs/releases/0.3.0.md`; `docs/releases/0.3.1.md`; `docs/releases/0.4.0.md`; `docs/releases/0.5.0.md`; `app-store/0.3.1/README.md`; `app-store/0.4.0/README.md`; `app-store/0.5.0/version-update.md`; `app-store/metadata/submission.md`; `app-store/metadata/version-update.md`; `app-store/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-drink-reminder/id6789022089`; `https://itunes.apple.com/lookup?id=6789022089&country=us`; `https://testflight.apple.com/join/rqmHh69r`
 
 - Product: 水滴伙伴 / Water Buddy
 - Platform: iOS
@@ -11,8 +11,10 @@
 - 0.3.0 status for website copy: previous public App Store version / 上一公开版本
 - 0.3.1 status for website copy: previous public App Store version / 上一公开版本
 - 0.4.0 status for website copy: current public App Store version / 当前公开版本
+- 0.5.0 status for website copy: submitted to App Review, not yet public / 已提交审核，尚未公开
 - App Store: `https://apps.apple.com/us/app/water-buddy-drink-reminder/id6789022089`
 - Current public App Store version: 0.4.0, free to download
+- 0.5.0 review status: submitted on 2026-08-08 with Build 102; release remains manual and is not yet public
 - Current version highlights: six Siri/App Shortcuts, three iOS 18
   Controls, configurable sips, retry/short undo feedback, recent results,
   time-based recommendations, and automation guides.
@@ -32,8 +34,16 @@
 - 0.4.0 release build: build 92 (`51a1ac77-496f-4344-937e-a49aea9dde41`),
   processed as `VALID`, exempt from non-exempt encryption, and publicly released
   as App Store version 0.4.0 on 2026-08-01.
+- 0.5.0 review build: build 102 (`a564321c-093c-44c2-a25d-756a8e36afc6`),
+  processed as `VALID`, attached to App Store version 0.5.0 and submitted for
+  review on 2026-08-08; it is not publicly released.
 
 ## Release milestones
+
+- Version 0.5.0 · In App Review / 审核中 · Build 102: optional AlarmKit alarm-style
+  reminders on iOS 26+, gentle notifications on iOS 17+, a single next-drink
+  coordinator, clear delivery-channel explanations, permission fallback, and
+  bounded Stop/Snooze actions. HealthKit is outside the release.
 
 - Version 0.4.0 · Current App Store version / 当前 App Store 版本 · Build 92: six Siri/App Shortcuts,
   three iOS 18 Controls for Control Center and the Lock Screen, configurable
@@ -55,7 +65,9 @@
 - Build 1 · 2026-07-09 · First usable beta: hydration logging, daily goal, onboarding, four languages, appearance themes, haptics, Home Screen/Lock Screen widgets, and Live Activity.
 
 Version 0.4.0 is publicly available on the App Store and is the current public
-version. The website should present 0.3.1 as the previous public version,
-0.3.0 and 0.2.1 as earlier releases, and 0.2.0 as the feature foundation.
+version. Version 0.5.0 has been submitted to App Review but is not public yet;
+the website should present it as in review, keep 0.4.0 as the downloadable
+version, and retain 0.3.1 and earlier releases as historical entries until the
+next public release is available.
 
 Public-facing copy must distinguish local hydration data from remote analytics and crash diagnostics.
