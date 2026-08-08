@@ -1808,6 +1808,63 @@ Object.assign(siteTranslations.ko, {
   "0.5.0 审核中 · 当前 App Store 版本 0.4.0 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.5.0 심사 중 · 현재 App Store 버전 0.4.0 · Bundle ID: team.MicroSpotlight.WaterBuddy"
 });
 
+Object.assign(siteTranslations.en, {
+  "水滴伙伴支持中心：iOS 0.4.0 下载、Android 开发状态、快捷记录、提醒、数据管理、联系邮箱与隐私政策。": "Water Buddy support: iOS 0.4.0 downloads, Android development status, quick logging, reminders, data controls, contact email, and privacy policy.",
+  "iOS 0.4.0 已在 App Store 发布，Android 与 Wear OS 原生版本正在开发。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "iOS 0.4.0 is available on the App Store, while native Android and Wear OS versions are in development. Find help, share a suggestion, or simply say hello here.",
+  "Android 版现在可以下载吗？": "Can I download the Android version now?",
+  "还不能。Android 与 Wear OS 原生版本正在开发，尚未在 Google Play 上线，也没有公开测试链接或承诺发布日期。官网会在可验证的公开下载入口准备好后更新。": "Not yet. Native Android and Wear OS versions are in development and are not on Google Play. There is no public test link or promised release date. The website will be updated once a verified public download is ready.",
+  "水滴伙伴 iOS 版已在 App Store 发布；Android 与 Wear OS 原生版本正在开发，尚未在 Google Play 上线。": "Water Buddy is available on the iOS App Store. Native Android and Wear OS versions are in development and are not yet on Google Play.",
+  "iOS 版已在 App Store 发布；Android 与 Wear OS 原生版本正在对齐开发，继续坚持本机优先。": "The iOS app is available on the App Store. Native Android and Wear OS versions are being aligned in development with the same local-first approach.",
+  "Android 原生版本开发中": "Native Android version in development",
+  "Android 和 Wear OS，正在接住同一套喝水节奏": "The same hydration rhythm is coming to Android and Wear OS",
+  "Android 版正在按 iOS 的产品规则与卡通视觉持续对齐，同时使用 Android 原生的提醒、小组件、快捷入口和手表能力。目前尚未在 Google Play 上线，也没有承诺具体发布日期。": "The Android app is being aligned with the iOS product rules and playful visual language while using native Android reminders, widgets, shortcuts, and watch capabilities. It is not yet on Google Play, and no release date has been promised.",
+  "核心体验原生重建": "Core experience, rebuilt natively",
+  "每日记录、逐杯时间线、自定义水杯、提醒、奖励、七套主题和四种语言都使用原生 Android 界面实现，支持 Android 8.0 及以上版本。": "Daily logging, the per-cup timeline, custom cups, reminders, rewards, seven themes, and four languages use native Android interfaces and support Android 8.0 and later.",
+  "从桌面到手腕都能记录": "Log from the Home Screen to your wrist",
+  "主屏小组件、通知操作、桌面快捷方式、快捷设置水滴和 Wear OS 会共用同一条记录链路；Wear OS 3 及以上版本正在同步开发。": "Home Screen widgets, notification actions, launcher shortcuts, the Quick Settings tile, and Wear OS share one recording path. Wear OS 3 and later is being developed alongside the phone app.",
+  "本机优先，可选私密同步": "Local first, with optional private sync",
+  "饮水记录默认保存在设备上，不需要开发者账号。只有你主动开启后，Android 设备之间才会通过 Google Drive 私密应用数据目录同步。": "Hydration records stay on your device by default, with no developer account required. Only when you opt in can Android devices sync through Google Drive's private app-data folder.",
+  "当前公开的 iOS 版会把逐杯记录默认保存在本机 App Group 数据库。只有你主动开启 iCloud 同步后，指定记录与四类非健康偏好才会进入你自己的 Apple iCloud 私有数据库；目标、提醒和通知权限仍保存在本机，饮水数据不会发送给我们或 Firebase。": "The current public iOS app stores per-cup records in its local App Group database by default. Only when you enable iCloud sync do selected records and four non-health preferences enter your own Apple iCloud private database. Goals, reminder schedules, and notification permissions remain local, and hydration data is not sent to us or Firebase."
+});
+
+Object.assign(siteTranslations.ja, {
+  "水滴伙伴支持中心：iOS 0.4.0 下载、Android 开发状态、快捷记录、提醒、数据管理、联系邮箱与隐私政策。": "Water Buddyサポート：iOS 0.4.0のダウンロード、Android版の開発状況、クイック記録、リマインダー、データ管理、連絡先、プライバシーポリシー。",
+  "iOS 0.4.0 已在 App Store 发布，Android 与 Wear OS 原生版本正在开发。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "iOS 0.4.0はApp Storeで配信中で、Android版とWear OS版はネイティブアプリとして開発中です。問題や提案、Water Buddyへのご連絡はこちらからどうぞ。",
+  "Android 版现在可以下载吗？": "Android版は今ダウンロードできますか？",
+  "还不能。Android 与 Wear OS 原生版本正在开发，尚未在 Google Play 上线，也没有公开测试链接或承诺发布日期。官网会在可验证的公开下载入口准备好后更新。": "まだできません。Android版とWear OS版はネイティブアプリとして開発中で、Google Playでは未公開です。公開テストリンクや確定した公開日もありません。確認済みの公開ダウンロードが準備でき次第、公式サイトを更新します。",
+  "水滴伙伴 iOS 版已在 App Store 发布；Android 与 Wear OS 原生版本正在开发，尚未在 Google Play 上线。": "Water BuddyのiOS版はApp Storeで配信中です。Android版とWear OS版はネイティブアプリとして開発中で、Google Playではまだ公開していません。",
+  "iOS 版已在 App Store 发布；Android 与 Wear OS 原生版本正在对齐开发，继续坚持本机优先。": "iOS版はApp Storeで配信中です。Android版とWear OS版も、同じローカルファーストの考え方でネイティブ開発を進めています。",
+  "Android 原生版本开发中": "Androidネイティブ版を開発中",
+  "Android 和 Wear OS，正在接住同一套喝水节奏": "同じ水分補給のリズムをAndroidとWear OSへ",
+  "Android 版正在按 iOS 的产品规则与卡通视觉持续对齐，同时使用 Android 原生的提醒、小组件、快捷入口和手表能力。目前尚未在 Google Play 上线，也没有承诺具体发布日期。": "Android版はiOS版のプロダクトルールと親しみやすいビジュアルに合わせながら、Androidネイティブのリマインダー、ウィジェット、ショートカット、ウォッチ機能を活用して開発しています。Google Playではまだ公開しておらず、具体的な公開日もお約束していません。",
+  "核心体验原生重建": "主要な体験をネイティブで再構築",
+  "每日记录、逐杯时间线、自定义水杯、提醒、奖励、七套主题和四种语言都使用原生 Android 界面实现，支持 Android 8.0 及以上版本。": "毎日の記録、一杯ごとのタイムライン、カスタムカップ、リマインダー、リワード、7つのテーマ、4言語をAndroidネイティブ画面で実装し、Android 8.0以降に対応します。",
+  "从桌面到手腕都能记录": "ホーム画面から手首まで記録",
+  "主屏小组件、通知操作、桌面快捷方式、快捷设置水滴和 Wear OS 会共用同一条记录链路；Wear OS 3 及以上版本正在同步开发。": "ホーム画面ウィジェット、通知アクション、ランチャーショートカット、クイック設定タイル、Wear OSは同じ記録経路を共有します。Wear OS 3以降向けもスマートフォン版と並行して開発中です。",
+  "本机优先，可选私密同步": "ローカルファースト、同期は任意",
+  "饮水记录默认保存在设备上，不需要开发者账号。只有你主动开启后，Android 设备之间才会通过 Google Drive 私密应用数据目录同步。": "水分補給記録は初期状態で端末に保存され、開発者アカウントは不要です。自分で有効にした場合に限り、Google Driveの非公開アプリデータ領域を使ってAndroid端末間で同期します。",
+  "当前公开的 iOS 版会把逐杯记录默认保存在本机 App Group 数据库。只有你主动开启 iCloud 同步后，指定记录与四类非健康偏好才会进入你自己的 Apple iCloud 私有数据库；目标、提醒和通知权限仍保存在本机，饮水数据不会发送给我们或 Firebase。": "現在公開中のiOS版では、一杯ごとの記録を初期状態で端末内のApp Groupデータベースに保存します。iCloud同期を有効にした場合に限り、指定された記録と4種類の健康情報ではない設定が自分のApple iCloud非公開データベースに保存されます。目標、リマインダー予定、通知権限は端末に残り、水分補給データが当社やFirebaseへ送信されることはありません。"
+});
+
+Object.assign(siteTranslations.ko, {
+  "水滴伙伴支持中心：iOS 0.4.0 下载、Android 开发状态、快捷记录、提醒、数据管理、联系邮箱与隐私政策。": "Water Buddy 지원: iOS 0.4.0 다운로드, Android 개발 상태, 빠른 기록, 알림, 데이터 관리, 문의 이메일과 개인정보 처리방침.",
+  "iOS 0.4.0 已在 App Store 发布，Android 与 Wear OS 原生版本正在开发。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "iOS 0.4.0은 App Store에서 이용할 수 있으며 Android와 Wear OS 네이티브 버전은 개발 중입니다. 문제 해결, 제안 또는 Water Buddy에 대한 문의는 여기에서 확인하세요.",
+  "Android 版现在可以下载吗？": "지금 Android 버전을 다운로드할 수 있나요?",
+  "还不能。Android 与 Wear OS 原生版本正在开发，尚未在 Google Play 上线，也没有公开测试链接或承诺发布日期。官网会在可验证的公开下载入口准备好后更新。": "아직은 아닙니다. Android와 Wear OS 네이티브 버전은 개발 중이며 Google Play에 출시되지 않았습니다. 공개 테스트 링크나 확정된 출시일도 없습니다. 확인된 공개 다운로드가 준비되면 웹사이트를 업데이트합니다.",
+  "水滴伙伴 iOS 版已在 App Store 发布；Android 与 Wear OS 原生版本正在开发，尚未在 Google Play 上线。": "Water Buddy iOS 버전은 App Store에서 이용할 수 있습니다. Android와 Wear OS 네이티브 버전은 개발 중이며 아직 Google Play에 출시되지 않았습니다.",
+  "iOS 版已在 App Store 发布；Android 与 Wear OS 原生版本正在对齐开发，继续坚持本机优先。": "iOS 버전은 App Store에서 이용할 수 있습니다. Android와 Wear OS 네이티브 버전도 동일한 로컬 우선 원칙으로 개발하고 있습니다.",
+  "Android 原生版本开发中": "Android 네이티브 버전 개발 중",
+  "Android 和 Wear OS，正在接住同一套喝水节奏": "같은 수분 섭취 리듬을 Android와 Wear OS로",
+  "Android 版正在按 iOS 的产品规则与卡通视觉持续对齐，同时使用 Android 原生的提醒、小组件、快捷入口和手表能力。目前尚未在 Google Play 上线，也没有承诺具体发布日期。": "Android 버전은 iOS의 제품 원칙과 친근한 비주얼에 맞추면서 Android 네이티브 알림, 위젯, 바로가기와 시계 기능을 활용해 개발하고 있습니다. 아직 Google Play에 출시되지 않았으며 구체적인 출시일도 약속하지 않습니다.",
+  "核心体验原生重建": "핵심 경험을 네이티브로 재구성",
+  "每日记录、逐杯时间线、自定义水杯、提醒、奖励、七套主题和四种语言都使用原生 Android 界面实现，支持 Android 8.0 及以上版本。": "일일 기록, 한 잔 단위 타임라인, 사용자 지정 컵, 알림, 보상, 7가지 테마와 4개 언어를 Android 네이티브 화면으로 구현하며 Android 8.0 이상을 지원합니다.",
+  "从桌面到手腕都能记录": "홈 화면부터 손목까지 기록",
+  "主屏小组件、通知操作、桌面快捷方式、快捷设置水滴和 Wear OS 会共用同一条记录链路；Wear OS 3 及以上版本正在同步开发。": "홈 화면 위젯, 알림 동작, 런처 바로가기, 빠른 설정 타일과 Wear OS가 하나의 기록 경로를 공유합니다. Wear OS 3 이상 버전도 휴대폰 앱과 함께 개발 중입니다.",
+  "本机优先，可选私密同步": "로컬 우선, 선택형 비공개 동기화",
+  "饮水记录默认保存在设备上，不需要开发者账号。只有你主动开启后，Android 设备之间才会通过 Google Drive 私密应用数据目录同步。": "수분 섭취 기록은 기본적으로 기기에 저장되며 개발자 계정이 필요하지 않습니다. 직접 켠 경우에만 Google Drive의 비공개 앱 데이터 폴더를 통해 Android 기기 간에 동기화합니다.",
+  "当前公开的 iOS 版会把逐杯记录默认保存在本机 App Group 数据库。只有你主动开启 iCloud 同步后，指定记录与四类非健康偏好才会进入你自己的 Apple iCloud 私有数据库；目标、提醒和通知权限仍保存在本机，饮水数据不会发送给我们或 Firebase。": "현재 공개된 iOS 버전은 한 잔 단위 기록을 기본적으로 기기의 App Group 데이터베이스에 저장합니다. iCloud 동기화를 직접 켠 경우에만 지정된 기록과 네 가지 비건강 설정이 본인의 Apple iCloud 비공개 데이터베이스에 저장됩니다. 목표, 알림 일정과 알림 권한은 기기에 남으며 수분 섭취 데이터는 당사나 Firebase로 전송되지 않습니다."
+});
+
 const languageTrigger = document.querySelector("[data-language-trigger]");
 const languageMenu = document.querySelector("[data-language-menu]");
 const languageOptions = [...document.querySelectorAll("[data-language-option]")];
