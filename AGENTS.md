@@ -36,7 +36,7 @@
 
 - GitHub 仓库：`MicroSpotlight/water-buddy-website`。
 - 从 `main` 分支仓库根目录发布。
-- 正式域名：`https://water-buddy.microspotlight.team`。
+- 正式域名：`https://waterbuddy.microspotlight.team`。
 - `CNAME`、GitHub Pages 自定义域名设置和 DNS 必须保持一致。
 
 ## Vercel Deployment

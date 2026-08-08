@@ -48,7 +48,7 @@ npx vercel dev .
 ## 部署
 
 GitHub Pages 从 `main` 分支仓库根目录发布，正式域名为
-`https://water-buddy.microspotlight.team`。`CNAME` 必须与仓库 Pages 设置保持一致。
+`https://waterbuddy.microspotlight.team`。`CNAME` 必须与仓库 Pages 设置保持一致。
 
 Vercel 项目继续作为兼容部署保留。项目配置保存在本机忽略的 `.vercel/` 中，仓库只跟踪可复用的 `vercel.json`；部署时以本仓库根目录为项目根目录。
 
