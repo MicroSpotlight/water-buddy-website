@@ -37,6 +37,7 @@ npx vercel dev .
 ## 页面与事实来源
 
 - App 能力、版本和隐私事实：`docs/product-facts.md`
+- Android 与 Wear OS 开发状态、平台能力和公开边界：`docs/product-facts.md`
 - 官网视觉规范与图片来源：`docs/brand-spec.md`
 - App Store 提交文案：[主仓库 submission.md](https://github.com/MicroSpotlight/water-buddy/blob/main/app-store/metadata/submission.md)
 - App Store 提审状态：[主仓库上传状态](https://github.com/MicroSpotlight/water-buddy/blob/main/app-store/app-store-connect-upload-status.md)
@@ -76,6 +77,8 @@ Vercel 项目继续作为兼容部署保留。项目配置保存在本机忽略�
 官网首页、更新日志、支持中心与隐私政策支持简体中文、英文、日文和韩文。首次访问会匹配浏览器语言；用户也可以通过顶部语言选择器切换，选择结果保存在浏览器本机，并可通过 `?lang=zh-Hans|en|ja|ko` 分享指定语言页面。
 
 新增或修改产品事实时，先更新 `docs/product-facts.md`，再同步页面文案和 `site.js`/`locales.js` 的四语资源。StoreKit 支持作者只能描述为 Apple 处理付款的自愿消耗型支持，不写成功能解锁、订阅或可恢复权益。
+
+首页会明确区分平台状态：iOS 公开版提供 App Store 下载，Android 与 Wear OS 仅标注为原生开发版。在验证 Google Play 公开页面前，不展示下载按钮、商店徽章或发布日期承诺。
 
 ## 验证清单
 

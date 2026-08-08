@@ -1,11 +1,11 @@
 # Water Buddy · Product Facts
 
 > Verified: 2026-08-08
-> Sources: local repository release notes, App Store submission material and an App Store Connect read-only status check via `asc` on 2026-08-08; `docs/releases/0.2.0.md`; `docs/releases/0.3.0.md`; `docs/releases/0.3.1.md`; `docs/releases/0.4.0.md`; `docs/releases/0.5.0.md`; `app-store/0.3.1/README.md`; `app-store/0.4.0/README.md`; `app-store/0.5.0/version-update.md`; `app-store/metadata/submission.md`; `app-store/metadata/version-update.md`; `app-store/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-drink-reminder/id6789022089`; `https://itunes.apple.com/lookup?id=6789022089&country=us`; `https://testflight.apple.com/join/rqmHh69r`
+> Sources: local repository release notes, App Store submission material, and the native Android implementation; `docs/releases/0.2.0.md`; `docs/releases/0.3.0.md`; `docs/releases/0.3.1.md`; `docs/releases/0.4.0.md`; `docs/releases/0.5.0.md`; `Android/README.md`; `Android/gradle.properties`; `Android/app/build.gradle.kts`; `app-store/0.3.1/README.md`; `app-store/0.4.0/README.md`; `app-store/0.5.0/version-update.md`; `app-store/metadata/submission.md`; `app-store/metadata/version-update.md`; `app-store/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-drink-reminder/id6789022089`; `https://itunes.apple.com/lookup?id=6789022089&country=us`; `https://testflight.apple.com/join/rqmHh69r`
 
 - Product: 水滴伙伴 / Water Buddy
-- Platform: iOS
-- Website release focus: 0.4.0, released on the App Store
+- Platform: iOS (public); Android and Wear OS (native development builds)
+- Website release focus: iOS 0.4.0 is released on the App Store; Android and Wear OS are in development and are not publicly available on Google Play
 - 0.2.0 status for website copy: released on the App Store / 已在 App Store 发布
 - 0.2.1 status for website copy: previous public App Store version / 上一公开版本
 - 0.3.0 status for website copy: previous public App Store version / 上一公开版本
@@ -21,6 +21,11 @@
 - Public beta: `https://testflight.apple.com/join/rqmHh69r`
 - The official invitation page identifies the beta as “Water Buddy - 水滴伙伴” and lists it as available on iOS.
 - Apple documents public TestFlight links as a supported way to invite external beta testers.
+- Android website status: native Android and Wear OS implementations are in active development; there is no public Google Play listing and no promised release date.
+- Android development version: 0.5.0 (`versionCode` 50000); phone baseline Android 8.0+ (`minSdk 26`, `targetSdk 36`), Wear OS baseline Wear OS 3+ (`minSdk 30`).
+- Android core scope: daily hydration logging, per-cup records, cups, reminders, rewards, seven themes, four languages, Home Screen widgets, notification actions, launcher shortcuts, a Quick Settings tile, Wear OS logging/sync, local export and voluntary Google Play support purchases.
+- Android platform equivalents: notifications, launcher shortcuts and the Quick Settings tile are Android-native alternatives for Apple-only Lock Screen Widget, Live Activity, Focus Filter, Siri and Control surfaces where Android has no stable equivalent.
+- Android hydration data: local-first in Room/DataStore; optional user-enabled Google Drive `appDataFolder` sync is private to the user's Google account and only synchronizes Android hydration facts. Core recording remains available offline without Drive authorization.
 - Languages: Simplified Chinese, English, Korean, Japanese
 - Core features: daily hydration logging, daily goals, interval or fixed-time reminders with selected weekdays and quiet hours, optional after-Focus hydration reminders, Home Screen and Lock Screen widgets, Live Activity, Apple Watch logging/sync, cumulative milestones and local keepsake sharing, local JSON/CSV export, separate local/iCloud deletion, seven appearance themes, and in-app language switching
 - 0.2.0 feature focus: per-cup timeline, backfill/edit/delete for individual records, custom cups with 24 playful cup styles, week/month/year history, lightweight reward stamps and stamp album, reminder windows, unified record path for widgets/Watch/notification actions, and optional StoreKit consumable purchases for supporting development
@@ -71,3 +76,4 @@ version, and retain 0.3.1 and earlier releases as historical entries until the
 next public release is available.
 
 Public-facing copy must distinguish local hydration data from remote analytics and crash diagnostics.
+Public-facing Android copy must describe the app as in development, must not show a Google Play download action, and must not promise a release date until a public listing is verified.
