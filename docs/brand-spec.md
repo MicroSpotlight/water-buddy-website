@@ -19,8 +19,10 @@
 - 0.2.0 cups: `../assets/water-buddy-cups.png` (829 × 1800)
 - 0.2.0 widgets: `../assets/water-buddy-widgets-home-20260720.png` (829 × 1800)
 - 0.2.0 Live Activity / Lock Screen: `../assets/water-buddy-widgets-lock-20260720.png` (829 × 1800)
+- Android development home: `../assets/water-buddy-android-home-20260808.png` (1080 × 2424)
 - Source: [product repository App Store screenshots](https://github.com/MicroSpotlight/water-buddy/tree/main/app-store/screenshots/source/iphone/zh-Hans)
-- Use: hero product preview, 0.2.0 records/cups feature screenshots, widget section, and changelog current-version preview
+- Android source: clean capture from the repository's native Android development build running on the target emulator on 2026-08-08; Japanese copy and the Deep Lagoon theme are intentionally visible
+- Use: hero product preview, Android product stage, 0.2.0 records/cups feature screenshots, widget section, and changelog current-version preview
 - These are repository-owned captures and contain no user data.
 
 ## Visual system
@@ -46,6 +48,7 @@
 - Rhythm: 4 / 8 / 12 / 16 / 24 / 32 / 48 / 72
 - Thick ink outlines, hard offset shadows, compact cards, soft paper backgrounds
 - Changelog pattern: a single-column release ledger with separate Build stamps and full-width change cards
+- Android homepage pattern: an ink-colored product stage with a real native screenshot and a continuous phone → Android system entry points → Wear OS story; retain the explicit development status instead of a store CTA
 - Voice: light, kind, direct, and pressure-free
 - Avoid invented social proof, health promises, and aggressive urgency.
 
