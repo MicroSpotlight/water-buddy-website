@@ -65,6 +65,12 @@ Vercel 项目继续作为兼容部署保留。项目配置保存在本机忽略�
 `dpl_HyHVvaA3CYJqfpgz5MPndYx6YQ7E`，对应官网内容提交 `1f417a3`。
 正式域名继续使用 `https://water-buddy.kitdesk.site`。
 
+0.5.0 正式发布状态官网于 2026-08-26 部署到 Production：
+`dpl_EKWT2czd32WpcggWSRbDtmNAbEke`，对应官网内容提交 `bbd84e4`，
+部署 URL 为 `https://water-buddy-o4726vuss-jmvssssvs-projects.vercel.app`。
+正式域名继续使用 `https://water-buddy.kitdesk.site`，备用域名为
+`https://water-buddy-three.vercel.app`。
+
 `vercel.json` 当前负责：
 
 - 启用 clean URL 并关闭尾斜杠。
