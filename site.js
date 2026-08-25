@@ -1916,6 +1916,78 @@ Object.assign(siteTranslations.ko, {
   "当前公开的 iOS 版会把逐杯记录默认保存在本机 App Group 数据库。只有你主动开启 iCloud 同步后，指定记录与四类非健康偏好才会进入你自己的 Apple iCloud 私有数据库；目标、提醒和通知权限仍保存在本机，饮水数据不会发送给我们或 Firebase。": "현재 공개된 iOS 버전은 한 잔 단위 기록을 기본적으로 기기의 App Group 데이터베이스에 저장합니다. iCloud 동기화를 직접 켠 경우에만 지정된 기록과 네 가지 비건강 설정이 본인의 Apple iCloud 비공개 데이터베이스에 저장됩니다. 목표, 알림 일정과 알림 권한은 기기에 남으며 수분 섭취 데이터는 당사나 Firebase로 전송되지 않습니다."
 });
 
+Object.assign(siteTranslations.en, {
+  "0.5.0 已发布 · App Store 当前公开": "0.5.0 released · Current on the App Store",
+  "0.5.0 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.5.0 released · Free on the App Store · Chinese, English, Korean, and Japanese",
+  "0.5.0 正式发布": "0.5.0 is now available",
+  "0.5.0 已在 App Store 发布。新版本不改变本机优先的记录方式，只让提醒更容易理解、更贴合你的选择；本版本不包含 HealthKit。": "Version 0.5.0 is now on the App Store. It keeps local-first logging and makes reminders easier to understand and tune to your choices. HealthKit is not part of this release.",
+  "0.5.0 已在 App Store 发布。": "0.5.0 is now on the App Store.",
+  "现在可在 App Store 免费下载 0.5.0，也可通过 TestFlight 关注后续测试版本。": "Version 0.5.0 is now free on the App Store, and TestFlight offers access to available future betas.",
+  "水滴伙伴更新日志：0.5.0 已在 App Store 发布，带来可选闹钟式强提醒与更清楚的提醒状态。": "Water Buddy changelog: 0.5.0 is now on the App Store with optional alarm-style reminders and clearer reminder status.",
+  "水滴伙伴 0.5.0 已在 App Store 发布，是当前公开版本。": "Water Buddy 0.5.0 is now on the App Store and is the current public release.",
+  "水滴伙伴 0.5.0 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的升级。": "Water Buddy 0.5.0 is now on the App Store and is the current public release. This changelog highlights upgrades that meaningfully affect everyday use.",
+  "0.5.0 App Store 发布状态": "0.5.0 App Store release status",
+  "0.5.0 继续以逐杯记录时间线作为本机事实基础": "0.5.0 continues to use the per-cup timeline as its on-device source of truth",
+  "0.5.0 已在 App Store 发布，是当前公开版本；0.4.0 是上一公开版本。": "Version 0.5.0 is now on the App Store and is the current public release; 0.4.0 was the previous release.",
+  "App Store 当前公开版本 · Build 102": "Current public App Store version · Build 102",
+  "0.5.0 让提醒真正按你的选择工作：温和通知继续覆盖 iOS 17+，支持的系统可主动开启闹钟式强提醒。": "Version 0.5.0 makes reminders work around your choices: gentle notifications continue on iOS 17+, and supported systems can opt into alarm-style reminders.",
+  "上一公开版本 · Build 92": "Previous public version · Build 92",
+  "0.5.0 是当前 App Store 版本；0.4.0 与 0.3.1 是历史公开版本，0.2.0 是逐杯记录等核心能力的功能基础。": "Version 0.5.0 is current on the App Store. Versions 0.4.0 and 0.3.1 are historical public releases, while 0.2.0 established core per-cup records.",
+  "水滴伙伴支持中心：iOS 0.5.0 下载、Android 开发状态、快捷记录、提醒、数据管理、联系邮箱与隐私政策。": "Water Buddy support: iOS 0.5.0 downloads, Android development status, quick logging, reminders, data controls, contact email, and privacy policy.",
+  "iOS 0.5.0 已在 App Store 发布，Android 与 Wear OS 原生版本正在开发。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "iOS 0.5.0 is available on the App Store, while native Android and Wear OS versions are in development. Find help, share a suggestion, or simply say hello here.",
+  "0.5.0 现在可以下载吗？": "Can I download 0.5.0 now?",
+  "可以。0.5.0 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "Yes. Version 0.5.0 is now on the App Store and is available free through the website’s App Store button.",
+  "0.5.0 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.5.0 released · Current App Store version · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
+Object.assign(siteTranslations.ja, {
+  "0.5.0 已发布 · App Store 当前公开": "0.5.0 公開済み · App Storeの現在の公開版",
+  "0.5.0 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.5.0 公開済み · App Storeで無料 · 中国語、英語、日本語、韓国語に対応",
+  "0.5.0 正式发布": "0.5.0 正式公開",
+  "0.5.0 已在 App Store 发布。新版本不改变本机优先的记录方式，只让提醒更容易理解、更贴合你的选择；本版本不包含 HealthKit。": "0.5.0をApp Storeで公開しました。端末優先の記録方式は変えず、リマインダーを分かりやすく選びやすくします。このリリースにHealthKitは含まれません。",
+  "0.5.0 已在 App Store 发布。": "0.5.0をApp Storeで公開しました。",
+  "现在可在 App Store 免费下载 0.5.0，也可通过 TestFlight 关注后续测试版本。": "0.5.0はApp Storeから無料でダウンロードできます。今後のテスト版はTestFlightでも確認できます。",
+  "水滴伙伴更新日志：0.5.0 已在 App Store 发布，带来可选闹钟式强提醒与更清楚的提醒状态。": "Water Buddy更新履歴：0.5.0をApp Storeで公開し、任意のアラーム形式リマインダーと分かりやすい状態表示を追加しました。",
+  "水滴伙伴 0.5.0 已在 App Store 发布，是当前公开版本。": "Water Buddy 0.5.0をApp Storeで公開しました。現在の公開版です。",
+  "水滴伙伴 0.5.0 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的升级。": "Water Buddy 0.5.0をApp Storeで公開しました。現在の公開版です。日々の使い心地に影響する変更だけを記録します。",
+  "0.5.0 App Store 发布状态": "0.5.0 App Store公開状況",
+  "0.5.0 继续以逐杯记录时间线作为本机事实基础": "0.5.0も一杯ごとのタイムラインを端末内の記録元として使用します",
+  "0.5.0 已在 App Store 发布，是当前公开版本；0.4.0 是上一公开版本。": "0.5.0をApp Storeで公開しました。現在の公開版で、0.4.0は前の公開版です。",
+  "App Store 当前公开版本 · Build 102": "現在のApp Store公開版 · Build 102",
+  "0.5.0 让提醒真正按你的选择工作：温和通知继续覆盖 iOS 17+，支持的系统可主动开启闹钟式强提醒。": "0.5.0は選択に合わせてリマインダーを動かします。iOS 17以降は穏やかな通知を継続し、対応システムではアラーム形式を選べます。",
+  "上一公开版本 · Build 92": "前の公開版 · Build 92",
+  "0.5.0 是当前 App Store 版本；0.4.0 与 0.3.1 是历史公开版本，0.2.0 是逐杯记录等核心能力的功能基础。": "0.5.0が現在のApp Store版です。0.4.0と0.3.1は過去の公開版で、0.2.0は一杯ごとの記録など主要機能の基盤です。",
+  "水滴伙伴支持中心：iOS 0.5.0 下载、Android 开发状态、快捷记录、提醒、数据管理、联系邮箱与隐私政策。": "Water Buddyサポート：iOS 0.5.0のダウンロード、Android版の開発状況、クイック記録、リマインダー、データ管理、連絡先、プライバシーポリシー。",
+  "iOS 0.5.0 已在 App Store 发布，Android 与 Wear OS 原生版本正在开发。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "iOS 0.5.0はApp Storeで配信中で、Android版とWear OS版はネイティブアプリとして開発中です。問題や提案、Water Buddyへのご連絡はこちらからどうぞ。",
+  "0.5.0 现在可以下载吗？": "0.5.0は今ダウンロードできますか？",
+  "可以。0.5.0 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "はい。0.5.0はApp Storeで配信中で、サイトのボタンから無料でダウンロードできます。",
+  "0.5.0 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.5.0 配信中 · 現在のApp Store版 · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
+Object.assign(siteTranslations.ko, {
+  "0.5.0 已发布 · App Store 当前公开": "0.5.0 출시 · App Store 현재 공개 버전",
+  "0.5.0 已发布 · App Store 免费下载 · 支持中文、English、한국어、日本語": "0.5.0 출시 · App Store 무료 다운로드 · 중국어, 영어, 한국어, 일본어 지원",
+  "0.5.0 正式发布": "0.5.0 정식 출시",
+  "0.5.0 已在 App Store 发布。新版本不改变本机优先的记录方式，只让提醒更容易理解、更贴合你的选择；本版本不包含 HealthKit。": "0.5.0이 App Store에 출시되었습니다. 로컬 우선 기록은 유지하고 알림을 더 이해하기 쉽고 선택에 맞게 만듭니다. 이 버전에는 HealthKit이 포함되지 않습니다.",
+  "0.5.0 已在 App Store 发布。": "0.5.0이 App Store에 출시되었습니다.",
+  "现在可在 App Store 免费下载 0.5.0，也可通过 TestFlight 关注后续测试版本。": "0.5.0을 App Store에서 무료로 다운로드할 수 있으며 TestFlight에서 향후 테스트 버전을 확인할 수 있습니다.",
+  "水滴伙伴更新日志：0.5.0 已在 App Store 发布，带来可选闹钟式强提醒与更清楚的提醒状态。": "Water Buddy 변경 기록: 0.5.0이 App Store에 출시되었으며 선택적 알람형 알림과 더 명확한 알림 상태를 제공합니다.",
+  "水滴伙伴 0.5.0 已在 App Store 发布，是当前公开版本。": "Water Buddy 0.5.0이 App Store에 출시되었으며 현재 공개 버전입니다.",
+  "水滴伙伴 0.5.0 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的升级。": "Water Buddy 0.5.0이 App Store에 출시되었으며 현재 공개 버전입니다. 일상 사용에 실제로 영향을 주는 업그레이드만 기록합니다.",
+  "0.5.0 App Store 发布状态": "0.5.0 App Store 출시 상태",
+  "0.5.0 继续以逐杯记录时间线作为本机事实基础": "0.5.0도 한 잔 단위 타임라인을 기기 내 사실 원본으로 사용합니다",
+  "0.5.0 已在 App Store 发布，是当前公开版本；0.4.0 是上一公开版本。": "0.5.0이 App Store에 출시되어 현재 공개 버전이며 0.4.0은 이전 공개 버전입니다.",
+  "App Store 当前公开版本 · Build 102": "App Store 현재 공개 버전 · Build 102",
+  "0.5.0 让提醒真正按你的选择工作：温和通知继续覆盖 iOS 17+，支持的系统可主动开启闹钟式强提醒。": "0.5.0은 선택한 방식에 맞춰 알림을 작동합니다. iOS 17 이상에서는 부드러운 알림을 계속 사용하고 지원 시스템에서는 알람형 알림을 직접 켤 수 있습니다.",
+  "上一公开版本 · Build 92": "이전 공개 버전 · Build 92",
+  "0.5.0 是当前 App Store 版本；0.4.0 与 0.3.1 是历史公开版本，0.2.0 是逐杯记录等核心能力的功能基础。": "0.5.0이 현재 App Store 버전입니다. 0.4.0과 0.3.1은 이전 공개 버전이며 0.2.0은 한 잔 단위 기록 등 핵심 기능의 기반입니다.",
+  "水滴伙伴支持中心：iOS 0.5.0 下载、Android 开发状态、快捷记录、提醒、数据管理、联系邮箱与隐私政策。": "Water Buddy 지원: iOS 0.5.0 다운로드, Android 개발 상태, 빠른 기록, 알림, 데이터 관리, 문의 이메일과 개인정보 처리방침.",
+  "iOS 0.5.0 已在 App Store 发布，Android 与 Wear OS 原生版本正在开发。遇到问题、想提出建议，或者只是想和水滴伙伴打个招呼，都可以在这里找到我们。": "iOS 0.5.0은 App Store에서 이용할 수 있으며 Android와 Wear OS 네이티브 버전은 개발 중입니다. 문제 해결, 제안 또는 Water Buddy에 대한 문의는 여기에서 확인하세요.",
+  "0.5.0 现在可以下载吗？": "지금 0.5.0을 다운로드할 수 있나요?",
+  "可以。0.5.0 已在 App Store 发布，可通过官网按钮前往 App Store 免费下载。": "네. 0.5.0은 App Store에서 이용할 수 있으며 웹사이트 버튼을 통해 무료로 다운로드할 수 있습니다.",
+  "0.5.0 已发布 · 当前 App Store 版本 · Bundle ID: team.MicroSpotlight.WaterBuddy": "0.5.0 출시 · 현재 App Store 버전 · Bundle ID: team.MicroSpotlight.WaterBuddy"
+});
+
 const languageTrigger = document.querySelector("[data-language-trigger]");
 const languageMenu = document.querySelector("[data-language-menu]");
 const languageOptions = [...document.querySelectorAll("[data-language-option]")];
