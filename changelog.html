@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="水滴伙伴更新日志：0.5.0 已在 App Store 发布，带来可选闹钟式强提醒与更清楚的提醒状态。">
+  <meta name="description" content="水滴伙伴更新日志：0.6.0 已在 App Store 发布，带来最近 30 天的饮水节奏摘要、日期下钻和只读大号小组件。">
   <meta name="theme-color" content="#FFF8E8">
   <meta property="og:title" content="更新日志 · 水滴伙伴">
-  <meta property="og:description" content="水滴伙伴 0.5.0 已在 App Store 发布，是当前公开版本。">
+  <meta property="og:description" content="水滴伙伴 0.6.0 已在 App Store 发布，是当前公开版本。">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/assets/water-buddy-icon.png">
   <title>更新日志 · 水滴伙伴</title>
@@ -60,18 +60,18 @@
       <div class="changelog-hero-copy">
         <div class="badge">Changelog</div>
         <h1>每一版，都让补水更顺一点。</h1>
-        <p>水滴伙伴 0.5.0 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的升级。</p>
+        <p>水滴伙伴 0.6.0 已在 App Store 发布，是当前公开版本。这里不写补丁流水账，只记录真正影响日常使用的升级。</p>
         <div class="actions">
           <a class="button primary" href="https://apps.apple.com/us/app/water-buddy-drink-reminder/id6789022089" target="_blank" rel="noopener noreferrer">在 App Store 下载</a>
-          <a class="button" href="#version-0-5-0">查看 0.5.0 变化</a>
+          <a class="button" href="#version-0-6-0">查看 0.6.0 变化</a>
         </div>
       </div>
-      <div class="current-build" aria-label="0.5.0 App Store 发布状态">
+      <div class="current-build" aria-label="0.6.0 App Store 发布状态">
         <span>已发布</span>
-        <strong>0.5.0</strong>
-        <b>Build 102</b>
+        <strong>0.6.0</strong>
+        <b>Build 103</b>
         <small>当前 App Store 版本</small>
-        <img src="/assets/water-buddy-records.png" width="829" height="1800" alt="0.5.0 继续以逐杯记录时间线作为本机事实基础">
+        <img src="/assets/water-buddy-records.png" width="829" height="1800" alt="0.6.0 以逐杯记录时间线和近期节奏摘要作为本机事实基础">
       </div>
     </header>
 
@@ -79,10 +79,35 @@
       <div class="release-heading">
         <p class="kicker">版本与构建记录</p>
         <h2 id="release-title">从每一杯可追溯，到积累跨设备延续</h2>
-        <p>0.5.0 已在 App Store 发布，是当前公开版本；0.4.0 是上一公开版本。</p>
+        <p>0.6.0 已在 App Store 发布，是当前公开版本；0.5.0 是上一公开版本。</p>
       </div>
 
-      <article class="release-row is-current" id="version-0-5-0">
+      <article class="release-row is-current" id="version-0-6-0">
+        <div class="release-stamp">
+          <span>0.6.0</span>
+          <strong>已发布</strong>
+          <time datetime="2026-08-27">08.27</time>
+        </div>
+        <div class="release-card">
+          <header class="release-card-heading">
+            <div>
+              <span class="release-state">App Store 当前公开版本 · Build 103</span>
+              <h3>看见自己的节奏</h3>
+            </div>
+            <span class="release-channel">Insights · History · Widget</span>
+          </header>
+          <p class="release-lead">0.6.0 把本机逐杯记录整理成最近 30 天的饮水节奏摘要：看看记录分布和近期变化，再从任意日期回到原有时间线。</p>
+          <ul class="release-changes">
+            <li><strong>最近 30 天总览</strong><span>展示记录天数、目标完成天数、平均量和中位数，并比较最近 7 天与前 7 天。</span></li>
+            <li><strong>按本地日看见节奏</strong><span>统计按设备本地日分组，区分有记录、达标和无记录日期，不把摘要包装成健康建议。</span></li>
+            <li><strong>日期下钻</strong><span>从任意日期回到现有逐杯时间线；编辑、删除或补录后，摘要会重新从有效事实计算。</span></li>
+            <li><strong>大号 Widget 摘要</strong><span>大号记录 Widget 展示近期记录天数、趋势、平均量与最近 7 天变化；中号 Widget 和系统写入入口保持原样。</span></li>
+            <li><strong>本机计算，不含 HealthKit</strong><span>洞察来自本机 App Group SQLite 的有效逐杯记录，不新增 CloudKit 字段、Firebase 事件或 HealthKit capability。</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="release-row" id="version-0-5-0">
         <div class="release-stamp">
           <span>0.5.0</span>
           <strong>已发布</strong>
@@ -91,7 +116,7 @@
         <div class="release-card">
           <header class="release-card-heading">
             <div>
-              <span class="release-state">App Store 当前公开版本 · Build 102</span>
+              <span class="release-state">上一公开版本 · Build 102</span>
               <h3>下一杯，准时见</h3>
             </div>
             <span class="release-channel">AlarmKit · Reminders · iOS 26+</span>
@@ -377,17 +402,17 @@
 
     <aside class="release-note" aria-label="版本说明">
       <strong>关于这些版本号</strong>
-      <p>0.5.0 是当前 App Store 版本；0.4.0 与 0.3.1 是历史公开版本，0.2.0 是逐杯记录等核心能力的功能基础。</p>
+      <p>0.6.0 是当前 App Store 版本；0.5.0、0.4.0 与 0.3.1 是历史公开版本，0.2.0 是逐杯记录等核心能力的功能基础。</p>
     </aside>
 
     <section class="changelog-cta" aria-labelledby="changelog-cta-title">
       <div>
         <p class="kicker">已经见面，也想继续听见你的声音</p>
-        <h2 id="changelog-cta-title">0.5.0 已在 App Store 发布。</h2>
+        <h2 id="changelog-cta-title">0.6.0 已在 App Store 发布。</h2>
       </div>
       <div class="actions">
         <a class="button primary" href="https://apps.apple.com/us/app/water-buddy-drink-reminder/id6789022089" target="_blank" rel="noopener noreferrer">前往 App Store</a>
-        <a class="button" href="mailto:support@microspotlight.team?subject=Water%20Buddy%200.5.0%20反馈">发送反馈</a>
+        <a class="button" href="mailto:support@microspotlight.team?subject=Water%20Buddy%200.6.0%20反馈">发送反馈</a>
       </div>
     </section>
   </main>
@@ -402,7 +427,7 @@
       </div>
     </div>
   </footer>
-  <script src="/locales.js?v=0.5.0-release" defer></script>
-  <script src="/site.js?v=0.5.0-release" defer></script>
+  <script src="/locales.js?v=0.6.0-release" defer></script>
+  <script src="/site.js?v=0.6.0-release" defer></script>
 </body>
 </html>

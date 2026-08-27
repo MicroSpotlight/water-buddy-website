@@ -46,6 +46,10 @@ npx vercel dev .
 
 产品主仓库 `app-store/legal/` 中的 HTML 是本地跳转存档，正式公开内容以本仓库页面为准。
 
+## 当前内容状态
+
+官网当前展示 iOS `0.6.0` 为 App Store 公开版本（Build 103）。首页、更新日志和支持中心同步展示“近期节奏”摘要、日期下钻与只读大号小组件；`0.5.0` 及更早版本保留为历史记录。Android 与 Wear OS 仍标记为开发中，0.6.0 不包含 HealthKit。
+
 ## 部署
 
 GitHub Pages 从 `main` 分支仓库根目录发布，正式域名为
