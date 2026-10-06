@@ -6,7 +6,7 @@
 
 - 保持 `index.html`、`changelog.html`、`support.html`、`privacy-policy.html`、`styles.css`、`locales.js`、`site.js` 和 `vercel.json` 位于网站根目录。
 - 运行时图片统一放在 `assets/`；当前数量较少，不继续按页面拆分。
-- 内部品牌说明和产品事实放在 `docs/`，并通过 `.vercelignore` 排除部署。
+- 内部品牌说明和产品事实放在 `docs/`，通过 `_config.yml` 与 `.vercelignore` 分别排除 GitHub Pages 和 Vercel 部署。
 - 不引入前端构建系统，除非现有静态结构已经无法满足明确需求。
 
 ## Content Accuracy
@@ -14,9 +14,10 @@
 - 产品能力、版本、平台、隐私和 TestFlight 信息必须来自产品主仓库或官方公开页面。
 - 官网事实优先同步 `docs/product-facts.md`；品牌、截图来源和视觉约束同步 `docs/brand-spec.md`。
 - 饮水数据保存在本机/App Group；Firebase Analytics 与 Crashlytics 的披露必须与当前代码一致。
-- StoreKit 支持作者只能描述为 Apple 处理付款的自愿消耗型支持，不承诺功能权益、订阅或恢复权益。
+- Premium 月/年订阅与永久买断共用权益：iCloud、全部洞察、其他主题、自定义水杯、高级提醒、Watch、小组件/实时活动、快捷指令与系统控制。基础本机记录、基础目标、默认水杯与主题、间隔提醒和原始数据导出免费；失效保留数据和配置。以主仓库 `docs/subscriptions.md` 为当前契约。
+- 历史支持作者消耗品不授予 Premium。购买由 Apple 处理，RevenueCat 处理匿名 App 标识和购买信息；使用条款沿用 Apple 标准 EULA。政策部署、代码就绪与商品审核/版本发布是不同状态，不得混写。
 - 不添加未经证实的健康效果、用户评价、下载量、订阅价格或 App Store 上线状态。
-- 官网隐私政策是公开事实来源；修改后同步检查产品主仓库的 `app-store/metadata/submission.md`。
+- 官网隐私政策是公开事实来源；修改后同步检查产品主仓库的 `app-store/metadata/submission.md`。披露应包含实际使用的 GitHub Pages、Cloudflare 网络服务及 Vercel 兼容站点。
 
 ## HTML, CSS And JavaScript
 

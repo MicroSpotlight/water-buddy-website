@@ -2129,6 +2129,83 @@ const languageOptions = [...document.querySelectorAll("[data-language-option]")]
 const currentLanguageLabel = document.querySelector("[data-language-current]");
 const textSourceKeys = new WeakMap();
 const attributeSourceKeys = new WeakMap();
+Object.assign(siteTranslations.en, {
+  "生效日期：2026 年 10 月 6 日": "Effective date: October 6, 2026",
+  "适用于当前版本；Premium 说明适用于提供该功能的版本": "Applies to the current version; Premium terms apply to versions offering Premium",
+  "购买与使用条款": "Purchases and Terms of Use",
+  "购买由 Apple 通过 StoreKit 处理；我们不会收到或保存你的 Apple ID 凭据、付款卡号或账单信息。购买选项、价格与可用地区以 App 和 App Store 实际展示为准。本政策更新不表示尚未发布的版本或商品已经上线。": "Apple processes purchases through StoreKit. We do not receive or store your Apple ID credentials, payment card number, or billing information. Available plans, prices, and regions are those shown in the app and App Store. This policy update does not mean that unreleased versions or products are available.",
+  "提供 Premium 的版本支持月度、年度自动续订订阅及一次付费的永久买断，三种方案权益相同：iCloud、全部饮水洞察、其他主题、自定义水杯、高级提醒、Watch、小组件与实时活动、快捷指令与系统控制。基础本机记录及查看、编辑、删除，基础目标、默认水杯与主题、基础间隔提醒和原始数据导出免费。权益失效后保留数据与配置，暂停付费能力。": "Versions offering Premium support auto-renewing monthly and annual subscriptions and a one-time lifetime purchase, all with the same access: iCloud, all hydration insights, additional themes, custom cups, advanced reminders, Watch, widgets and Live Activities, shortcuts, and system controls. Basic local logging, viewing, editing and deletion, basic goals, default cups and theme, basic interval reminders, and raw data export remain free. When access expires, data and settings are retained while paid features are paused.",
+  "历史版本的咖啡、奶茶购买属于自愿支持的消耗品，不授予 Premium，也不自动转换为订阅或永久权益。0.7.0 移除独立支持作者入口。": "Coffee and milk tea purchases in earlier versions are consumable donations. They do not grant Premium or automatically convert to a subscription or lifetime access. Version 0.7.0 removes the separate Support the Developer entry.",
+  "我们使用 RevenueCat 验证和恢复 Premium 权益。它处理匿名 App 标识、购买商品、交易及权益状态；我们不向它发送姓名、邮箱、饮水记录或付款卡号，也不配置广告追踪。购买历史用于 App 功能，不用于跨 App 追踪。": "We use RevenueCat to verify and restore Premium access. It processes an anonymous app identifier, purchased products, transactions, and entitlement status. We do not send names, email addresses, hydration records, or payment card numbers to it, or configure advertising tracking. Purchase history is used for app functionality, not cross-app tracking.",
+  "App 的使用适用": "Use of the app is subject to the",
+  "Apple 标准最终用户许可协议（EULA）": "Apple Standard End User License Agreement (EULA)",
+  "月度和年度订阅会自动续订，除非在当前周期结束前取消。你可以通过 Apple 管理续订或申请退款。永久买断无需续订，但不会自动取消已有的 Apple 订阅；如已订阅，请另行管理续订，避免重复付费。": "Monthly and annual subscriptions renew automatically unless canceled before the current period ends. You can manage renewal or request a refund through Apple. A lifetime purchase does not renew, but it does not automatically cancel an existing Apple subscription. If you already subscribe, manage its renewal separately to avoid duplicate charges.",
+  "RevenueCat 作为购买权益服务提供商处理上述购买数据，其设施可能位于你所在地区以外。数据按提供权益服务及法律义务所需期限保留；相关请求可通过下方支持邮箱提出。详情见": "RevenueCat processes this purchase data as our purchase entitlement service provider, potentially at facilities outside your region. Data is retained as needed to provide access and meet legal obligations. Send related requests to the support email below. See the",
+  "RevenueCat 隐私政策": "RevenueCat Privacy Policy",
+  "你可以在 App 的 Premium 页面恢复购买，或通过“管理或取消订阅”进入 Apple 的订阅管理。卸载 App、清除本机数据或删除 iCloud 副本不会取消订阅。": "Restore purchases from the Premium page, or open Apple's subscription settings through Manage or Cancel Subscription. Uninstalling the app or deleting local or iCloud data does not cancel a subscription.",
+  "本官网不设置分析工具、广告脚本或营销 Cookie。正式站点通过 GitHub Pages 发布，域名使用 Cloudflare 网络服务；兼容站点可通过 Vercel 提供。为传输页面、防止滥用和保障安全，这些服务可能处理 IP 地址、User-Agent 和请求日志等必要网络信息。": "This website does not use analytics tools, advertising scripts, or marketing cookies. The official site is published through GitHub Pages and uses Cloudflare network services; compatibility sites may be served by Vercel. To deliver pages, prevent abuse, and maintain security, these services may process necessary network information such as IP addresses, User-Agent strings, and request logs.",
+  "托管与网络服务详情：": "Hosting and network service details:",
+  "GitHub 隐私声明": "GitHub Privacy Statement",
+  "Cloudflare 隐私政策": "Cloudflare Privacy Policy"
+});
+Object.assign(siteTranslations.ja, {
+  "生效日期：2026 年 10 月 6 日": "発効日：2026年10月6日",
+  "适用于当前版本；Premium 说明适用于提供该功能的版本": "現行バージョンに適用。Premium の説明は、その機能を提供するバージョンに適用されます",
+  "购买与使用条款": "購入と利用規約",
+  "购买由 Apple 通过 StoreKit 处理；我们不会收到或保存你的 Apple ID 凭据、付款卡号或账单信息。购买选项、价格与可用地区以 App 和 App Store 实际展示为准。本政策更新不表示尚未发布的版本或商品已经上线。": "購入は Apple が StoreKit を通じて処理します。Apple ID の認証情報、カード番号、請求情報を当方が受領・保存することはありません。購入プラン、価格、提供地域はアプリと App Store の表示をご確認ください。本ポリシーの更新は、未公開のバージョンや商品の提供開始を意味しません。",
+  "提供 Premium 的版本支持月度、年度自动续订订阅及一次付费的永久买断，三种方案权益相同：iCloud、全部饮水洞察、其他主题、自定义水杯、高级提醒、Watch、小组件与实时活动、快捷指令与系统控制。基础本机记录及查看、编辑、删除，基础目标、默认水杯与主题、基础间隔提醒和原始数据导出免费。权益失效后保留数据与配置，暂停付费能力。": "Premium 対応バージョンでは、月額・年額の自動更新サブスクリプションと一度の支払いによる永久購入を提供します。いずれも iCloud、すべての水分補給分析、追加テーマ、カスタムカップ、高度なリマインダー、Watch、ウィジェットとライブアクティビティ、ショートカット、システムコントロールを利用できます。基本的なローカル記録と閲覧・編集・削除、基本目標、標準カップとテーマ、基本的な間隔リマインダー、元データの書き出しは無料です。利用権限が失効してもデータと設定は保持され、有料機能は一時停止します。",
+  "历史版本的咖啡、奶茶购买属于自愿支持的消耗品，不授予 Premium，也不自动转换为订阅或永久权益。0.7.0 移除独立支持作者入口。": "旧バージョンのコーヒー・ミルクティー購入は、任意の支援を目的とした消費型アイテムです。Premium は付与されず、サブスクリプションや永久利用権に自動変換されることもありません。0.7.0 では独立した開発者支援メニューを削除します。",
+  "我们使用 RevenueCat 验证和恢复 Premium 权益。它处理匿名 App 标识、购买商品、交易及权益状态；我们不向它发送姓名、邮箱、饮水记录或付款卡号，也不配置广告追踪。购买历史用于 App 功能，不用于跨 App 追踪。": "Premium の確認と復元に RevenueCat を使用します。匿名のアプリ識別子、購入商品、取引、利用権限の状態を処理します。氏名、メールアドレス、水分記録、カード番号は送信せず、広告追跡も設定しません。購入履歴はアプリ機能のために使用し、アプリ間の追跡には使用しません。",
+  "App 的使用适用": "本アプリの利用には次の規約が適用されます：",
+  "Apple 标准最终用户许可协议（EULA）": "Apple 標準エンドユーザ使用許諾契約（EULA）",
+  "月度和年度订阅会自动续订，除非在当前周期结束前取消。你可以通过 Apple 管理续订或申请退款。永久买断无需续订，但不会自动取消已有的 Apple 订阅；如已订阅，请另行管理续订，避免重复付费。": "月額・年額サブスクリプションは、現在の期間が終了する前に解約しない限り自動更新されます。更新管理や返金申請は Apple で行えます。永久購入に更新はありませんが、既存の Apple サブスクリプションが自動解約されることはありません。すでに契約している場合は、重複請求を避けるため別途更新を管理してください。",
+  "RevenueCat 作为购买权益服务提供商处理上述购买数据，其设施可能位于你所在地区以外。数据按提供权益服务及法律义务所需期限保留；相关请求可通过下方支持邮箱提出。详情见": "RevenueCat は購入に伴う利用権限のサービス提供者として購入データを処理し、居住地域外の施設を利用する場合があります。サービス提供や法的義務に必要な期間データを保持します。関連する請求は下記メールへご連絡ください。詳しくは",
+  "RevenueCat 隐私政策": "RevenueCat のプライバシーポリシー",
+  "你可以在 App 的 Premium 页面恢复购买，或通过“管理或取消订阅”进入 Apple 的订阅管理。卸载 App、清除本机数据或删除 iCloud 副本不会取消订阅。": "Premium 画面で購入を復元するか、「サブスクリプションの管理・解約」から Apple の管理画面を開けます。アプリの削除や本機・iCloud データの削除ではサブスクリプションは解約されません。",
+  "本官网不设置分析工具、广告脚本或营销 Cookie。正式站点通过 GitHub Pages 发布，域名使用 Cloudflare 网络服务；兼容站点可通过 Vercel 提供。为传输页面、防止滥用和保障安全，这些服务可能处理 IP 地址、User-Agent 和请求日志等必要网络信息。": "本サイトは分析ツール、広告スクリプト、マーケティング Cookie を使用しません。公式サイトは GitHub Pages で公開し、ドメインには Cloudflare のネットワークサービスを利用します。互換サイトは Vercel で提供される場合があります。ページ配信、不正利用防止、安全確保のため、これらのサービスは IP アドレス、User-Agent、リクエストログなど必要なネットワーク情報を処理することがあります。",
+  "托管与网络服务详情：": "ホスティングとネットワークサービスの詳細：",
+  "GitHub 隐私声明": "GitHub プライバシー声明",
+  "Cloudflare 隐私政策": "Cloudflare プライバシーポリシー"
+});
+Object.assign(siteTranslations.ko, {
+  "生效日期：2026 年 10 月 6 日": "시행일: 2026년 10월 6일",
+  "适用于当前版本；Premium 说明适用于提供该功能的版本": "현재 버전에 적용되며 Premium 설명은 해당 기능을 제공하는 버전에 적용됩니다",
+  "购买与使用条款": "구매 및 이용 약관",
+  "购买由 Apple 通过 StoreKit 处理；我们不会收到或保存你的 Apple ID 凭据、付款卡号或账单信息。购买选项、价格与可用地区以 App 和 App Store 实际展示为准。本政策更新不表示尚未发布的版本或商品已经上线。": "구매는 Apple이 StoreKit을 통해 처리합니다. 당사는 Apple ID 인증 정보, 결제 카드 번호 또는 청구 정보를 받거나 저장하지 않습니다. 구매 옵션, 가격 및 이용 가능 지역은 앱과 App Store의 표시를 기준으로 합니다. 이 방침의 업데이트가 미출시 버전이나 상품의 출시를 의미하지는 않습니다.",
+  "提供 Premium 的版本支持月度、年度自动续订订阅及一次付费的永久买断，三种方案权益相同：iCloud、全部饮水洞察、其他主题、自定义水杯、高级提醒、Watch、小组件与实时活动、快捷指令与系统控制。基础本机记录及查看、编辑、删除，基础目标、默认水杯与主题、基础间隔提醒和原始数据导出免费。权益失效后保留数据与配置，暂停付费能力。": "Premium 제공 버전은 월간·연간 자동 갱신 구독과 일회성 결제의 평생 이용권을 지원하며, 세 가지 모두 동일한 기능을 제공합니다. iCloud, 모든 수분 섭취 인사이트, 추가 테마, 사용자 지정 컵, 고급 알림, Watch, 위젯 및 실시간 현황, 단축어와 시스템 제어가 포함됩니다. 기본 로컬 기록 및 조회·편집·삭제, 기본 목표, 기본 컵과 테마, 기본 간격 알림, 원시 데이터 내보내기는 무료입니다. 이용 권한이 만료되면 데이터와 설정은 유지되고 유료 기능은 일시 중지됩니다.",
+  "历史版本的咖啡、奶茶购买属于自愿支持的消耗品，不授予 Premium，也不自动转换为订阅或永久权益。0.7.0 移除独立支持作者入口。": "이전 버전의 커피·밀크티 구매는 자발적 후원을 위한 소모성 상품입니다. Premium을 부여하지 않으며 구독이나 평생 이용권으로 자동 전환되지 않습니다. 0.7.0에서는 별도의 개발자 후원 메뉴를 제거합니다.",
+  "我们使用 RevenueCat 验证和恢复 Premium 权益。它处理匿名 App 标识、购买商品、交易及权益状态；我们不向它发送姓名、邮箱、饮水记录或付款卡号，也不配置广告追踪。购买历史用于 App 功能，不用于跨 App 追踪。": "Premium 권한 확인 및 복원에 RevenueCat을 사용합니다. 익명의 앱 식별자, 구매 상품, 거래 및 이용 권한 상태를 처리합니다. 이름, 이메일, 수분 기록, 카드 번호는 전송하지 않으며 광고 추적도 설정하지 않습니다. 구매 내역은 앱 기능에만 사용하며 앱 간 추적에는 사용하지 않습니다.",
+  "App 的使用适用": "앱 이용에는 다음 약관이 적용됩니다:",
+  "Apple 标准最终用户许可协议（EULA）": "Apple 표준 최종 사용자 사용권 계약(EULA)",
+  "月度和年度订阅会自动续订，除非在当前周期结束前取消。你可以通过 Apple 管理续订或申请退款。永久买断无需续订，但不会自动取消已有的 Apple 订阅；如已订阅，请另行管理续订，避免重复付费。": "월간·연간 구독은 현재 기간이 끝나기 전에 취소하지 않으면 자동 갱신됩니다. Apple을 통해 갱신을 관리하거나 환불을 요청할 수 있습니다. 평생 이용권은 갱신이 필요 없지만 기존 Apple 구독을 자동으로 취소하지는 않습니다. 이미 구독 중이라면 중복 결제를 방지하도록 갱신을 별도로 관리하세요.",
+  "RevenueCat 作为购买权益服务提供商处理上述购买数据，其设施可能位于你所在地区以外。数据按提供权益服务及法律义务所需期限保留；相关请求可通过下方支持邮箱提出。详情见": "RevenueCat은 구매 이용 권한 서비스 제공자로서 구매 데이터를 처리하며 시설이 거주 지역 밖에 있을 수 있습니다. 서비스 제공과 법적 의무에 필요한 기간 동안 데이터를 보관합니다. 관련 요청은 아래 지원 이메일로 보내 주세요. 자세한 내용은",
+  "RevenueCat 隐私政策": "RevenueCat 개인정보 처리방침",
+  "你可以在 App 的 Premium 页面恢复购买，或通过“管理或取消订阅”进入 Apple 的订阅管理。卸载 App、清除本机数据或删除 iCloud 副本不会取消订阅。": "Premium 페이지에서 구매를 복원하거나 ‘구독 관리 또는 취소’로 Apple 구독 설정을 열 수 있습니다. 앱 삭제나 기기·iCloud 데이터 삭제로는 구독이 취소되지 않습니다.",
+  "本官网不设置分析工具、广告脚本或营销 Cookie。正式站点通过 GitHub Pages 发布，域名使用 Cloudflare 网络服务；兼容站点可通过 Vercel 提供。为传输页面、防止滥用和保障安全，这些服务可能处理 IP 地址、User-Agent 和请求日志等必要网络信息。": "이 웹사이트는 분석 도구, 광고 스크립트 또는 마케팅 쿠키를 사용하지 않습니다. 공식 사이트는 GitHub Pages로 게시되며 도메인은 Cloudflare 네트워크 서비스를 사용합니다. 호환 사이트는 Vercel로 제공될 수 있습니다. 페이지 전송, 악용 방지 및 보안을 위해 이러한 서비스는 IP 주소, User-Agent, 요청 로그 등 필요한 네트워크 정보를 처리할 수 있습니다.",
+  "托管与网络服务详情：": "호스팅 및 네트워크 서비스 안내:",
+  "GitHub 隐私声明": "GitHub 개인정보 처리방침",
+  "Cloudflare 隐私政策": "Cloudflare 개인정보 처리방침"
+});
+
+Object.assign(siteTranslations.en, {
+  "App 内购买由 Apple 通过 StoreKit 处理；提供 Premium 的版本使用 RevenueCat 验证购买权益，不向它发送饮水记录。": "Apple handles in-app purchases through StoreKit. Versions offering Premium use RevenueCat to verify purchase access without sending it hydration records.",
+  "由 Apple 处理付款，详情见": "Payments are handled by Apple. See",
+  "购买与使用条款在哪里查看？": "Where can I find purchase and usage terms?",
+  "历史支持作者购买不解锁功能，也不转换为 Premium。提供 Premium 的版本将月、年与永久方案放在同一购买页；可用方案以 App 和 App Store 为准。权益、恢复、取消及 Apple 标准 EULA 请见": "Earlier Support the Developer purchases do not unlock features or convert to Premium. Versions offering Premium show monthly, annual, and lifetime plans on the same purchase page; availability is as shown in the app and App Store. For access, restoration, cancellation, and the Apple Standard EULA, see"
+});
+Object.assign(siteTranslations.ja, {
+  "App 内购买由 Apple 通过 StoreKit 处理；提供 Premium 的版本使用 RevenueCat 验证购买权益，不向它发送饮水记录。": "アプリ内購入は Apple が StoreKit を通じて処理します。Premium 対応バージョンは RevenueCat で購入の利用権限を確認し、水分記録は送信しません。",
+  "由 Apple 处理付款，详情见": "お支払いは Apple が処理します。詳しくは",
+  "购买与使用条款在哪里查看？": "購入・利用規約はどこで確認できますか？",
+  "历史支持作者购买不解锁功能，也不转换为 Premium。提供 Premium 的版本将月、年与永久方案放在同一购买页；可用方案以 App 和 App Store 为准。权益、恢复、取消及 Apple 标准 EULA 请见": "以前の開発者支援購入は機能を解放せず、Premium にも変換されません。Premium 対応バージョンでは月額・年額・永久購入を同じ購入画面に表示します。提供状況はアプリと App Store をご確認ください。利用権限、復元、解約、Apple 標準 EULA については"
+});
+Object.assign(siteTranslations.ko, {
+  "App 内购买由 Apple 通过 StoreKit 处理；提供 Premium 的版本使用 RevenueCat 验证购买权益，不向它发送饮水记录。": "앱 내 구매는 Apple이 StoreKit으로 처리합니다. Premium 제공 버전은 RevenueCat으로 구매 권한을 확인하며 수분 기록은 전송하지 않습니다.",
+  "由 Apple 处理付款，详情见": "결제는 Apple이 처리합니다. 자세한 내용:",
+  "购买与使用条款在哪里查看？": "구매 및 이용 약관은 어디서 확인하나요?",
+  "历史支持作者购买不解锁功能，也不转换为 Premium。提供 Premium 的版本将月、年与永久方案放在同一购买页；可用方案以 App 和 App Store 为准。权益、恢复、取消及 Apple 标准 EULA 请见": "이전 개발자 후원 구매는 기능을 잠금 해제하거나 Premium으로 전환되지 않습니다. Premium 제공 버전은 월간·연간·평생 요금제를 같은 구매 페이지에 표시하며, 이용 가능 여부는 앱과 App Store를 기준으로 합니다. 이용 권한, 복원, 취소 및 Apple 표준 EULA 안내:"
+});
+
 const supportedLanguages = new Set(["zh-Hans", "en", "ja", "ko"]);
 const languageLabels = {
   "zh-Hans": "中文",

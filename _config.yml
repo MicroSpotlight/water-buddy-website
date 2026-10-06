@@ -1,0 +1,5 @@
+exclude:
+  - docs
+  - README.md
+  - AGENTS.md
+  - vercel.json

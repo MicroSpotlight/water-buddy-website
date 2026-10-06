@@ -1,5 +1,11 @@
 # Water Buddy · Product Facts
 
+## Pending 0.7.0 Premium change — 2026-10-06
+
+The native iOS implementation offers monthly, annual and lifetime Premium with the same access: iCloud, all insights, extra themes, custom cups, advanced reminders, Watch, widgets / Live Activity, Shortcuts and system controls. Basic local records and editing, goals, default cups/theme, interval reminders and raw export remain free. Saved data and settings remain after expiry; paid features pause. Historical support consumables do not grant Premium, and their separate UI is removed in 0.7.0. RevenueCat handles anonymous purchase verification and restore, not hydration facts. Apple processes payments and supplies the standard EULA; lifetime does not cancel existing subscriptions. ASC products are READY_TO_SUBMIT, not approved. The website must not present 0.7.0 as released merely because its privacy disclosure is published.
+
+The production domain uses GitHub Pages from `main` at the repository root, with Cloudflare network services, as verified through the Pages API and live response headers on 2026-10-06. Vercel remains a compatibility deployment. The privacy policy discloses these providers without adding website analytics.
+
 > Verified: 2026-08-27
 > Sources: local repository release notes, App Store submission material, and the native Android implementation; `docs/releases/0.2.0.md`; `docs/releases/0.3.0.md`; `docs/releases/0.3.1.md`; `docs/releases/0.4.0.md`; `docs/releases/0.5.0.md`; `docs/releases/0.6.0.md`; `Android/README.md`; `Android/gradle.properties`; `Android/app/build.gradle.kts`; `app-store/0.3.1/README.md`; `app-store/0.4.0/README.md`; `app-store/0.5.0/version-update.md`; `app-store/0.6.0/README.md`; `app-store/0.6.0/manifest.md`; `app-store/metadata/submission.md`; `app-store/metadata/version-update.md`; `app-store/privacy/privacy-policy-update.md`; `https://apps.apple.com/us/app/water-buddy-drink-reminder/id6789022089`; `https://itunes.apple.com/lookup?id=6789022089&country=us`; `https://testflight.apple.com/join/rqmHh69r`
 

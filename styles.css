@@ -1012,7 +1012,7 @@ h3 {
 .legal-toc { position: sticky; top: 106px; align-self: start; display: grid; gap: 4px; padding: 12px; border: 3px solid var(--line); border-radius: 18px; background: color-mix(in srgb, var(--paper) 88%, transparent); }
 .legal-toc a { min-height: 40px; display: flex; align-items: center; padding: 7px 10px; border-radius: 10px; color: var(--muted); font-size: 13px; font-weight: 750; text-decoration: none; }
 .legal-toc a:hover { background: var(--water-soft); color: var(--ink); }
-.legal-content { display: grid; gap: 20px; }
+.legal-content { display: grid; grid-template-columns: minmax(0, 1fr); min-width: 0; gap: 20px; }
 .legal-section { padding: clamp(24px, 4vw, 36px); }
 .legal-section.highlight { background: var(--water-soft); }
 .legal-section h2 { font-size: clamp(25px, 3vw, 34px); line-height: 1.15; }

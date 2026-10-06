@@ -19,6 +19,7 @@
 │   └── product-facts.md
 ├── robots.txt
 ├── CNAME                      # GitHub Pages 自定义域名
+├── _config.yml                # GitHub Pages 排除内部文档与非运行时配置
 ├── vercel.json                # Clean URL、安全响应头与缓存策略
 ├── .vercelignore
 └── AGENTS.md
@@ -54,6 +55,7 @@ npx vercel dev .
 
 GitHub Pages 从 `main` 分支仓库根目录发布，正式域名为
 `https://waterbuddy.microspotlight.team`。`CNAME` 必须与仓库 Pages 设置保持一致。
+`_config.yml` 排除内部文档与 Vercel 配置；`.vercelignore` 负责 Vercel 的部署排除。
 
 Vercel 项目继续作为兼容部署保留。项目配置保存在本机忽略的 `.vercel/` 中，仓库只跟踪可复用的 `vercel.json`；部署时以本仓库根目录为项目根目录。
 
@@ -86,7 +88,7 @@ Vercel 项目继续作为兼容部署保留。项目配置保存在本机忽略�
 
 官网首页、更新日志、支持中心与隐私政策支持简体中文、英文、日文和韩文。首次访问会匹配浏览器语言；用户也可以通过顶部语言选择器切换，选择结果保存在浏览器本机，并可通过 `?lang=zh-Hans|en|ja|ko` 分享指定语言页面。
 
-新增或修改产品事实时，先更新 `docs/product-facts.md`，再同步页面文案和 `site.js`/`locales.js` 的四语资源。StoreKit 支持作者只能描述为 Apple 处理付款的自愿消耗型支持，不写成功能解锁、订阅或可恢复权益。
+新增或修改产品事实时，先更新 `docs/product-facts.md`，再同步页面文案和 `site.js`/`locales.js` 的四语资源。Premium 月/年/永久购买与历史支持作者消耗品必须区分；免费边界、RevenueCat 数据处理、恢复/取消与 Apple 标准 EULA 需保持一致。政策更新不表示候选版本或商品已经发布。
 
 首页会明确区分平台状态：iOS 公开版提供 App Store 下载，Android 与 Wear OS 仅标注为原生开发版。在验证 Google Play 公开页面前，不展示下载按钮、商店徽章或发布日期承诺。
 

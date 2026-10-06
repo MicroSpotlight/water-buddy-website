@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#FFF8E8">
   <title>隐私政策 · 水滴伙伴</title>
   <link rel="icon" href="/assets/water-buddy-icon.png">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=2026-10-06-privacy">
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -43,8 +43,8 @@
       <h1>隐私政策</h1>
       <p>水滴伙伴不需要开发者账号。饮水数据默认保存在本机；只有你主动开启 iCloud 同步时，指定记录才会进入你自己的 Apple iCloud 私有数据库，不会发送给我们或 Firebase。</p>
       <div class="legal-meta">
-        <span>生效日期：2026 年 7 月 26 日</span>
-        <span>适用版本：0.3.1 及后续版本</span>
+        <span>生效日期：2026 年 10 月 6 日</span>
+        <span>适用于当前版本；Premium 说明适用于提供该功能的版本</span>
       </div>
     </header>
 
@@ -54,7 +54,7 @@
         <a href="#local">本机数据</a>
         <a href="#icloud">iCloud 同步</a>
         <a href="#remote">Firebase</a>
-        <a href="#purchases">App 内购买</a>
+        <a href="#purchases">购买与使用条款</a>
         <a href="#use">使用方式</a>
         <a href="#sharing">共享与保留</a>
         <a href="#choices">你的选择</a>
@@ -71,7 +71,7 @@
             <li>可选 iCloud 同步仅在你主动开启后，把逐杯记录、水杯、每日印章、里程碑和四类非健康偏好同步到你自己的 Apple iCloud 私有数据库。</li>
             <li>App 不需要注册或登录，不展示第三方广告，也不将数据用于跨 App 或跨网站追踪。</li>
             <li>Firebase Analytics 会处理 App 使用事件；Firebase Crashlytics 会在崩溃时处理诊断数据。</li>
-            <li>可选的“支持作者”App 内购买由 Apple 通过 StoreKit 处理，我们不会收到你的 Apple ID、付款卡号或账单信息。</li>
+            <li>App 内购买由 Apple 通过 StoreKit 处理；提供 Premium 的版本使用 RevenueCat 验证购买权益，不向它发送饮水记录。</li>
             <li>你可以在 App 内将饮水记录导出为 JSON 或 CSV，并分别清除本机饮水数据或删除 iCloud 副本。</li>
           </ul>
         </section>
@@ -130,9 +130,13 @@
         </section>
 
         <section class="legal-section" id="purchases">
-          <h2>App 内购买</h2>
-          <p>水滴伙伴包含可选的消耗型 App 内购买，用于自愿支持 App 的持续更新。购买由 Apple 通过 StoreKit 处理；我们不会收到或保存你的 Apple ID 凭据、付款卡号或账单信息。</p>
-          <p>这些购买不会解锁功能、内容、小组件、Apple Watch 支持、提醒、奖励或历史统计，也不会用于建立与你饮水行为相关的个人画像。</p>
+          <h2>购买与使用条款</h2>
+          <p>购买由 Apple 通过 StoreKit 处理；我们不会收到或保存你的 Apple ID 凭据、付款卡号或账单信息。购买选项、价格与可用地区以 App 和 App Store 实际展示为准。本政策更新不表示尚未发布的版本或商品已经上线。</p>
+          <p>提供 Premium 的版本支持月度、年度自动续订订阅及一次付费的永久买断，三种方案权益相同：iCloud、全部饮水洞察、其他主题、自定义水杯、高级提醒、Watch、小组件与实时活动、快捷指令与系统控制。基础本机记录及查看、编辑、删除，基础目标、默认水杯与主题、基础间隔提醒和原始数据导出免费。权益失效后保留数据与配置，暂停付费能力。</p>
+          <p>历史版本的咖啡、奶茶购买属于自愿支持的消耗品，不授予 Premium，也不自动转换为订阅或永久权益。0.7.0 移除独立支持作者入口。</p>
+          <p>我们使用 RevenueCat 验证和恢复 Premium 权益。它处理匿名 App 标识、购买商品、交易及权益状态；我们不向它发送姓名、邮箱、饮水记录或付款卡号，也不配置广告追踪。购买历史用于 App 功能，不用于跨 App 追踪。</p>
+          <p>App 的使用适用 <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noreferrer">Apple 标准最终用户许可协议（EULA）</a>。</p>
+          <p>月度和年度订阅会自动续订，除非在当前周期结束前取消。你可以通过 Apple 管理续订或申请退款。永久买断无需续订，但不会自动取消已有的 Apple 订阅；如已订阅，请另行管理续订，避免重复付费。</p>
         </section>
 
         <section class="legal-section" id="use">
@@ -150,6 +154,7 @@
           <h2>第三方处理、保留与跨境</h2>
           <p>Google 作为 Firebase 服务提供商处理上述分析和诊断数据。我们要求服务提供商仅为约定目的处理数据，并采取与本政策及适用法律相符的保护措施。Firebase 服务可能在 Google 或其服务商运营设施的国家或地区处理数据。</p>
           <p>Apple 仅在你启用 iCloud 同步或使用 StoreKit 购买时，按其服务条款与隐私政策处理相应的 CloudKit 私有数据库或交易数据。</p>
+          <p>RevenueCat 作为购买权益服务提供商处理上述购买数据，其设施可能位于你所在地区以外。数据按提供权益服务及法律义务所需期限保留；相关请求可通过下方支持邮箱提出。详情见 <a href="https://www.revenuecat.com/privacy" rel="noreferrer">RevenueCat 隐私政策</a>。</p>
           <p>数据保留时间取决于 Firebase 服务及项目配置。Firebase Analytics 数据按项目中配置的保留期处理；Google 说明 Crashlytics 的崩溃堆栈和相关标识符通常保留 90 天后开始从在线及备份系统移除。</p>
           <p>你可以查看 <a href="https://firebase.google.com/support/privacy" rel="noreferrer">Firebase 隐私与安全说明</a>、<a href="https://firebase.google.com/docs/ios/app-store-data-collection" rel="noreferrer">Firebase 的 Apple 平台数据披露说明</a>及 <a href="https://policies.google.com/privacy" rel="noreferrer">Google 隐私权政策</a>。</p>
           <p>除服务提供商、法律要求、保护权利与安全，或业务转让所必需的情形外，我们不会向其他方披露数据。</p>
@@ -159,6 +164,7 @@
           <h2>你的选择与权利</h2>
           <ul>
             <li>你可以在 iOS 系统设置中关闭通知权限；核心记录功能仍可使用。</li>
+            <li>你可以在 App 的 Premium 页面恢复购买，或通过“管理或取消订阅”进入 Apple 的订阅管理。卸载 App、清除本机数据或删除 iCloud 副本不会取消订阅。</li>
             <li>你可以随时在 App 内关闭 iCloud 同步；关闭后本机数据保留，既有 iCloud 私有数据库记录不会自动删除。</li>
             <li>你可以在“隐私与数据”中将当前饮水记录导出为 JSON 或 CSV。导出文件只在本机临时生成，并仅在你选择后交给系统分享面板。</li>
             <li>你可以在 App 内编辑或删除具体饮水记录，也可以清除当前设备上的饮水记录、自定义水杯、印章和里程碑；目标、提醒、主题、语言和 iCloud 副本保持不变。</li>
@@ -170,7 +176,8 @@
 
         <section class="legal-section" id="website">
           <h2>官网数据</h2>
-          <p>本官网不设置分析工具、广告脚本或营销 Cookie。网站由 Vercel 托管；为传输页面、防止滥用和保障安全，托管服务可能处理 IP 地址、User-Agent 和请求日志等必要网络信息。详情请查看 <a href="https://vercel.com/legal/privacy-policy" rel="noreferrer">Vercel 隐私政策</a>。</p>
+          <p>本官网不设置分析工具、广告脚本或营销 Cookie。正式站点通过 GitHub Pages 发布，域名使用 Cloudflare 网络服务；兼容站点可通过 Vercel 提供。为传输页面、防止滥用和保障安全，这些服务可能处理 IP 地址、User-Agent 和请求日志等必要网络信息。</p>
+          <p>托管与网络服务详情：<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">GitHub 隐私声明</a>、<a href="https://www.cloudflare.com/privacypolicy/" rel="noreferrer">Cloudflare 隐私政策</a>、<a href="https://vercel.com/legal/privacy-policy" rel="noreferrer">Vercel 隐私政策</a>。</p>
           <p>网站会在你的浏览器本机保存语言与主题选择，仅用于在下次访问时恢复偏好，不会由网站脚本发送到服务器。</p>
         </section>
 
@@ -200,6 +207,6 @@
     </div>
   </footer>
   <script src="/locales.js?v=0.5.0-release" defer></script>
-  <script src="/site.js?v=0.5.0-release" defer></script>
+  <script src="/site.js?v=2026-10-06-privacy" defer></script>
 </body>
 </html>
